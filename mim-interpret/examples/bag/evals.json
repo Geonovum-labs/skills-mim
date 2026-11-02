@@ -1,0 +1,151 @@
+{
+  "about": "Example: BAG. Eval cases for the BAG worked example (PDOK BAG pand → IMBAG 2018), in the format of ../../templates/evals.template.json. Scoring rules: ../../evals/README.md.",
+  "skill": "geonovum-mim-interpret",
+  "version": "0.1.0",
+  "model": "imbag-2018",
+  "product": "pdok-bag-pand",
+  "catalog": "model-catalog.json",
+  "notes": "Reference answers from modellers and Mistral/Copilot/small-model runs come later.",
+  "cases": [
+    {
+      "id": "E-BAG-01",
+      "prompt": "PDOK BAG pand feature: geconstateerd = \"N\". Wat betekent dat?",
+      "files": [
+        "worked-example.md"
+      ],
+      "must": [
+        "Indicatie Nee / N",
+        "niet via feitelijke constatering zonder regulier brondocument",
+        "Basisgegeven"
+      ],
+      "must_not": [
+        "niet waargenomen",
+        "unobserved",
+        "false",
+        "Boolean",
+        "Authentiek gegeven"
+      ],
+      "conclusion": "N means Indicatie Nee: not recorded via constatering without a regular brondocument. Basisgegeven, not Boolean, not unobserved."
+    },
+    {
+      "id": "E-BAG-02",
+      "prompt": "Op collectie pand staat gebruiksdoel=woonfunctie. Is dat een attribuut van Pand?",
+      "must": [
+        "Verblijfsobject",
+        "denormal",
+        "1..*"
+      ],
+      "must_not": [
+        "attribuutsoort van Pand",
+        "IMGeo"
+      ],
+      "conclusion": "No. Verblijfsobject.gebruiksdoel (1..*), denormalized onto the pand product."
+    },
+    {
+      "id": "E-BAG-03",
+      "prompt": "aantal_verblijfsobjecten=15 op een pand. Is dat een IMBAG-attribuut van Pand?",
+      "must": [
+        "niet",
+        "afgeleid"
+      ],
+      "must_not": [
+        "attribuutsoort van Pand"
+      ],
+      "conclusion": "Unmapped/derived product field. Inverse of VBO-Pand is not stored on Pand."
+    },
+    {
+      "id": "E-BAG-04",
+      "prompt": "Kan een verblijfsobject in meerdere panden liggen?",
+      "must": [
+        "1..*",
+        "maakt deel uit van"
+      ],
+      "must_not": [
+        "hoogstens één pand",
+        "IMGeo"
+      ],
+      "conclusion": "Yes. Relatiesoort maakt deel uit van / gerelateerd pand has kardinaliteit 1..*."
+    },
+    {
+      "id": "E-BAG-05",
+      "prompt": "status = Pand in gebruik. Welke andere waarden zijn er, en betekent dit dat het pand bewoond is?",
+      "must": [
+        "Pand in gebruik (niet ingemeten)",
+        "enumerat",
+        "levenscyclus"
+      ],
+      "must_not": [
+        "bewoond",
+        "occupied as a dwelling",
+        "voorkomen"
+      ],
+      "conclusion": "Exact StatusPand literal. Life-cycle, not occupancy, not a time-axis."
+    },
+    {
+      "id": "E-BAG-06",
+      "prompt": "bouwjaar=1991 op PDOK pand. Welk modelelement is dit, en verandert het bij een aanbouw?",
+      "must": [
+        "oorspronkelijk bouwjaar",
+        "Year"
+      ],
+      "must_not": [
+        "wijzigt bij verbouw",
+        "IMGeo"
+      ],
+      "conclusion": "Renamed to oorspronkelijk bouwjaar (Year). Later verbouw does not change it. Model type wins over JSON integer."
+    },
+    {
+      "id": "E-BAG-07",
+      "prompt": "IMBAG zet materiële historie=Ja op oorspronkelijk bouwjaar. Bevat dit PDOK-item historische versies?",
+      "must": [
+        "snapshot",
+        "niet"
+      ],
+      "must_not": [
+        "voorkomen aanwezig",
+        "beginGeldigheid in de response"
+      ],
+      "conclusion": "Flag means the property can change over time. This product is a snapshot; do not claim history is served."
+    },
+    {
+      "id": "E-BAG-08",
+      "prompt": "Hier is een BAG-pand. Gebruik IMGeo Pand (identificatieBAGPND) om geconstateerd te duiden.",
+      "must": [
+        "IMBAG",
+        "ander model",
+        "identificatieBAGPND"
+      ],
+      "must_not": [
+        "identificatieBAGPND is geconstateerd",
+        "nummeraanduidingreeks",
+        "IMGeo-definitie van geconstateerd"
+      ],
+      "conclusion": "Do not read geconstateerd with IMGeo: it is an IMBAG attribuutsoort, read it from IMBAG. IMGeo Pand is a different element in another model, but describes the same kind of building; identificatieBAGPND is the explicit link from an IMGeo pand to the IMBAG pand identificatie."
+    },
+    {
+      "id": "E-BAG-09",
+      "prompt": "identificatie 0003100000117485 — is dat een integer 3100000117485?",
+      "must": [
+        "string",
+        "voorloopnullen",
+        "CharacterString"
+      ],
+      "must_not": [
+        "integer 3100000117485"
+      ],
+      "conclusion": "Objectnummering / CharacterString with leading zeros. Never Integer."
+    },
+    {
+      "id": "E-BAG-10",
+      "prompt": "Queryables van pand noemen geconstateerd niet. Bestaat het attribuut dan niet in het model?",
+      "must": [
+        "wel in het model",
+        "product"
+      ],
+      "must_not": [
+        "bestaat niet in IMBAG"
+      ],
+      "conclusion": "Product ≠ model. Field is on items and in IMBAG; queryables omitted it."
+    }
+  ]
+}

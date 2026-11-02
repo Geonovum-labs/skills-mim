@@ -1,0 +1,52 @@
+{
+  "about": "Template: element summaries (elementsamenvattingen). Short, fixed-format summaries of the elements of one MIM-conformant model, so an agent does not have to read the whole model. Look up an element under 'elements' (key Objecttype or Objecttype.attribuut); waardelijsten are under 'valuelists'. Field definitions: ../references/element-summary-format.md.",
+  "model": "example-model-1.0",
+  "fidelity": "rdf",
+  "source": "https://modellen.geostandaarden.nl/def/example/",
+  "sourceLicense": "CC-BY-4.0",
+  "note": "Paraphrased summaries. Enumeratiewaarde names are exact exchanged literals.",
+  "lastVerified": "YYYY-MM-DD",
+  "elements": {
+    "Voorbeeldobject": {
+      "kind": "Objecttype",
+      "abstract": false,
+      "identificerend": ["identificatie"],
+      "definitie": "Paraphrase of the model definition.",
+      "populatie": "Which instances are in the registration.",
+      "attributes": ["identificatie", "geometrie", "status"]
+    },
+    "Voorbeeldobject.identificatie": {
+      "kind": "Attribuutsoort",
+      "owner": "Voorbeeldobject",
+      "naam": "identificatie",
+      "definitie": "Unique identifier.",
+      "datatype": "CharacterString",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": true,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": false, "formeel": false}
+    },
+    "Voorbeeldobject.status": {
+      "kind": "Attribuutsoort",
+      "owner": "Voorbeeldobject",
+      "naam": "status",
+      "definitie": "Life-cycle phase. Not a time-axis.",
+      "datatype": "StatusVoorbeeld",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Overig",
+      "historie": {"materieel": true, "formeel": true}
+    }
+  },
+  "valuelists": {
+    "StatusVoorbeeld": {
+      "kind": "Enumeratie",
+      "values": [
+        {"naam": "In gebruik", "definitie": "Paraphrase."},
+        {"naam": "Buiten gebruik", "definitie": "Paraphrase."}
+      ]
+    }
+  }
+}

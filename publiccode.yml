@@ -1,0 +1,70 @@
+publiccodeYmlVersion: "0.7"
+
+name: MIM-skills
+url: https://github.com/Geonovum/skills-mim.git
+softwareVersion: "0.1.0"
+releaseDate: "2026-10-30"
+landingURL: https://github.com/Geonovum/skills-mim
+softwareType: addon
+
+platforms:
+  - linux
+  - mac
+  - windows
+
+developmentStatus: development
+
+description:
+  nl:
+    shortDescription: Agent-skills van Geonovum bij MIM — interpretatie van informatiemodellen voor datavragen, met een gedeelde leeslaag; implementatie in software volgt later.
+    longDescription: >
+      Deze repository bevat twee agent-plugins en één gedeelde MIM-kern.
+      geonovum-mim-interpret interpreteert MIM-conforme informatiemodellen
+      zodat vragen over de data die die modellen beschrijven correcter en
+      efficiënter beantwoord worden. Het model is de lens; de datavragen
+      zijn het resultaat. Versie 0.1 werkt voor elk MIM-conform model: generieke leesregels,
+      vaste formaten en sjablonen voor modelcatalogus, veldkoppeling en
+      elementsamenvattingen, één uitgewerkt voorbeeld (BAG), en MIM-regels voor
+      kardinaliteit, mogelijk geen waarde, waardelijsten, historie en
+      authentiek. mim-core is de gedeelde leeslaag (geen skill): MIM lezen,
+      RDF/catalogus ophalen, elementsamenvattingen. geonovum-mim-implement is een
+      stub: een model correct in software implementeren; nog niet gebouwd.
+      De interpret-skill is consume-only: hij schrijft of toetst geen
+      informatiemodellen. De skills zijn hulpmiddelen en maken geen deel uit
+      van de standaard MIM.
+    features:
+      - Agent skill voor interpretatie van MIM-conforme informatiemodellen bij vragen over data
+      - Gedeelde MIM-leeslaag (mim-core) voor elementsamenvattingen, RDF-labels en catalogus-fetch
+      - Sjablonen voor modelcatalogus, vastgestelde veldkoppeling, elementsamenvattingen en evals, plus één uitgewerkt voorbeeld (BAG)
+      - Optionele deterministische helpers (Python stdlib) voor catalogus, veldkoppeling, elementsamenvattingen en enumeratiewaarden; zonder Python leest de agent dezelfde JSON-bestanden
+      - Eerste-klas bronnen: RDF waar gepubliceerd, HTML/PDF-catalogi, SKOS, afgeleide schema's
+      - Stub voor een later implement-in-software-plugin dat dezelfde kern hergebruikt
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Geonovum
+
+intendedAudience:
+  countries:
+    - NL
+  scope:
+    - government
+
+localisation:
+  availableLanguages:
+    - nl
+    - en
+  localisationReady: false
+
+maintenance:
+  type: internal
+  contacts:
+    - name: Linda van den Brink
+      affiliation: Geonovum
+
+organisation:
+  name: Geonovum
+  uri: https://organisaties.overheid.nl/27912339/Stichting_Geonovum
+
+supports:
+  - id: https://docs.geostandaarden.nl/mim/def-st-mim-20240613/

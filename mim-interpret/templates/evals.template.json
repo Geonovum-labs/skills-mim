@@ -1,0 +1,17 @@
+{
+  "about": "Template: eval cases for geonovum-mim-interpret. One case per data question. Scoring rules: ../evals/README.md. Model-specific cases go next to their example (e.g. ../examples/bag/evals.json).",
+  "skill": "geonovum-mim-interpret",
+  "version": "0.1.0",
+  "model": "example-model-1.0",
+  "product": "example-product",
+  "cases": [
+    {
+      "id": "E-EX-01",
+      "prompt": "Question about one field value in the data product.",
+      "files": ["path/to/fixture-or-example.md"],
+      "must": ["phrase the answer must contain"],
+      "must_not": ["phrase that marks a wrong conclusion"],
+      "conclusion": "The correct conclusion in one sentence."
+    }
+  ]
+}

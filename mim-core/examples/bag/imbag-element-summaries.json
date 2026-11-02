@@ -1,0 +1,217 @@
+{
+  "about": "Example: BAG. Element summaries (elementsamenvattingen) for IMBAG 2018, in the format of ../../templates/element-summaries.template.json. Look up an element under 'elements' (key Objecttype or Objecttype.attribuut); waardelijsten are under 'valuelists'.",
+  "model": "imbag-2018",
+  "fidelity": "catalog-prose",
+  "source": "https://imbag.github.io/catalogus/",
+  "sourceLicense": "CC-BY-ND-3.0-NL",
+  "note": "Paraphrased element summaries for agent use. Enumeratiewaarde names are exact exchanged literals. Definitions are not copied verbatim from the catalog.",
+  "lastVerified": "2026-10-30",
+  "elements": {
+    "Pand": {
+      "kind": "Objecttype",
+      "code": "55",
+      "abstract": false,
+      "identificerend": ["identificatie"],
+      "definitie": "Smallest unit that is functionally and structurally independent at creation, connected to the ground, enterable and lockable (Wet BAG art. 1; IMBAG §6.4).",
+      "populatie": "Panden on NL territory that meet the definition. Records remain after the building is gone. Objects already gone on 1 July 2009 are in principle absent.",
+      "attributes": [
+        "identificatie",
+        "geometrie",
+        "oorspronkelijkBouwjaar",
+        "status",
+        "geconstateerd",
+        "documentdatum",
+        "documentnummer"
+      ],
+      "relationsIncoming": ["Verblijfsobject.maaktDeelUitVan"]
+    },
+    "Verblijfsobject": {
+      "kind": "Objecttype",
+      "code": "56",
+      "abstract": false,
+      "supertypes": ["AdresseerbaarObject"],
+      "definitie": "Smallest unit of use inside one or more panden, suitable for living, business or recreation, with its own lockable access, functionally independent (IMBAG §6.8).",
+      "attributes": ["identificatie", "geometrie", "gebruiksdoel", "oppervlakte", "status", "geconstateerd", "documentdatum", "documentnummer"],
+      "relations": ["maaktDeelUitVan"]
+    },
+    "AdresseerbaarObject": {
+      "kind": "Objecttype",
+      "code": "101",
+      "abstract": true,
+      "definitie": "Abstract type to which addresses can be assigned: Standplaats, Ligplaats or Verblijfsobject.",
+      "note": "No concrete rows."
+    },
+    "Pand.identificatie": {
+      "kind": "Attribuutsoort",
+      "code": "55.01",
+      "owner": "Pand",
+      "naam": "identificatie",
+      "definitie": "Unique designation of a pand.",
+      "datatype": "Objectnummering",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": true,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": false, "formeel": false},
+      "inOnderzoek": false,
+      "patroon": "^[0-9]{4}10[0-9]{10}$",
+      "note": "16-character string with leading zeros. Objecttypecode 10. Never Integer."
+    },
+    "Pand.geometrie": {
+      "kind": "Attribuutsoort",
+      "code": "55.20",
+      "owner": "Pand",
+      "naam": "geometrie",
+      "definitie": "At least 2D geometric representation of the outline of a pand in top view.",
+      "datatype": "GM_Surface",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": true, "formeel": true},
+      "inOnderzoek": true
+    },
+    "Pand.oorspronkelijkBouwjaar": {
+      "kind": "Attribuutsoort",
+      "code": "55.30",
+      "owner": "Pand",
+      "naam": "oorspronkelijk bouwjaar",
+      "alias": ["bouwjaar"],
+      "definitie": "Year in which the pand was or will be originally delivered as structurally complete. Later verbouw does not change it.",
+      "datatype": "Year",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": true, "formeel": true},
+      "inOnderzoek": true,
+      "note": "IMBAG tags materiële historie Ja; that overrides the MIM spec's pedagogical 'bouwjaar → Nee' example. PDOK field is bouwjaar (integer)."
+    },
+    "Pand.status": {
+      "kind": "Attribuutsoort",
+      "code": "55.31",
+      "owner": "Pand",
+      "naam": "status",
+      "definitie": "Life-cycle phase of the pand. Not a time-axis.",
+      "datatype": "StatusPand",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": true, "formeel": true},
+      "inOnderzoek": true
+    },
+    "Pand.geconstateerd": {
+      "kind": "Attribuutsoort",
+      "code": "55.02",
+      "owner": "Pand",
+      "naam": "geconstateerd",
+      "definitie": "Indicates the pand was entered in the registration after a factual observation, without a regular brondocument at the time of entry.",
+      "datatype": "Indicatie",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Basisgegeven",
+      "historie": {"materieel": true, "formeel": true},
+      "inOnderzoek": false,
+      "note": "Value N is enumeratiewaarde Nee, not Boolean false, not 'unobserved on the ground'. No gebruiksplicht."
+    },
+    "Pand.documentdatum": {
+      "kind": "Attribuutsoort",
+      "code": "55.97",
+      "owner": "Pand",
+      "naam": "documentdatum",
+      "definitie": "Date the brondocument was adopted for an insert, update or removal of pand data.",
+      "datatype": "Date",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Basisgegeven",
+      "historie": {"materieel": true, "formeel": true}
+    },
+    "Pand.documentnummer": {
+      "kind": "Attribuutsoort",
+      "code": "55.98",
+      "owner": "Pand",
+      "naam": "documentnummer",
+      "definitie": "Unique designation of the brondocument within a municipality.",
+      "datatype": "AN",
+      "lengte": "1..40",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Basisgegeven",
+      "historie": {"materieel": true, "formeel": true}
+    },
+    "Verblijfsobject.gebruiksdoel": {
+      "kind": "Attribuutsoort",
+      "code": "56.30",
+      "owner": "Verblijfsobject",
+      "naam": "gebruiksdoel",
+      "definitie": "Categorisation of the VBO's gebruiksdoelen as in the permit or as established at constatering. Not planologische bestemming and not feitelijk gebruik.",
+      "datatype": "Gebruiksdoel",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1..*",
+      "mogelijkGeenWaarde": false,
+      "identificerend": true,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": true, "formeel": true},
+      "inOnderzoek": true,
+      "note": "Appears denormalized on PDOK collection pand. Still a VBO attribute."
+    },
+    "Verblijfsobject.maaktDeelUitVan": {
+      "kind": "Relatiesoort",
+      "code": "56.90",
+      "owner": "Verblijfsobject",
+      "naam": "maakt deel uit van",
+      "rol": "gerelateerd pand",
+      "doel": "Pand",
+      "kardinaliteit": "1..*",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Authentiek",
+      "historie": {"materieel": true, "formeel": true},
+      "definitie": "A verblijfsobject is part of one or more panden. Most VBO lie in one pand; some lie in several.",
+      "note": "kardinaliteitBron (how many VBO per pand) is not a Pand attribuutsoort. PDOK aantal_verblijfsobjecten is a product derived field."
+    }
+  },
+  "valuelists": {
+    "Indicatie": {
+      "kind": "Enumeratie",
+      "values": [
+        {"naam": "J", "definitie": "Ja"},
+        {"naam": "N", "definitie": "Nee"}
+      ]
+    },
+    "StatusPand": {
+      "kind": "Enumeratie",
+      "values": [
+        {"naam": "Bouwvergunning verleend", "definitie": "New pand not yet built; building permit granted."},
+        {"naam": "Niet gerealiseerd pand", "definitie": "Permit existed but construction will not happen, or permit withdrawn."},
+        {"naam": "Bouw gestart", "definitie": "Construction started, at least the foundation."},
+        {"naam": "Pand in gebruik (niet ingemeten)", "definitie": "Ready for use or in use; definitive geometry not yet surveyed."},
+        {"naam": "Pand in gebruik", "definitie": "Previously 'niet ingemeten' and the definitive geometry has been surveyed. Not a synonym of 'occupied as a dwelling'."},
+        {"naam": "Verbouwing pand", "definitie": "Alteration permit granted; work not finished."},
+        {"naam": "Sloopvergunning verleend", "definitie": "Demolition permit granted."},
+        {"naam": "Pand gesloopt", "definitie": "Demolition completed."},
+        {"naam": "Pand buiten gebruik", "definitie": "Structural condition such that restoration and reuse are not expected."},
+        {"naam": "Pand ten onrechte opgevoerd", "definitie": "Should not have been in the registration; subsequently ended."}
+      ]
+    },
+    "Gebruiksdoel": {
+      "kind": "Enumeratie",
+      "values": [
+        {"naam": "woonfunctie"},
+        {"naam": "bijeenkomstfunctie"},
+        {"naam": "celfunctie"},
+        {"naam": "gezondheidszorgfunctie"},
+        {"naam": "industriefunctie"},
+        {"naam": "kantoorfunctie"},
+        {"naam": "logiesfunctie"},
+        {"naam": "onderwijsfunctie"},
+        {"naam": "sportfunctie"},
+        {"naam": "winkelfunctie"},
+        {"naam": "overige gebruiksfunctie"}
+      ]
+    }
+  }
+}

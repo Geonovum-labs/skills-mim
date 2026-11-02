@@ -1,0 +1,48 @@
+{
+  "about": "Template: verified field mapping (vastgestelde veldkoppeling). A hand-checked table linking each field of one data product to the model element it represents. One row per field; a field that is not listed counts as unmapped. Field definitions: ../references/field-mapping-format.md.",
+  "product": "example-product",
+  "model": "example-model-1.0",
+  "lastVerified": "YYYY-MM-DD",
+  "checkedAgainst": ["model source URL", "sample record id"],
+  "reviewedBy": null,
+  "fields": [
+    {
+      "field": "identificatie",
+      "mappingType": "direct",
+      "element": "Voorbeeldobject.identificatie",
+      "confidence": "exact",
+      "reasons": ["name", "identifying"]
+    },
+    {
+      "field": "geometry",
+      "mappingType": "renamed",
+      "element": "Voorbeeldobject.geometrie",
+      "modelName": "geometrie",
+      "confidence": "exact",
+      "reasons": ["geometry-vs-geometrie"]
+    },
+    {
+      "field": "status",
+      "mappingType": "direct",
+      "element": "Voorbeeldobject.status",
+      "waardelijst": "StatusVoorbeeld",
+      "confidence": "exact",
+      "reasons": ["name", "enumeratie-naam-is-value"]
+    },
+    {
+      "field": "aantal_onderdelen",
+      "mappingType": "derived",
+      "element": null,
+      "confidence": "none",
+      "reasons": ["product-computed-count"],
+      "notes": "Not a model element. Computed by the product."
+    },
+    {
+      "field": "links",
+      "mappingType": "technical",
+      "element": null,
+      "confidence": "none",
+      "reasons": ["paging"]
+    }
+  ]
+}

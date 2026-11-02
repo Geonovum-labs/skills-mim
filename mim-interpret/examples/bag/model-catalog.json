@@ -1,0 +1,116 @@
+{
+  "about": "Example: BAG. Model catalog for the BAG worked example, in the format of ../../templates/model-catalog.template.json. The pdok-bag-pand entry is the worked loop; the other entries show models with same-named elements that must not be bound for BAG data, although they describe related real-world objects. File paths are relative to this file.",
+  "version": "0.1.0",
+  "lastVerified": "2026-10-30",
+  "products": [
+    {
+      "id": "pdok-bag-pand",
+      "name": "PDOK BAG OGC API v2 collection pand",
+      "match": {
+        "hosts": ["api.pdok.nl"],
+        "pathContains": ["/kadaster/bag/"],
+        "collections": ["pand"]
+      },
+      "model": {
+        "id": "imbag-2018",
+        "name": "IMBAG Catalogus 2018",
+        "informatiemodeltype": "Conceptueel",
+        "mimVersion": "1.0-terms",
+        "fidelity": "catalog-prose"
+      },
+      "sources": [
+        "https://imbag.github.io/catalogus/",
+        "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/pand"
+      ],
+      "homonymReject": ["imgeo-pand", "nen3610-gebouw", "imx-geo-gebouw", "imx-geo-bouwwerk"],
+      "verifiedMapping": "pdok-bag-pand-mapping.json",
+      "elementSummaries": "../../../mim-core/examples/bag/imbag-element-summaries.json"
+    },
+    {
+      "id": "pdok-bag-verblijfsobject",
+      "name": "PDOK BAG OGC API v2 collection verblijfsobject",
+      "match": {
+        "hosts": ["api.pdok.nl"],
+        "pathContains": ["/kadaster/bag/"],
+        "collections": ["verblijfsobject"]
+      },
+      "model": {
+        "id": "imbag-2018",
+        "name": "IMBAG Catalogus 2018",
+        "informatiemodeltype": "Conceptueel",
+        "mimVersion": "1.0-terms",
+        "fidelity": "catalog-prose"
+      },
+      "sources": ["https://imbag.github.io/catalogus/"],
+      "homonymReject": ["imgeo-pand"],
+      "verifiedMapping": null,
+      "elementSummaries": "../../../mim-core/examples/bag/imbag-element-summaries.json",
+      "note": "v1 has Pand-side denormalized fields only; full VBO map is a gap."
+    },
+    {
+      "id": "nen3610-2022-rdf",
+      "name": "NEN 3610-2022 ontology",
+      "match": {
+        "hosts": ["modellen.geostandaarden.nl"],
+        "pathContains": ["/def/nen3610"]
+      },
+      "model": {
+        "id": "nen3610-2022",
+        "name": "NEN 3610-2022",
+        "informatiemodeltype": "Logisch",
+        "mimVersion": "1.2-related",
+        "fidelity": "rdf"
+      },
+      "sources": [
+        "https://modellen.geostandaarden.nl/def/nen3610",
+        "https://modellen.geostandaarden.nl/def/nen3610-2022/"
+      ],
+      "homonymReject": ["imbag-2018"],
+      "verifiedMapping": null
+    },
+    {
+      "id": "imx-geo",
+      "name": "IMX-Geo overlay ontology",
+      "match": {
+        "hosts": ["modellen.geostandaarden.nl"],
+        "pathContains": ["/def/imx-geo"]
+      },
+      "model": {
+        "id": "imx-geo",
+        "name": "IMX-Geo",
+        "informatiemodeltype": "overlay",
+        "mimVersion": "ld-export",
+        "fidelity": "rdf"
+      },
+      "sources": ["https://modellen.geostandaarden.nl/def/imx-geo/"],
+      "homonymReject": ["imbag-2018", "imgeo-pand"],
+      "note": "Cross-registry overlay. Adres/Gebouw/Bouwwerk are not IMBAG objecttypen.",
+      "verifiedMapping": null
+    },
+    {
+      "id": "imgeo-22",
+      "name": "IMGeo / BGT 2.2",
+      "match": {
+        "pathContains": ["/informatiemodel/imgeo/", "/bgt/"]
+      },
+      "model": {
+        "id": "imgeo-2.2",
+        "name": "IMGeo 2.2",
+        "informatiemodeltype": "Conceptueel+Logisch",
+        "mimVersion": "1.x",
+        "fidelity": "ea-xmi"
+      },
+      "sources": [
+        "https://register.geostandaarden.nl/informatiemodel/imgeo/2.2/"
+      ],
+      "homonymReject": ["imbag-2018"],
+      "note": "Listed to block homonyms. No verified field mapping or XMI parser in v1.",
+      "verifiedMapping": null
+    }
+  ],
+  "deadUrls": [
+    "http://modellen.mim-standaard.nl/def/mim",
+    "https://bag.basisregistraties.overheid.nl/def/bag",
+    "https://brk.basisregistraties.overheid.nl/def/brk"
+  ]
+}

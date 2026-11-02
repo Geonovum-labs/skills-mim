@@ -1,0 +1,32 @@
+{
+  "about": "Generic eval cases for geonovum-mim-interpret. They test MIM reading and the no-model fallback and do not depend on any specific model. Format: ../templates/evals.template.json. Scoring rules: README.md.",
+  "skill": "geonovum-mim-interpret",
+  "version": "0.1.0",
+  "cases": [
+    {
+      "id": "E-CAL-01",
+      "prompt": "overlijdensdatum is leeg (optioneel, mogelijk geen waarde = Ja). Leeft deze persoon nog?",
+      "must": [
+        "niet concluderen",
+        "onbekend"
+      ],
+      "must_not": [
+        "leeft nog",
+        "still alive"
+      ],
+      "conclusion": "Cannot conclude. Combination optional + mogelijk geen waarde Ja."
+    },
+    {
+      "id": "E-CAL-02",
+      "prompt": "Interpreteer dataset X. Er is geen bekend informatiemodel.",
+      "must": [
+        "geen model",
+        "inferred"
+      ],
+      "must_not": [
+        "objecttype XYz"
+      ],
+      "conclusion": "No-model fallback. Label inference. Invent no element names."
+    }
+  ]
+}

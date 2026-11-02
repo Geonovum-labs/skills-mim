@@ -1,0 +1,6 @@
+{
+  "name": "geonovum-mim",
+  "displayName": "Geonovum MIM",
+  "description": "Two plugins, one shared MIM reading core. geonovum-mim-interpret: interpret any MIM-conformant model so agents can answer questions about the data those models describe more correctly and more efficiently. mim-core: how to read MIM, fetch RDF/catalogus, element summaries. geonovum-mim-implement is a stub (implement a model in software; not built). Consume-only interpret skill: not for authoring or validating models.",
+  "version": "0.1.0"
+}

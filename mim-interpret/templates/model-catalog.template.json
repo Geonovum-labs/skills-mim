@@ -1,0 +1,29 @@
+{
+  "about": "Template: model catalog. Lists which MIM-conformant information model describes which data product, and which models with same-named elements must not be bound for it. Copy this file, replace the placeholder entry, and add one entry per data product. File paths in an entry are relative to the catalog file. Field definitions: ../references/model-catalog.md.",
+  "version": "0.1.0",
+  "lastVerified": "YYYY-MM-DD",
+  "products": [
+    {
+      "id": "example-product",
+      "name": "Example data product (API collection, download or file)",
+      "match": {
+        "hosts": ["api.example.nl"],
+        "pathContains": ["/example/"],
+        "collections": ["voorbeeldobject"]
+      },
+      "model": {
+        "id": "example-model-1.0",
+        "name": "Example information model 1.0",
+        "informatiemodeltype": "Conceptueel",
+        "mimVersion": "1.2",
+        "fidelity": "rdf"
+      },
+      "sources": ["https://modellen.geostandaarden.nl/def/example/"],
+      "homonymReject": ["other-model-with-same-names"],
+      "verifiedMapping": "field-mapping.template.json",
+      "elementSummaries": "../../mim-core/templates/element-summaries.template.json",
+      "note": "Optional free text."
+    }
+  ],
+  "deadUrls": []
+}
