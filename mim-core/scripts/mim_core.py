@@ -27,6 +27,7 @@ DEFAULT_ALLOW = (
     "overheid.nl",
     "pdok.nl",
     "kadaster.nl",
+    "catalog.modeldesk.io",
 )
 GEONOVUM_GITHUB = ("raw.githubusercontent.com", "github.com")
 

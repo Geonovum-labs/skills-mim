@@ -127,6 +127,7 @@ Niet in deze versie, bewust: `generate_plugin.py`, Changesets, GitHub workflows,
 | --- | --- |
 | [MIM 1.2, vastgesteld 13 juni 2024](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/) | Normatieve tekst waarop de skills zijn gebouwd (`nl.gov.source`) |
 | [MIM, laatste versie](https://docs.geostandaarden.nl/mim/mim/) | Startpunt om te controleren of er een nieuwere versie is |
+| [catalog.modeldesk.io/geonovum](https://catalog.modeldesk.io/geonovum) | Experimentele publieke catalogus met informatiemodellen van Geonovum (onder meer IMBAG, IMGeo en NEN 3610:2022, MIM 1.2, werkversies zonder release). In de experimentele setting de eerste plek waar de skill een model zoekt. |
 | [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl) | Voorkeursbron voor informatiemodellen als RDF, wanneer het het model van het product is. Zonder RDF is de HTML- of PDF-catalogus van de modelbeheerder gelijkwaardig. |
 | [Geonovum/skills-nl-sbb](https://github.com/Geonovum/skills-nl-sbb) | Voorbeeld voor indeling, metadata, disclaimer en statusladder |
 | [airco `mim-kennis-skill`](https://github.com/Geonovum-labs/airco/tree/main/mim-kennis-skill) | Eerder werk met een ander doel (MIM uitleggen en modelleren). Zie [`conflicts.md`](mim-interpret/references/conflicts.md). |

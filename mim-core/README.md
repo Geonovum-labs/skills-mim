@@ -15,7 +15,7 @@ How to **read** a MIM-conformant information model:
 
 - objecttypen, attribuutsoorten, relaties, kardinaliteit, datatypes, waardelijsten, constraints, generalisatie, populatie;
 - homonyms (same name in different models is not the same element, though they may be related and describe the same real-world object); J/N enumeratie vs Boolean; Basisgegeven ≠ Authentiek;
-- where to fetch models (RDF at [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl); HTML/PDF catalogus when RDF is missing);
+- where to fetch models (in the experiment first the [Geonovum catalog](https://catalog.modeldesk.io/geonovum); then RDF at [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl); HTML/PDF catalogus when RDF is missing);
 - **element summaries**: short, fixed-format summaries of one model element (definitie, type, kardinaliteit, mogelijk geen waarde, authentiek, historie, waardelijst), so an agent does not have to read the whole model;
 - an optional helper script that looks those up exactly.
 
@@ -54,7 +54,7 @@ python3 scripts/mim_core.py values  --summaries <file> <Waardelijst>
 python3 scripts/mim_core.py rdf-labels <turtle-or-rdfxml-file-or-url> [--allow <host>]
 ```
 
-`--json` (before the command) is available on every command; `card` still works as an old name for `summary`. Default allowed fetch hosts: `*.geostandaarden.nl`, `*.overheid.nl`, `*.pdok.nl`, `*.kadaster.nl`, GitHub paths under `Geonovum/`; add others with `--allow`.
+`--json` (before the command) is available on every command; `card` still works as an old name for `summary`. Default allowed fetch hosts: `*.geostandaarden.nl`, `*.overheid.nl`, `*.pdok.nl`, `*.kadaster.nl`, `catalog.modeldesk.io`, GitHub paths under `Geonovum/`; add others with `--allow`.
 
 Example: BAG — `python3 scripts/mim_core.py summary --summaries examples/bag/imbag-element-summaries.json Pand.status`
 
