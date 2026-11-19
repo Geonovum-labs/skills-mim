@@ -1,10 +1,10 @@
 publiccodeYmlVersion: "0.7"
 
 name: MIM-skills
-url: https://github.com/Geonovum/skills-mim.git
+url: https://github.com/Geonovum-labs/skills-mim.git
 softwareVersion: "0.1.0"
 releaseDate: "2026-10-30"
-landingURL: https://github.com/Geonovum/skills-mim
+landingURL: https://github.com/Geonovum-labs/skills-mim
 softwareType: addon
 
 platforms:

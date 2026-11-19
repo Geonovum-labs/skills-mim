@@ -20,4 +20,4 @@ Do not duplicate those rules here. Do not follow [`../mim-interpret/SKILL.md`](.
 
 ## Status
 
-Stub only (30 Oct 2026). Names are placeholders (`geonovum-mim-implement`). Shared repo: later `Geonovum/skills-mim`.
+Stub only (30 Oct 2026). Names are placeholders (`geonovum-mim-implement`). Shared repo: `Geonovum-labs/skills-mim` (this repository).

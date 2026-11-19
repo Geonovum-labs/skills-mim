@@ -32,4 +32,4 @@ Deze skills zijn niet bedoeld om persoonsgegevens op te vragen of te verwerken. 
 
 ## Geen garantie
 
-De inhoud wordt aangeboden zonder garantie van volledigheid, juistheid of actualiteit. Fouten en verbeteringen graag als issue in de later te publiceren repository `Geonovum/skills-mim`.
+De inhoud wordt aangeboden zonder garantie van volledigheid, juistheid of actualiteit. Fouten en verbeteringen graag als [issue](https://github.com/Geonovum-labs/skills-mim/issues) in deze repository, `Geonovum-labs/skills-mim`.
