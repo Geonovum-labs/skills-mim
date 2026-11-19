@@ -15,6 +15,8 @@ How to **read** a MIM-conformant information model:
 
 - objecttypen, attribuutsoorten, relaties, kardinaliteit, datatypes, waardelijsten, constraints, generalisatie, populatie;
 - homonyms (same name in different models is not the same element, though they may be related and describe the same real-world object); J/N enumeratie vs Boolean; Basisgegeven ≠ Authentiek;
+- where the MIM 1.2 text is ambiguous or contradicts itself, so an agent reports it instead of resolving it silently ([`known-ambiguities.md`](references/known-ambiguities.md));
+- how to recognise MIM elements in UML and in Linked Data;
 - where to fetch models (in the experiment first the [Geonovum catalog](https://catalog.modeldesk.io/geonovum); then RDF at [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl); HTML/PDF catalogus when RDF is missing);
 - **element summaries**: short, fixed-format summaries of one model element (definitie, type, kardinaliteit, mogelijk geen waarde, authentiek, historie, waardelijst), so an agent does not have to read the whole model;
 - an optional helper script that looks those up exactly.
@@ -33,8 +35,9 @@ Do not load this folder as if it were a `SKILL.md`. There is none.
 mim-core/
 ├── README.md                                   # this file
 ├── references/
-│   ├── mim-core.md                             # compact metamodel, 1.2 vs 2.0, serializations
+│   ├── mim-core.md                             # compact metamodel, MIM uitgangspunten, UML/LD forms, 1.2 vs 2.0, serializations
 │   ├── reading-rules.md                        # how metagegevens change what a model means
+│   ├── known-ambiguities.md                    # where the MIM 1.2 text contradicts itself (I1–I5)
 │   ├── fetch.md                                # where models live, discovery order
 │   └── element-summary-format.md               # format of an element-summaries file
 ├── templates/element-summaries.template.json   # empty format to copy for a new model

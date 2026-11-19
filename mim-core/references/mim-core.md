@@ -6,7 +6,29 @@ MIM covers beschouwingsniveaus 2 (conceptueel informatiemodel) and 3 (logisch). 
 
 A model is always *Conceptueel* or *Logisch*, never a mix (`Informatiemodeltype`).
 
-Reading rules that change what an element means: [`reading-rules.md`](reading-rules.md). Where to fetch a model: [`fetch.md`](fetch.md). Compact per-element format: [`element-summary-format.md`](element-summary-format.md).
+Reading rules that change what an element means: [`reading-rules.md`](reading-rules.md). Where the MIM text contradicts itself: [`known-ambiguities.md`](known-ambiguities.md). Where to fetch a model: [`fetch.md`](fetch.md). Compact per-element format: [`element-summary-format.md`](element-summary-format.md).
+
+## Uitgangspunten of MIM
+
+MIM states its own starting points (MIM 1.2, *Metamodel algemeen*). They explain why models look the way they do:
+
+1. Every modelelement has a name and its own MIM-metaclass, by which you can recognise it anywhere.
+2. Elements are explained first without any modelling language. UML and the W3C specifications (Linked Data) are *expression forms* of the same elements.
+3. The description is tool-independent. (Sparx Enterprise Architect is described as an addition, because many organisations use it.)
+4. **Extend, do not deviate.** Models use the metamodel uniformly; no alternative constructions for the same purpose. Own needs go into an extension, not into a different reading of a MIM element.
+5. **Datatypes carry structure, not meaning.** Remove every datatype from a model and no meaning may be lost.
+
+Consequence for reading: a MIM element means the same in every MIM-conformant model. What differs between models is the content (names, definitions, kardinaliteit), and which extensions are used.
+
+## Reading MIM in UML and in Linked Data
+
+The same model can be published in more than one form. Recognise the element kind in each:
+
+- **UML (EA, XMI):** the kind is the stereotype, written like the metaclass: «Objecttype», «Attribuutsoort», «Gegevensgroeptype», «Relatiesoort», and so on. The stereotype for *Gestructureerd datatype* is spelled «Gestructuurd datatype» ([I4](known-ambiguities.md)).
+- **Linked Data in the MIM vocabulary:** a model element is an *instance* of a `mim:` class in the namespace `http://modellen.mim-standaard.nl/def/mim#`, for example `vb:Schip a mim:Objecttype` with an `rdfs:label`. The kind is the `mim:` class.
+- **Plain RDF / RDFS / OWL / SHACL:** MIM calls such a model conformant when it can be transformed to the MIM vocabulary with the transformation rules of the annex. The element kinds are then not stated in the model; label a kind you derive this way *inferred*. In the transformed model, a MIM element becomes a class or shape with its own URI and a link back to the MIM element (`mim:equivalent`, see [I5](known-ambiguities.md)).
+
+A level-3 *logisch* model expressed in Linked Data is also a conceptual model (reading rule 14).
 
 ## Element kinds
 

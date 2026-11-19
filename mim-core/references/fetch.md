@@ -54,6 +54,15 @@ Do **not** search GitHub for an objecttype name.
 
 Which model belongs to which product is recorded per product in a model catalog (`mim-interpret`), not here. A filled-in list of models, dead links and homonyms for one domain: [`../examples/bag/README.md`](../examples/bag/README.md) (Example: BAG).
 
+## The MIM text itself
+
+To check what MIM says (not to find a model of a dataset), the sources are:
+
+- The vastgestelde version: [MIM 1.2, 13 June 2024](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/). It is leading.
+- The working source: [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving), as Markdown (`Inleiding.md`, `MetamodelAlgemeen.md`, `AfsprakenRegels.md`, `MetamodelUML.md`, `MetamodelLD.md`, `TransformatieRDF.md`, `Versielog.md`) plus `media/mim.ttl` and `media/mim-shapes.ttl`. Where the repository differs from the vastgestelde version, the vastgestelde version wins; say which one you read.
+
+Quote MIM text literally only with a paragraph reference and attribution (CC-BY 4.0), and keep it apart from your own explanation. [`mim-core.md`](mim-core.md) and [`reading-rules.md`](reading-rules.md) are a compact reading of this text, not a replacement for it.
+
 ## Element summaries
 
 Once a model is bound, its element summaries (short fixed-format summary per element) live in one JSON file. Format: [`element-summary-format.md`](element-summary-format.md). Look up with `python3 scripts/mim_core.py summary --summaries <file> <element>`, or read the JSON directly.

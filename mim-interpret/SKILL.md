@@ -153,6 +153,7 @@ Stdlib only; `--json` (before the command) on every command; `card` still works 
 - Verified field mapping format: [`references/field-mapping-format.md`](references/field-mapping-format.md)
 - Read MIM: [`../mim-core/references/mim-core.md`](../mim-core/references/mim-core.md)
 - Reading rules: [`../mim-core/references/reading-rules.md`](../mim-core/references/reading-rules.md)
+- Where the MIM text contradicts itself (report, do not resolve silently): [`../mim-core/references/known-ambiguities.md`](../mim-core/references/known-ambiguities.md)
 - Fetch: [`../mim-core/references/fetch.md`](../mim-core/references/fetch.md)
 - Where this skill goes beyond MIM: [`references/conflicts.md`](references/conflicts.md)
 - Evals: [`evals/README.md`](evals/README.md)

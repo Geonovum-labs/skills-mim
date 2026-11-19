@@ -58,9 +58,21 @@ Use enumeratiewaarden literally, with exact spelling and case.
 
 A *Gestructureerd datatype* is one composite value (parts are not separate facts, no per-part history). A *Gegevensgroep* is a named set of separate attribuutsoorten (they do have their own history). Effective kardinaliteit multiplies.
 
+MIM's test: leave the datatype out of the model — if no meaning is lost, only the structure of the value, it is a Gestructureerd datatype (e.g. `Bedrag` = hoeveelheid + muntsoort). If a part can be missing or unknown without changing the meaning of the other parts, those parts are separate attribuutsoorten in a Gegevensgroep. This holds for all datatypes: they describe structure, not meaning (see [`mim-core.md`](mim-core.md#uitgangspunten-of-mim)).
+
 ## 9. Keuze = XOR
 
-Exactly one alternative. Two filled = invalid. The Keuze name is not a field (MIM §2.3.7.2). Constraints are the other XOR/OR vehicle (plain text + optional formal spec) — do not ignore them.
+Exactly one alternative. Two filled = invalid. The Keuze name is not a field (MIM §2.3.7.2). A Keuze adds no new features and removes none: the features of the object stay the same, and in data only the chosen alternative appears. Constraints are the other XOR/OR vehicle (plain text + optional formal spec) — do not ignore them.
+
+MIM describes five use cases. Which one applies tells you what the Keuze is bound to:
+
+| # | Choice between | Bound to |
+|---|---|---|
+| 1 | datatypes of one attribuutsoort | the attribuutsoort |
+| 2 | two or more attribuutsoorten, each meaningful | the objecttype (the Keuze name is not an attribuutsoort) |
+| 3 | several ways to fill one meaningful attribuutsoort | the attribuutsoort: the Keuze is its type |
+| 4 | several target objecttypen of one meaningful relatiesoort (relatiedoelen) | the relatiesoort |
+| 5 | two or more relatiesoorten/relatierollen, each meaningful | the objecttype or gegevensgroeptype |
 
 ## 10. Historie flags are conceptual (repaired)
 
@@ -84,6 +96,8 @@ Recomputable from other elements; not independent evidence. If a derived value d
 
 Only `Authentiek` carries the statutory gebruiksplicht. **Basisgegeven ≠ Authentiek.**
 
+The MIM explanation text lists `Gemeentelijk kerngegeven` instead of `Wettelijk gegeven`. Use the table above; see [I2 in known-ambiguities.md](known-ambiguities.md).
+
 ## 13. Definitions have provenance
 
 Use *herkomstDefinitie* and *begrip*. Element definition (information) ≠ begrip definition (domain/legal). For *Extern* / *View*, the source model's semantics apply.
@@ -93,6 +107,8 @@ A begrippenkader (level 1, often SKOS) is useful for begrippen. It is not a subs
 ## 14. Conceptueel vs logisch
 
 A conceptual model (level 2) may be technology-neutral. A logical model (level 3) is closer to implementation. Prefer the model that actually describes the subject. Do not skip a conceptual model because there is no XMI or RDF.
+
+In Linked Data the difference shrinks: a logical model expressed in RDF/RDFS/OWL/SHACL is also a conceptual model, and MIM advises the type *conceptueel* for a model that needs both a UML and a Linked Data form. Do not read a difference in type between two expressions of the same model as a difference in content.
 
 ## Extra reading rules
 

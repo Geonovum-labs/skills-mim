@@ -101,7 +101,7 @@ Vereist voor de scripts: Python 3.10 of hoger, alleen de standaardbibliotheek. E
 ├── docs/                            # ontwerpgeschiedenis (zie hieronder)
 ├── mim-core/                        # gedeelde laag, geen SKILL.md
 │   ├── README.md
-│   ├── references/                  # mim-core, reading-rules, fetch, element-summary-format
+│   ├── references/                  # mim-core, reading-rules, known-ambiguities, fetch, element-summary-format
 │   ├── templates/                   # leeg sjabloon voor elementsamenvattingen
 │   ├── scripts/mim_core.py          # summary | values | rdf-labels
 │   └── examples/bag/                # voorbeeld BAG
@@ -130,7 +130,7 @@ Niet in deze versie, bewust: `generate_plugin.py`, Changesets, GitHub workflows,
 | [catalog.modeldesk.io/geonovum](https://catalog.modeldesk.io/geonovum) | Experimentele publieke catalogus met informatiemodellen van Geonovum (onder meer IMBAG, IMGeo en NEN 3610:2022, MIM 1.2, werkversies zonder release). In de experimentele setting de eerste plek waar de skill een model zoekt. |
 | [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl) | Voorkeursbron voor informatiemodellen als RDF, wanneer het het model van het product is. Zonder RDF is de HTML- of PDF-catalogus van de modelbeheerder gelijkwaardig. |
 | [Geonovum/skills-nl-sbb](https://github.com/Geonovum/skills-nl-sbb) | Voorbeeld voor indeling, metadata, disclaimer en statusladder |
-| [airco `mim-kennis-skill`](https://github.com/Geonovum-labs/airco/tree/main/mim-kennis-skill) | Eerder werk met een ander doel (MIM uitleggen en modelleren). Zie [`conflicts.md`](mim-interpret/references/conflicts.md). |
+| [airco `mim-kennis-skill`](https://github.com/Geonovum-labs/airco/tree/main/mim-kennis-skill) | Eerder werk met een iets ander doel (MIM uitleggen en modelleren). Zie [`conflicts.md`](mim-interpret/references/conflicts.md). |
 | `skills-geo/geo-model` | Gericht op het maken van modellen. Overlap in triggers, niet in doel. Niet vervangen door deze skills. |
 
 Alleen MIM 1.x wordt ondersteund. Modellen in MIM 2.0-vocabulaire worden niet gelezen. Waar de skill regels toepast die MIM zelf niet geeft (koppelen van data aan modelelementen), staat dat met reden in [`conflicts.md`](mim-interpret/references/conflicts.md).
