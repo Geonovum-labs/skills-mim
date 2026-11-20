@@ -30,20 +30,6 @@ Repaired rule *bodies* live in mim-core `reading-rules.md`. This plugin still de
 | Prefer logical XMI | Prefer the model of *this* product, conceptual or logical, in whatever form it is published |
 | Rule 15 (order) in SKILL.md | Dropped (paper-only) |
 
-## Relation to airco `mim-kennis-skill`
-
-Prior art: https://github.com/Geonovum-labs/airco/tree/main/mim-kennis-skill (files: `overdracht.md`, `uitgangspunten.md` only, 2026-10-30).
-
-**Different goal.** airco: make MIM understandable; knowledge bank; explaining/modelling/testing/transforming share one knowledge base; 35 questions aimed at MIM literacy (10 factual, 8 distinguishing, 7 applying, 5 pitfalls, 5 version diffs). Owner of that prototype: Mats Braster.
-
-**This skill:** interpret models to interpret **data**. Evals score semantic conclusions on data.
-
-Reused from airco: MIM 1.2 as source; layered explanation; letterlijke MIM-tekst vs uitleg; “bron gaat boven voorkennis”; status `concept`; later modeller review.
-
-Rejected from airco: knowledge-bank-as-product; per-metaclass file tree (~25 modelelementen); Dutch-only; SHACL as the deterministic layer; UML/LD expression chapters as MVP; 35 metamodel questions as the correctness target (those files were not in the repo yet); Claude-project packaging.
-
-The 35 questions are **planned** in airco U19, not shipped. This eval set does not wait for them. Reference answers from modellers (candidates: Pano, Jesse Bakker) and Mistral/Copilot/small-model runs are later work for *this* goal's cases.
-
 ## Relation to `geo-model` (skills-geo)
 
 Authoring-oriented, known inaccuracies on beschouwingsniveaus and stereotypes. Complementary, not replaced. Description of this skill says “Not for authoring”. Coordinate after v1 has a working example loop.

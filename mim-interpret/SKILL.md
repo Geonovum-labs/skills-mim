@@ -78,7 +78,7 @@ MIM terms (objecttype, attribuutsoort, kardinaliteit, waardelijst, …) keep the
 Each step names the helper command and the file it reads. Without Python, open that file and look up the same key (see [Helper scripts](#helper-scripts)).
 
 1. **Identify the data product**, not a word: host, path, collection or file, version. Do not search GitHub for an objecttype name.
-2. **Bind the model** with the model catalog: `python3 scripts/mim_interpret.py catalog --catalog <catalog.json>`. Use the entry's `model`; never bind a model listed in its `homonymReject`. No catalog entry: follow [`../mim-core/references/fetch.md`](../mim-core/references/fetch.md). Prefer RDF at [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl) **when that RDF is the model of this product**; HTML/PDF catalogs and SKOS lists are first-class when RDF is missing.
+2. **Bind the model** with the model catalog: `python3 scripts/mim_interpret.py catalog --catalog <catalog.json>`. Use the entry's `model`; never bind a model listed in its `homonymReject`. No catalog entry: follow [`../mim-core/references/fetch.md`](../mim-core/references/fetch.md); in the experiment, look first in the Geonovum model catalog at <https://catalog.modeldesk.io/geonovum> (working versions: say so in the answer). Otherwise prefer RDF at [modellen.geostandaarden.nl](http://modellen.geostandaarden.nl) **when that RDF is the model of this product**; HTML/PDF catalogs and SKOS lists are first-class when RDF is missing.
 3. **Map fields** with the verified field mapping named in the catalog entry, never by name-matching:
    `python3 scripts/mim_interpret.py map --catalog <catalog.json> --product <id> --fields <a,b,c>`
    No mapping for this product: bind the model, report the fields as unmapped, and do not guess.
@@ -129,7 +129,7 @@ The bound model overrides teaching examples in the MIM text.
 | `values --summaries <file> <Waardelijst>` | Exact allowed values of a waardelijst | the summaries file (`valuelists`) |
 | `rdf-labels <file-or-url> [--allow <host>]` | Quick scan of labels/types in RDF; not a full parser | the RDF file itself, labels only |
 
-Stdlib only; `--json` (before the command) on every command; `card` still works as an old name for `summary`. Default allowed fetch hosts: `*.geostandaarden.nl`, `*.overheid.nl`, `*.pdok.nl`, `*.kadaster.nl`, GitHub paths under `Geonovum/`.
+Stdlib only; `--json` (before the command) on every command; `card` still works as an old name for `summary`. Default allowed fetch hosts: `*.geostandaarden.nl`, `*.overheid.nl`, `*.pdok.nl`, `*.kadaster.nl`, `catalog.modeldesk.io`, GitHub paths under `Geonovum/`.
 
 ## Failure handling
 
@@ -153,6 +153,7 @@ Stdlib only; `--json` (before the command) on every command; `card` still works 
 - Verified field mapping format: [`references/field-mapping-format.md`](references/field-mapping-format.md)
 - Read MIM: [`../mim-core/references/mim-core.md`](../mim-core/references/mim-core.md)
 - Reading rules: [`../mim-core/references/reading-rules.md`](../mim-core/references/reading-rules.md)
+- Where the MIM text contradicts itself (report, do not resolve silently): [`../mim-core/references/known-ambiguities.md`](../mim-core/references/known-ambiguities.md)
 - Fetch: [`../mim-core/references/fetch.md`](../mim-core/references/fetch.md)
 - Where this skill goes beyond MIM: [`references/conflicts.md`](references/conflicts.md)
 - Evals: [`evals/README.md`](evals/README.md)
