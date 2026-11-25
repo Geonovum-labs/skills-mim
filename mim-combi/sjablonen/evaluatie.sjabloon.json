@@ -1,0 +1,23 @@
+{
+  "about": "Sjabloon: evaluatievragen voor de route datavragen van mim-combi. Eén vraag per datavraag. Beoordelingsregels: ../evaluatie/LEESMIJ.md. Vragen voor een specifiek model staan bij het voorbeeld (bijvoorbeeld ../voorbeelden/bag/evaluatie.json).",
+  "skill": "mim-combi",
+  "version": "0.1.0",
+  "model": "example-model-1.0",
+  "product": "example-product",
+  "cases": [
+    {
+      "id": "E-EX-01",
+      "prompt": "Vraag over één veldwaarde in het dataproduct.",
+      "files": [
+        "pad/naar/voorbeeldbestand.md"
+      ],
+      "must": [
+        "zinsdeel dat in het antwoord moet staan"
+      ],
+      "must_not": [
+        "zinsdeel dat op een verkeerde conclusie wijst"
+      ],
+      "conclusion": "De juiste conclusie in één zin."
+    }
+  ]
+}

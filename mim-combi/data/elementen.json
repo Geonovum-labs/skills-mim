@@ -1,0 +1,838 @@
+{
+ "about": "Vaste gegevens per MIM-metaclass in MIM 1.2: kennisbankbestand, paragrafen (algemeen, UML, LD, transformatie, afspraken & regels), UML-uitdrukking en LD-klasse. Elk gegeven is overgenomen uit de genoemde paragrafen van MIM 1.2 (DEF 13 juni 2024). Opzoeken: scripts/mim.py element <naam>.",
+ "mim_versie": "1.2",
+ "elementen": [
+  {
+   "id": "modelelement",
+   "naam": "Modelelement",
+   "groep": "algemeen",
+   "bestand": "modelelementen/modelelement.md",
+   "paragrafen": {
+    "algemeen": "2.2.1",
+    "uml": [],
+    "ld": [],
+    "transformatie": [
+     "6.4.4.1"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": null,
+    "uml_metaclass": null,
+    "ea": null
+   },
+   "ld": {
+    "klasse": "mim:Modelelement",
+    "shape": null
+   },
+   "synoniemen": [],
+   "opmerking": "Abstracte superklasse; geen eigen stereotype. LD-klasse volgens 6.4.4.1 en de vocabulaire."
+  },
+  {
+   "id": "objecttype",
+   "naam": "Objecttype",
+   "groep": "kern",
+   "bestand": "modelelementen/objecttype.md",
+   "paragrafen": {
+    "algemeen": "2.3.2.1",
+    "uml": [
+     "3.2.1.1"
+    ],
+    "ld": [
+     "4.3.1.1"
+    ],
+    "transformatie": [
+     "6.4.5.1"
+    ],
+    "afspraken_regels": [
+     "5.5"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Objecttype»",
+    "uml_metaclass": "(UML) Class",
+    "ea": "Class"
+   },
+   "ld": {
+    "klasse": "mim:Objecttype",
+    "shape": "shape:Objecttype"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "attribuutsoort",
+   "naam": "Attribuutsoort",
+   "groep": "kern",
+   "bestand": "modelelementen/attribuutsoort.md",
+   "paragrafen": {
+    "algemeen": "2.3.2.2",
+    "uml": [
+     "3.2.1.2"
+    ],
+    "ld": [
+     "4.3.1.2"
+    ],
+    "transformatie": [
+     "6.4.5.2"
+    ],
+    "afspraken_regels": [
+     "5.1",
+     "5.9",
+     "5.11"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Attribuutsoort»",
+    "uml_metaclass": "(UML) Property",
+    "ea": "Attribute"
+   },
+   "ld": {
+    "klasse": "mim:Attribuutsoort",
+    "shape": "shape:Attribuutsoort"
+   },
+   "synoniemen": [
+    "attribuut",
+    "kenmerk",
+    "eigenschap"
+   ]
+  },
+  {
+   "id": "gegevensgroep",
+   "naam": "Gegevensgroep",
+   "groep": "kern",
+   "bestand": "modelelementen/gegevensgroep.md",
+   "paragrafen": {
+    "algemeen": "2.3.2.3",
+    "uml": [
+     "3.2.1.3"
+    ],
+    "ld": [
+     "4.3.1.3"
+    ],
+    "transformatie": [
+     "6.4.5.3"
+    ],
+    "afspraken_regels": [
+     "5.2"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Gegevensgroep»",
+    "uml_metaclass": "(UML) Property",
+    "ea": "Attribute"
+   },
+   "ld": {
+    "klasse": "mim:Gegevensgroep",
+    "shape": "shape:Gegevensgroep"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "gegevensgroeptype",
+   "naam": "Gegevensgroeptype",
+   "groep": "kern",
+   "bestand": "modelelementen/gegevensgroeptype.md",
+   "paragrafen": {
+    "algemeen": "2.3.2.4",
+    "uml": [
+     "3.2.1.4"
+    ],
+    "ld": [
+     "4.3.1.4"
+    ],
+    "transformatie": [
+     "6.4.5.4"
+    ],
+    "afspraken_regels": [
+     "5.2"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Gegevensgroeptype»",
+    "uml_metaclass": "(UML) Class",
+    "ea": "Class"
+   },
+   "ld": {
+    "klasse": "mim:Gegevensgroeptype",
+    "shape": "shape:Gegevensgroeptype"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "generalisatie",
+   "naam": "Generalisatie",
+   "groep": "kern",
+   "bestand": "modelelementen/generalisatie.md",
+   "paragrafen": {
+    "algemeen": "2.3.3.1",
+    "uml": [
+     "3.2.2.5",
+     "3.2.2.6"
+    ],
+    "ld": [
+     "4.3.2.5",
+     "4.3.2.6"
+    ],
+    "transformatie": [
+     "6.4.5.5"
+    ],
+    "afspraken_regels": [
+     "5.1.2",
+     "5.5"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Generalisatie»",
+    "uml_metaclass": "(UML) Generalization",
+    "ea": "Generalization"
+   },
+   "ld": {
+    "klasse": "mim:Generalisatie",
+    "shape": "shape:Generalisatie"
+   },
+   "synoniemen": [
+    "overerving",
+    "specialisatie",
+    "supertype",
+    "subtype"
+   ]
+  },
+  {
+   "id": "relatiesoort",
+   "naam": "Relatiesoort",
+   "groep": "kern",
+   "bestand": "modelelementen/relatiesoort.md",
+   "paragrafen": {
+    "algemeen": "2.3.3.2",
+    "uml": [
+     "3.2.2",
+     "3.2.2.1",
+     "3.2.2.2"
+    ],
+    "ld": [
+     "4.3.2.1",
+     "4.3.2.2"
+    ],
+    "transformatie": [
+     "6.4.5.6"
+    ],
+    "afspraken_regels": [
+     "5.6"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Relatiesoort»",
+    "uml_metaclass": "(UML) Association",
+    "ea": "Association"
+   },
+   "ld": {
+    "klasse": "mim:Relatiesoort",
+    "shape": "shape:Relatiesoort"
+   },
+   "synoniemen": [
+    "relatie",
+    "associatie"
+   ]
+  },
+  {
+   "id": "relatieklasse",
+   "naam": "Relatieklasse",
+   "groep": "kern",
+   "bestand": "modelelementen/relatieklasse.md",
+   "paragrafen": {
+    "algemeen": "2.3.3.3",
+    "uml": [
+     "3.2.2.7"
+    ],
+    "ld": [
+     "4.3.2.7"
+    ],
+    "transformatie": [
+     "6.4.5.7"
+    ],
+    "afspraken_regels": [
+     "5.6"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Relatieklasse»",
+    "uml_metaclass": "(UML) Association én (UML) Class",
+    "ea": "Associationclass"
+   },
+   "ld": {
+    "klasse": "mim:Relatieklasse",
+    "shape": "shape:Relatieklasse"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "externe-koppeling",
+   "naam": "Externe koppeling",
+   "groep": "kern",
+   "bestand": "modelelementen/externe-koppeling.md",
+   "paragrafen": {
+    "algemeen": "2.3.3.4",
+    "uml": [
+     "3.1.3.4",
+     "3.2.2.8"
+    ],
+    "ld": [
+     "4.2.3.4",
+     "4.3.2.8"
+    ],
+    "transformatie": [
+     "6.4.5.8"
+    ],
+    "afspraken_regels": [
+     "5.13"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Externe koppeling»",
+    "uml_metaclass": "(UML) Association",
+    "ea": "Association"
+   },
+   "ld": {
+    "klasse": "mim:ExterneKoppeling",
+    "shape": "shape:ExterneKoppeling"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "relatierol",
+   "naam": "Relatierol",
+   "groep": "kern",
+   "bestand": "modelelementen/relatierol.md",
+   "paragrafen": {
+    "algemeen": "2.3.3.5",
+    "uml": [
+     "3.1.3.3",
+     "3.2.2",
+     "3.2.2.3",
+     "3.2.2.4"
+    ],
+    "ld": [
+     "4.2.3.3",
+     "4.3.2.3",
+     "4.3.2.4"
+    ],
+    "transformatie": [
+     "6.4.5.9"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": "«Relatierol»",
+    "uml_metaclass": "(UML) Property",
+    "ea": "AssociationEnd"
+   },
+   "ld": {
+    "klasse": "mim:Relatierol (abstract), mim:RelatierolBron, mim:RelatierolDoel",
+    "shape": "shape:Relatierol, shape:RelatierolBron, shape:RelatierolDoel"
+   },
+   "synoniemen": [
+    "relatierol bron",
+    "relatierol doel",
+    "rol"
+   ]
+  },
+  {
+   "id": "referentielijst",
+   "naam": "Referentielijst",
+   "groep": "waardelijsten",
+   "bestand": "modelelementen/referentielijst.md",
+   "paragrafen": {
+    "algemeen": "2.3.4.1",
+    "uml": [
+     "3.2.3.4"
+    ],
+    "ld": [
+     "4.3.3.1"
+    ],
+    "transformatie": [
+     "6.4.5.10"
+    ],
+    "afspraken_regels": [
+     "5.4.2"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Referentielijst»",
+    "uml_metaclass": "(UML) Datatype",
+    "ea": "Datatype"
+   },
+   "ld": {
+    "klasse": "mim:Referentielijst",
+    "shape": "shape:Referentielijst"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "referentie-element",
+   "naam": "Referentie-element",
+   "groep": "waardelijsten",
+   "bestand": "modelelementen/referentie-element.md",
+   "paragrafen": {
+    "algemeen": "2.3.4.2",
+    "uml": [
+     "3.2.3.5"
+    ],
+    "ld": [
+     "4.3.3.2"
+    ],
+    "transformatie": [
+     "6.4.5.11"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": "«Referentie-element»",
+    "uml_metaclass": "(UML) Property",
+    "ea": "Attribute"
+   },
+   "ld": {
+    "klasse": "mim:ReferentieElement",
+    "shape": "shape:ReferentieElement"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "enumeratie",
+   "naam": "Enumeratie",
+   "groep": "waardelijsten",
+   "bestand": "modelelementen/enumeratie.md",
+   "paragrafen": {
+    "algemeen": "2.3.4.3",
+    "uml": [
+     "3.2.3.2"
+    ],
+    "ld": [
+     "4.3.6.1"
+    ],
+    "transformatie": [
+     "6.4.5.12"
+    ],
+    "afspraken_regels": [
+     "5.4.1"
+    ]
+   },
+   "uml": {
+    "stereotype": "geen stereotype (tabel §3.1.2: '-'); kop §3.2.3.2 noemt «Enumeratie»",
+    "uml_metaclass": "(UML) Enumeration",
+    "ea": "Enumeration"
+   },
+   "ld": {
+    "klasse": "mim:Enumeratie",
+    "shape": "shape:Enumeratie"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "enumeratiewaarde",
+   "naam": "Enumeratiewaarde",
+   "groep": "waardelijsten",
+   "bestand": "modelelementen/enumeratiewaarde.md",
+   "paragrafen": {
+    "algemeen": "2.3.4.4",
+    "uml": [
+     "3.2.3.3"
+    ],
+    "ld": [
+     "4.3.6.2"
+    ],
+    "transformatie": [
+     "6.4.5.13"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": "geen stereotype (tabel §3.1.2: '-'); kop §3.2.3.3 noemt «Enumeratiewaarde»",
+    "uml_metaclass": "(UML) EnumerationLiteral",
+    "ea": "EnumerationLiteral"
+   },
+   "ld": {
+    "klasse": "mim:Enumeratiewaarde",
+    "shape": "shape:Enumeratiewaarde"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "codelijst",
+   "naam": "Codelijst",
+   "groep": "waardelijsten",
+   "bestand": "modelelementen/codelijst.md",
+   "paragrafen": {
+    "algemeen": "2.3.4.5",
+    "uml": [
+     "3.2.3.1"
+    ],
+    "ld": [
+     "4.3.3.3"
+    ],
+    "transformatie": [
+     "6.4.5.14"
+    ],
+    "afspraken_regels": [
+     "5.4.3"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Codelijst»",
+    "uml_metaclass": "(UML) Datatype",
+    "ea": "Datatype"
+   },
+   "ld": {
+    "klasse": "mim:Codelijst",
+    "shape": "shape:Codelijst"
+   },
+   "synoniemen": [
+    "codeList",
+    "CodeList"
+   ]
+  },
+  {
+   "id": "datatype",
+   "naam": "Datatype",
+   "groep": "datatypen",
+   "bestand": "modelelementen/datatype.md",
+   "paragrafen": {
+    "algemeen": "2.3.5.1",
+    "uml": [],
+    "ld": [
+     "4.2.2"
+    ],
+    "transformatie": [
+     "6.4.4.1"
+    ],
+    "afspraken_regels": [
+     "5.1"
+    ]
+   },
+   "uml": {
+    "stereotype": "geen (abstract, zie noot §3.1.1)",
+    "uml_metaclass": null,
+    "ea": null
+   },
+   "ld": {
+    "klasse": "mim:Datatype",
+    "shape": "shape:Datatype"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "primitief-datatype",
+   "naam": "Primitief datatype",
+   "groep": "datatypen",
+   "bestand": "modelelementen/primitief-datatype.md",
+   "paragrafen": {
+    "algemeen": "2.3.5.2",
+    "uml": [
+     "3.2.4.1"
+    ],
+    "ld": [
+     "4.3.4.1"
+    ],
+    "transformatie": [
+     "6.4.6.1",
+     "6.4.6.2"
+    ],
+    "afspraken_regels": [
+     "5.1.1",
+     "5.1.2"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Primitief datatype»",
+    "uml_metaclass": "(UML) Primitive Type",
+    "ea": "Datatype"
+   },
+   "ld": {
+    "klasse": "mim:PrimitiefDatatype",
+    "shape": "shape:PrimitiefDatatype"
+   },
+   "synoniemen": [
+    "simpel datatype"
+   ]
+  },
+  {
+   "id": "gestructureerd-datatype",
+   "naam": "Gestructureerd datatype",
+   "groep": "datatypen",
+   "bestand": "modelelementen/gestructureerd-datatype.md",
+   "paragrafen": {
+    "algemeen": "2.3.5.3",
+    "uml": [
+     "3.1.2",
+     "3.2.4.2"
+    ],
+    "ld": [
+     "4.2.2",
+     "4.3.4.2"
+    ],
+    "transformatie": [
+     "6.4.6.3"
+    ],
+    "afspraken_regels": [
+     "5.1.4",
+     "5.2.2"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Gestructuurd datatype» (tabel §3.1.2) / «Gestructureerd datatype» (kop §3.2.4.2)",
+    "uml_metaclass": "(UML) Datatype",
+    "ea": "Datatype"
+   },
+   "ld": {
+    "klasse": "mim:GestructuurdDatatype (tabel §4.2.2) / mim:GestructureerdDatatype (kop §4.3.4.2, §6.4.4.1)",
+    "shape": "shape:GestructuurdDatatype (tabel §4.2.2)"
+   },
+   "synoniemen": [
+    "complex datatype",
+    "Gestructuurd datatype"
+   ],
+   "opmerking": "Schrijfwijze verschilt in de bron, zie bekende-onduidelijkheden.md I4."
+  },
+  {
+   "id": "data-element",
+   "naam": "Data-element",
+   "groep": "datatypen",
+   "bestand": "modelelementen/data-element.md",
+   "paragrafen": {
+    "algemeen": "2.3.5.4",
+    "uml": [
+     "3.2.4.3"
+    ],
+    "ld": [
+     "4.3.4.3"
+    ],
+    "transformatie": [
+     "6.4.6.4"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": "«Data-element»",
+    "uml_metaclass": "(UML) Property",
+    "ea": "Attribute"
+   },
+   "ld": {
+    "klasse": "mim:DataElement",
+    "shape": "shape:DataElement"
+   },
+   "synoniemen": [
+    "data element"
+   ]
+  },
+  {
+   "id": "package",
+   "naam": "Package",
+   "groep": "packages",
+   "bestand": "modelelementen/package.md",
+   "paragrafen": {
+    "algemeen": "2.3.6",
+    "uml": [],
+    "ld": [
+     "4.2.3.5"
+    ],
+    "transformatie": [
+     "6.4.4.1"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": null,
+    "uml_metaclass": "(UML) Package",
+    "ea": "Package"
+   },
+   "ld": {
+    "klasse": "mim:Package",
+    "shape": "shape:Package"
+   },
+   "synoniemen": [],
+   "opmerking": "Abstract; de concrete soorten zijn Informatiemodel, Domein, Extern en View."
+  },
+  {
+   "id": "informatiemodel",
+   "naam": "Informatiemodel",
+   "groep": "packages",
+   "bestand": "modelelementen/informatiemodel.md",
+   "paragrafen": {
+    "algemeen": "2.3.6.1",
+    "uml": [
+     "3.2.5.3"
+    ],
+    "ld": [
+     "4.3.5.1"
+    ],
+    "transformatie": [],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": "«Informatiemodel»",
+    "uml_metaclass": "(UML) Package",
+    "ea": "Package"
+   },
+   "ld": {
+    "klasse": "mim:Informatiemodel",
+    "shape": "shape:Informatiemodel"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "domein",
+   "naam": "Domein",
+   "groep": "packages",
+   "bestand": "modelelementen/domein.md",
+   "paragrafen": {
+    "algemeen": "2.3.6.2",
+    "uml": [
+     "3.2.5.1"
+    ],
+    "ld": [
+     "4.3.5.2"
+    ],
+    "transformatie": [
+     "6.4.7.1"
+    ],
+    "afspraken_regels": []
+   },
+   "uml": {
+    "stereotype": "«Domein»",
+    "uml_metaclass": "(UML) Package",
+    "ea": "Package"
+   },
+   "ld": {
+    "klasse": "mim:Domein",
+    "shape": "shape:Domein"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "extern",
+   "naam": "Extern",
+   "groep": "packages",
+   "bestand": "modelelementen/extern.md",
+   "paragrafen": {
+    "algemeen": "2.3.6.3",
+    "uml": [
+     "3.2.5.2"
+    ],
+    "ld": [
+     "4.3.5.3"
+    ],
+    "transformatie": [
+     "6.4.7.2"
+    ],
+    "afspraken_regels": [
+     "5.12"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Extern»",
+    "uml_metaclass": "(UML) Package",
+    "ea": "Package"
+   },
+   "ld": {
+    "klasse": "mim:Extern",
+    "shape": "shape:Extern"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "view",
+   "naam": "View",
+   "groep": "packages",
+   "bestand": "modelelementen/view.md",
+   "paragrafen": {
+    "algemeen": "2.3.6.4",
+    "uml": [
+     "3.2.5.4"
+    ],
+    "ld": [
+     "4.3.5.4"
+    ],
+    "transformatie": [
+     "6.4.7.3"
+    ],
+    "afspraken_regels": [
+     "5.13"
+    ]
+   },
+   "uml": {
+    "stereotype": "«View»",
+    "uml_metaclass": "(UML) Package",
+    "ea": "Package"
+   },
+   "ld": {
+    "klasse": "mim:View",
+    "shape": "shape:View"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "constraint",
+   "naam": "Constraint",
+   "groep": "overig",
+   "bestand": "modelelementen/constraint.md",
+   "paragrafen": {
+    "algemeen": "2.3.7.1",
+    "uml": [
+     "3.1.3.1",
+     "3.2.6.1"
+    ],
+    "ld": [
+     "4.2.3.1",
+     "4.3.6.3"
+    ],
+    "transformatie": [
+     "6.4.8.1"
+    ],
+    "afspraken_regels": [
+     "5.7"
+    ]
+   },
+   "uml": {
+    "stereotype": "geen stereotype (tabel §3.1.3.1: '-'); kop §3.2.6.1 noemt «Constraint»",
+    "uml_metaclass": "(UML) Constraint",
+    "ea": "Constraint"
+   },
+   "ld": {
+    "klasse": "mim:Constraint",
+    "shape": "shape:Constraint"
+   },
+   "synoniemen": []
+  },
+  {
+   "id": "keuze",
+   "naam": "Keuze",
+   "groep": "overig",
+   "bestand": "modelelementen/keuze.md",
+   "paragrafen": {
+    "algemeen": "2.3.7.2",
+    "uml": [
+     "3.1.3.2",
+     "3.2.4.4"
+    ],
+    "ld": [
+     "4.2.3.2"
+    ],
+    "transformatie": [
+     "6.4.6.5"
+    ],
+    "afspraken_regels": [
+     "5.3"
+    ]
+   },
+   "uml": {
+    "stereotype": "«Keuze»",
+    "uml_metaclass": "(UML) Class, (UML) Datatype of (UML) Property (drie varianten, §3.1.3.2)",
+    "ea": "Class / Datatype / Attribute"
+   },
+   "ld": {
+    "klasse": "mim:Keuze (en mim:Keuzeconstraint voor keuze tussen relatiesoorten, §4.2.3.1)",
+    "shape": "shape:Keuze"
+   },
+   "synoniemen": []
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "about": "Sjabloon: modelcatalogus. Zegt welk MIM-informatiemodel welk dataproduct beschrijft, en welke modellen met gelijknamige elementen er niet voor gekoppeld mogen worden. Kopieer dit bestand, vervang de voorbeeldvermelding en maak één vermelding per dataproduct. Bestandspaden zijn relatief aan het catalogusbestand. Uitleg van de velden: ../modellen-lezen/modelcatalogus.md.",
+  "version": "0.1.0",
+  "lastVerified": "YYYY-MM-DD",
+  "products": [
+    {
+      "id": "example-product",
+      "name": "Voorbeeld-dataproduct (API-collectie, download of bestand)",
+      "match": {
+        "hosts": [
+          "api.example.nl"
+        ],
+        "pathContains": [
+          "/example/"
+        ],
+        "collections": [
+          "voorbeeldobject"
+        ]
+      },
+      "model": {
+        "id": "example-model-1.0",
+        "name": "Example information model 1.0",
+        "informatiemodeltype": "Conceptueel",
+        "mimVersion": "1.2",
+        "fidelity": "rdf"
+      },
+      "sources": [
+        "https://modellen.geostandaarden.nl/def/example/"
+      ],
+      "homonymReject": [
+        "other-model-with-same-names"
+      ],
+      "verifiedMapping": "veldkoppeling.sjabloon.json",
+      "elementSummaries": "elementsamenvattingen.sjabloon.json",
+      "note": "Optionele vrije tekst."
+    }
+  ],
+  "deadUrls": []
+}

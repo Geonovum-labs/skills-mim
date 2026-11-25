@@ -1,0 +1,70 @@
+{
+  "about": "Sjabloon: elementsamenvattingen. Korte samenvattingen in vaste vorm van de elementen van één MIM-model, zodat een agent niet het hele model hoeft te lezen. Zoek een element op onder 'elements' (sleutel Objecttype of Objecttype.attribuut); waardelijsten staan onder 'valuelists'. Uitleg van de velden: ../modellen-lezen/elementsamenvatting.md.",
+  "model": "example-model-1.0",
+  "fidelity": "rdf",
+  "source": "https://modellen.geostandaarden.nl/def/example/",
+  "sourceLicense": "CC-BY-4.0",
+  "note": "Geparafraseerde samenvattingen. Namen van enumeratiewaarden zijn de exacte uitgewisselde waarden.",
+  "lastVerified": "YYYY-MM-DD",
+  "elements": {
+    "Voorbeeldobject": {
+      "kind": "Objecttype",
+      "abstract": false,
+      "identificerend": [
+        "identificatie"
+      ],
+      "definitie": "Parafrase van de definitie in het model.",
+      "populatie": "Welke exemplaren in de registratie staan.",
+      "attributes": [
+        "identificatie",
+        "geometrie",
+        "status"
+      ]
+    },
+    "Voorbeeldobject.identificatie": {
+      "kind": "Attribuutsoort",
+      "owner": "Voorbeeldobject",
+      "naam": "identificatie",
+      "definitie": "Unieke aanduiding.",
+      "datatype": "CharacterString",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": true,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": false,
+        "formeel": false
+      }
+    },
+    "Voorbeeldobject.status": {
+      "kind": "Attribuutsoort",
+      "owner": "Voorbeeldobject",
+      "naam": "status",
+      "definitie": "Fase in de levenscyclus. Geen tijdlijn.",
+      "datatype": "StatusVoorbeeld",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Overig",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      }
+    }
+  },
+  "valuelists": {
+    "StatusVoorbeeld": {
+      "kind": "Enumeratie",
+      "values": [
+        {
+          "naam": "In gebruik",
+          "definitie": "Parafrase."
+        },
+        {
+          "naam": "Buiten gebruik",
+          "definitie": "Parafrase."
+        }
+      ]
+    }
+  }
+}
