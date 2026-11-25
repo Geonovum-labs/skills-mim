@@ -1,0 +1,321 @@
+{
+  "about": "Voorbeeld BAG. Elementsamenvattingen (element summaries) van IMBAG 2018, in het formaat van ../../sjablonen/elementsamenvattingen.sjabloon.json. Zoek een element op onder 'elements' (sleutel Objecttype of Objecttype.attribuut); waardelijsten staan onder 'valuelists'.",
+  "model": "imbag-2018",
+  "fidelity": "catalog-prose",
+  "source": "https://imbag.github.io/catalogus/",
+  "sourceLicense": "CC-BY-ND-3.0-NL",
+  "note": "Geparafraseerde elementsamenvattingen voor gebruik door agents. Namen van enumeratiewaarden zijn de exacte uitgewisselde waarden. Definities zijn niet letterlijk uit de catalogus overgenomen (licentie CC BY-ND 3.0 NL).",
+  "lastVerified": "2026-10-30",
+  "elements": {
+    "Pand": {
+      "kind": "Objecttype",
+      "code": "55",
+      "abstract": false,
+      "identificerend": [
+        "identificatie"
+      ],
+      "definitie": "Kleinste eenheid die bij de totstandkoming functioneel en bouwkundig-constructief zelfstandig is, direct en duurzaam met de aarde verbonden, en betreedbaar en afsluitbaar (Wet BAG art. 1; IMBAG §6.4).",
+      "populatie": "Panden op Nederlands grondgebied die aan de definitie voldoen. Gegevens blijven bestaan nadat het gebouw verdwenen is. Objecten die op 1 juli 2009 al niet meer bestonden, staan er in principe niet in.",
+      "attributes": [
+        "identificatie",
+        "geometrie",
+        "oorspronkelijkBouwjaar",
+        "status",
+        "geconstateerd",
+        "documentdatum",
+        "documentnummer"
+      ],
+      "relationsIncoming": [
+        "Verblijfsobject.maaktDeelUitVan"
+      ]
+    },
+    "Verblijfsobject": {
+      "kind": "Objecttype",
+      "code": "56",
+      "abstract": false,
+      "supertypes": [
+        "AdresseerbaarObject"
+      ],
+      "definitie": "Kleinste eenheid van gebruik binnen één of meer panden, geschikt voor wonen, bedrijf of recreatie, met een eigen afsluitbare toegang, functioneel zelfstandig (IMBAG §6.8).",
+      "attributes": [
+        "identificatie",
+        "geometrie",
+        "gebruiksdoel",
+        "oppervlakte",
+        "status",
+        "geconstateerd",
+        "documentdatum",
+        "documentnummer"
+      ],
+      "relations": [
+        "maaktDeelUitVan"
+      ]
+    },
+    "AdresseerbaarObject": {
+      "kind": "Objecttype",
+      "code": "101",
+      "abstract": true,
+      "definitie": "Abstract type waaraan adressen kunnen worden toegekend: Standplaats, Ligplaats of Verblijfsobject.",
+      "note": "No concrete rows."
+    },
+    "Pand.identificatie": {
+      "kind": "Attribuutsoort",
+      "code": "55.01",
+      "owner": "Pand",
+      "naam": "identificatie",
+      "definitie": "Unieke aanduiding van een pand.",
+      "datatype": "Objectnummering",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": true,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": false,
+        "formeel": false
+      },
+      "inOnderzoek": false,
+      "patroon": "^[0-9]{4}10[0-9]{10}$",
+      "note": "Tekenreeks van 16 tekens met voorloopnullen. Objecttypecode 10. Nooit Integer."
+    },
+    "Pand.geometrie": {
+      "kind": "Attribuutsoort",
+      "code": "55.20",
+      "owner": "Pand",
+      "naam": "geometrie",
+      "definitie": "Minimaal tweedimensionale geometrische weergave van de omtrek van een pand in bovenaanzicht.",
+      "datatype": "GM_Surface",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      },
+      "inOnderzoek": true
+    },
+    "Pand.oorspronkelijkBouwjaar": {
+      "kind": "Attribuutsoort",
+      "code": "55.30",
+      "owner": "Pand",
+      "naam": "oorspronkelijk bouwjaar",
+      "alias": [
+        "bouwjaar"
+      ],
+      "definitie": "Jaar waarin het pand oorspronkelijk als bouwkundig gereed is of wordt opgeleverd. Een latere verbouwing verandert het niet.",
+      "datatype": "Year",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      },
+      "inOnderzoek": true,
+      "note": "IMBAG zet materiële historie op Ja; dat gaat boven het didactische voorbeeld 'bouwjaar → geen tijdlijn geldigheid' in MIM §5.8.2. Het PDOK-veld heet bouwjaar (integer)."
+    },
+    "Pand.status": {
+      "kind": "Attribuutsoort",
+      "code": "55.31",
+      "owner": "Pand",
+      "naam": "status",
+      "definitie": "Fase in de levenscyclus van het pand. Geen tijdlijn.",
+      "datatype": "StatusPand",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      },
+      "inOnderzoek": true
+    },
+    "Pand.geconstateerd": {
+      "kind": "Attribuutsoort",
+      "code": "55.02",
+      "owner": "Pand",
+      "naam": "geconstateerd",
+      "definitie": "Geeft aan dat het pand in de registratie is opgenomen na een feitelijke constatering, zonder dat er op het moment van opname een regulier brondocument was.",
+      "datatype": "Indicatie",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "identificerend": false,
+      "authentiek": "Basisgegeven",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      },
+      "inOnderzoek": false,
+      "note": "Waarde N is enumeratiewaarde Nee, geen Boolean false en niet 'niet in het terrein waargenomen'. Geen gebruiksplicht."
+    },
+    "Pand.documentdatum": {
+      "kind": "Attribuutsoort",
+      "code": "55.97",
+      "owner": "Pand",
+      "naam": "documentdatum",
+      "definitie": "Datum waarop het brondocument is vastgesteld voor het opnemen, wijzigen of beëindigen van pandgegevens.",
+      "datatype": "Date",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Basisgegeven",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      }
+    },
+    "Pand.documentnummer": {
+      "kind": "Attribuutsoort",
+      "code": "55.98",
+      "owner": "Pand",
+      "naam": "documentnummer",
+      "definitie": "Unieke aanduiding van het brondocument binnen een gemeente.",
+      "datatype": "AN",
+      "lengte": "1..40",
+      "kardinaliteit": "1",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Basisgegeven",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      }
+    },
+    "Verblijfsobject.gebruiksdoel": {
+      "kind": "Attribuutsoort",
+      "code": "56.30",
+      "owner": "Verblijfsobject",
+      "naam": "gebruiksdoel",
+      "definitie": "Indeling van de gebruiksdoelen van het verblijfsobject zoals in de vergunning staat of bij constatering is vastgesteld. Geen planologische bestemming en geen feitelijk gebruik.",
+      "datatype": "Gebruiksdoel",
+      "waardelijstKind": "Enumeratie",
+      "kardinaliteit": "1..*",
+      "mogelijkGeenWaarde": false,
+      "identificerend": true,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      },
+      "inOnderzoek": true,
+      "note": "Staat overgenomen (denormalized) op de PDOK-collectie pand. Blijft een attribuutsoort van Verblijfsobject."
+    },
+    "Verblijfsobject.maaktDeelUitVan": {
+      "kind": "Relatiesoort",
+      "code": "56.90",
+      "owner": "Verblijfsobject",
+      "naam": "maakt deel uit van",
+      "rol": "gerelateerd pand",
+      "doel": "Pand",
+      "kardinaliteit": "1..*",
+      "mogelijkGeenWaarde": false,
+      "authentiek": "Authentiek",
+      "historie": {
+        "materieel": true,
+        "formeel": true
+      },
+      "definitie": "Een verblijfsobject maakt deel uit van één of meer panden. De meeste verblijfsobjecten liggen in één pand; sommige in meerdere.",
+      "note": "Kardinaliteit relatie bron (hoeveel verblijfsobjecten per pand) is geen attribuutsoort van Pand. PDOK aantal_verblijfsobjecten is een door het product afgeleid veld."
+    }
+  },
+  "valuelists": {
+    "Indicatie": {
+      "kind": "Enumeratie",
+      "values": [
+        {
+          "naam": "J",
+          "definitie": "Ja"
+        },
+        {
+          "naam": "N",
+          "definitie": "Nee"
+        }
+      ]
+    },
+    "StatusPand": {
+      "kind": "Enumeratie",
+      "values": [
+        {
+          "naam": "Bouwvergunning verleend",
+          "definitie": "Nieuw pand, nog niet gebouwd; bouwvergunning verleend."
+        },
+        {
+          "naam": "Niet gerealiseerd pand",
+          "definitie": "Er was een vergunning, maar de bouw gaat niet door, of de vergunning is ingetrokken."
+        },
+        {
+          "naam": "Bouw gestart",
+          "definitie": "De bouw is gestart, ten minste de fundering."
+        },
+        {
+          "naam": "Pand in gebruik (niet ingemeten)",
+          "definitie": "Gereed voor gebruik of in gebruik; de definitieve geometrie is nog niet ingemeten."
+        },
+        {
+          "naam": "Pand in gebruik",
+          "definitie": "Eerder 'niet ingemeten' en de definitieve geometrie is ingemeten. Geen synoniem van 'bewoond'."
+        },
+        {
+          "naam": "Verbouwing pand",
+          "definitie": "Vergunning voor verbouwing verleend; de werkzaamheden zijn niet afgerond."
+        },
+        {
+          "naam": "Sloopvergunning verleend",
+          "definitie": "Sloopvergunning verleend."
+        },
+        {
+          "naam": "Pand gesloopt",
+          "definitie": "Demolition completed."
+        },
+        {
+          "naam": "Pand buiten gebruik",
+          "definitie": "Bouwkundige staat zodanig dat herstel en hergebruik niet te verwachten zijn."
+        },
+        {
+          "naam": "Pand ten onrechte opgevoerd",
+          "definitie": "Had niet in de registratie mogen staan; daarna beëindigd."
+        }
+      ]
+    },
+    "Gebruiksdoel": {
+      "kind": "Enumeratie",
+      "values": [
+        {
+          "naam": "woonfunctie"
+        },
+        {
+          "naam": "bijeenkomstfunctie"
+        },
+        {
+          "naam": "celfunctie"
+        },
+        {
+          "naam": "gezondheidszorgfunctie"
+        },
+        {
+          "naam": "industriefunctie"
+        },
+        {
+          "naam": "kantoorfunctie"
+        },
+        {
+          "naam": "logiesfunctie"
+        },
+        {
+          "naam": "onderwijsfunctie"
+        },
+        {
+          "naam": "sportfunctie"
+        },
+        {
+          "naam": "winkelfunctie"
+        },
+        {
+          "naam": "overige gebruiksfunctie"
+        }
+      ]
+    }
+  }
+}

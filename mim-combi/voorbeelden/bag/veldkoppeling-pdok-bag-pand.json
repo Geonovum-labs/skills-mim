@@ -1,0 +1,129 @@
+{
+  "about": "Voorbeeld BAG. Vastgestelde veldkoppeling (verified field mapping) van de PDOK BAG-collectie pand naar IMBAG 2018, in het formaat van ../../sjablonen/veldkoppeling.sjabloon.json. Zoek een veld op onder 'fields'; een veld dat er niet in staat, is niet gekoppeld (unmapped).",
+  "product": "pdok-bag-pand",
+  "model": "imbag-2018",
+  "lastVerified": "2026-10-30",
+  "sampleIdentificatie": "0003100000117485",
+  "checkedAgainst": [
+    "https://imbag.github.io/catalogus/",
+    "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/pand",
+    "voorbeeldobject identificatie 0003100000117485"
+  ],
+  "reviewedBy": null,
+  "fields": [
+    {
+      "field": "identificatie",
+      "mappingType": "direct",
+      "element": "Pand.identificatie",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "identifying",
+        "pattern-16-digit-objecttype-10"
+      ]
+    },
+    {
+      "field": "bouwjaar",
+      "mappingType": "renamed",
+      "element": "Pand.oorspronkelijkBouwjaar",
+      "modelName": "oorspronkelijk bouwjaar",
+      "confidence": "exact",
+      "reasons": [
+        "compound-name",
+        "model-type-Year-wins-over-api-integer"
+      ]
+    },
+    {
+      "field": "status",
+      "mappingType": "direct",
+      "element": "Pand.status",
+      "waardelijst": "StatusPand",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "enumeratie-naam-is-value"
+      ]
+    },
+    {
+      "field": "geconstateerd",
+      "mappingType": "direct",
+      "element": "Pand.geconstateerd",
+      "waardelijst": "Indicatie",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "on-items-not-in-queryables"
+      ],
+      "notes": "Indicatie J/N, Authentiek = Basisgegeven. Geen Boolean."
+    },
+    {
+      "field": "geometry",
+      "mappingType": "renamed",
+      "element": "Pand.geometrie",
+      "confidence": "exact",
+      "reasons": [
+        "geometry-vs-geometrie"
+      ]
+    },
+    {
+      "field": "documentdatum",
+      "mappingType": "direct",
+      "element": "Pand.documentdatum",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "brondocument-group"
+      ]
+    },
+    {
+      "field": "documentnummer",
+      "mappingType": "direct",
+      "element": "Pand.documentnummer",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "brondocument-group"
+      ]
+    },
+    {
+      "field": "gebruiksdoel",
+      "mappingType": "denormalized",
+      "element": "Verblijfsobject.gebruiksdoel",
+      "waardelijst": "Gebruiksdoel",
+      "confidence": "exact",
+      "reasons": [
+        "not-a-Pand-attribute",
+        "kardinaliteit-1..*"
+      ]
+    },
+    {
+      "field": "aantal_verblijfsobjecten",
+      "mappingType": "derived",
+      "element": null,
+      "confidence": "none",
+      "reasons": [
+        "not-an-IMBAG-Pand-attribute",
+        "product-count"
+      ]
+    },
+    {
+      "field": "verblijfsobject.href",
+      "mappingType": "technical",
+      "element": "Verblijfsobject.maaktDeelUitVan",
+      "confidence": "plausible",
+      "reasons": [
+        "relation-projection",
+        "array-shape-is-not-kardinaliteit"
+      ]
+    },
+    {
+      "field": "rdf_seealso",
+      "mappingType": "technical",
+      "element": null,
+      "confidence": "none",
+      "reasons": [
+        "dead-uri-2026-10-30"
+      ]
+    }
+  ]
+}

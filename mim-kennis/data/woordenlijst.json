@@ -1,0 +1,1995 @@
+{
+ "about": "Woordenlijst van mim-kennis: MIM-termen, synoniemen, Engelse termen en afkortingen, met het bestand en de MIM 1.2-paragraaf waar het antwoord staat. Engelse termen komen alleen in deze lijst voor (uitgangspunt U11). Opzoeken: scripts/mim.py zoek <term>.",
+ "mim_versie": "1.2",
+ "termen": [
+  {
+   "term": "Modelelement",
+   "soort": "modelelement",
+   "bestand": "modelelementen/modelelement.md",
+   "paragrafen": [
+    "2.2.1"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Objecttype",
+   "soort": "modelelement",
+   "bestand": "modelelementen/objecttype.md",
+   "paragrafen": [
+    "2.3.2.1",
+    "3.2.1.1",
+    "4.3.1.1"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "FeatureType",
+    "GF_FeatureType"
+   ]
+  },
+  {
+   "term": "Attribuutsoort",
+   "soort": "modelelement",
+   "bestand": "modelelementen/attribuutsoort.md",
+   "paragrafen": [
+    "2.3.2.2",
+    "3.2.1.2",
+    "4.3.1.2"
+   ],
+   "synoniemen": [
+    "attribuut",
+    "kenmerk",
+    "eigenschap"
+   ],
+   "engels": [
+    "AttributeType",
+    "GF_AttributeType"
+   ]
+  },
+  {
+   "term": "Gegevensgroep",
+   "soort": "modelelement",
+   "bestand": "modelelementen/gegevensgroep.md",
+   "paragrafen": [
+    "2.3.2.3",
+    "3.2.1.3",
+    "4.3.1.3"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "AttributeGroup"
+   ]
+  },
+  {
+   "term": "Gegevensgroeptype",
+   "soort": "modelelement",
+   "bestand": "modelelementen/gegevensgroeptype.md",
+   "paragrafen": [
+    "2.3.2.4",
+    "3.2.1.4",
+    "4.3.1.4"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "AttributeGroupType"
+   ]
+  },
+  {
+   "term": "Generalisatie",
+   "soort": "modelelement",
+   "bestand": "modelelementen/generalisatie.md",
+   "paragrafen": [
+    "2.3.3.1",
+    "3.2.2.5",
+    "4.3.2.6"
+   ],
+   "synoniemen": [
+    "overerving",
+    "specialisatie",
+    "supertype",
+    "subtype"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Relatiesoort",
+   "soort": "modelelement",
+   "bestand": "modelelementen/relatiesoort.md",
+   "paragrafen": [
+    "2.3.3.2",
+    "3.2.2",
+    "4.3.2.2"
+   ],
+   "synoniemen": [
+    "relatie",
+    "associatie"
+   ],
+   "engels": [
+    "AssociationType",
+    "GF_AssociationType"
+   ]
+  },
+  {
+   "term": "Relatieklasse",
+   "soort": "modelelement",
+   "bestand": "modelelementen/relatieklasse.md",
+   "paragrafen": [
+    "2.3.3.3",
+    "3.2.2.7",
+    "4.3.2.7"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "AssociationClass"
+   ]
+  },
+  {
+   "term": "Externe koppeling",
+   "soort": "modelelement",
+   "bestand": "modelelementen/externe-koppeling.md",
+   "paragrafen": [
+    "2.3.3.4",
+    "3.1.3.4",
+    "4.3.2.8"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "ExternalLink"
+   ]
+  },
+  {
+   "term": "Relatierol",
+   "soort": "modelelement",
+   "bestand": "modelelementen/relatierol.md",
+   "paragrafen": [
+    "2.3.3.5",
+    "3.1.3.3",
+    "4.3.2.4"
+   ],
+   "synoniemen": [
+    "relatierol bron",
+    "relatierol doel",
+    "rol"
+   ],
+   "engels": [
+    "AssociationRole",
+    "GF_AssociationRole"
+   ]
+  },
+  {
+   "term": "Referentielijst",
+   "soort": "modelelement",
+   "bestand": "modelelementen/referentielijst.md",
+   "paragrafen": [
+    "2.3.4.1",
+    "3.2.3.4",
+    "4.3.3.1"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "ReferenceList"
+   ]
+  },
+  {
+   "term": "Referentie-element",
+   "soort": "modelelement",
+   "bestand": "modelelementen/referentie-element.md",
+   "paragrafen": [
+    "2.3.4.2",
+    "3.2.3.5",
+    "4.3.3.2"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "ReferenceElement"
+   ]
+  },
+  {
+   "term": "Enumeratie",
+   "soort": "modelelement",
+   "bestand": "modelelementen/enumeratie.md",
+   "paragrafen": [
+    "2.3.4.3",
+    "3.2.3.2",
+    "4.3.6.1"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Enumeration"
+   ],
+   "let_op": "In UML zonder stereotype: een UML-Enumeration (§3.1.2)."
+  },
+  {
+   "term": "Enumeratiewaarde",
+   "soort": "modelelement",
+   "bestand": "modelelementen/enumeratiewaarde.md",
+   "paragrafen": [
+    "2.3.4.4",
+    "3.2.3.3",
+    "4.3.6.2"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Enum"
+   ]
+  },
+  {
+   "term": "Codelijst",
+   "soort": "modelelement",
+   "bestand": "modelelementen/codelijst.md",
+   "paragrafen": [
+    "2.3.4.5",
+    "3.2.3.1",
+    "4.3.3.3"
+   ],
+   "synoniemen": [
+    "codeList",
+    "CodeList"
+   ],
+   "engels": [
+    "CodeList"
+   ]
+  },
+  {
+   "term": "Datatype",
+   "soort": "modelelement",
+   "bestand": "modelelementen/datatype.md",
+   "paragrafen": [
+    "2.3.5.1",
+    "4.2.2"
+   ],
+   "synoniemen": [],
+   "engels": [],
+   "let_op": "Abstract; in UML geen eigen stereotype. In §6.3 (MIM 1.1-namen) staat 'Datatype' → SimpleType."
+  },
+  {
+   "term": "Primitief datatype",
+   "soort": "modelelement",
+   "bestand": "modelelementen/primitief-datatype.md",
+   "paragrafen": [
+    "2.3.5.2",
+    "3.2.4.1",
+    "4.3.4.1"
+   ],
+   "synoniemen": [
+    "simpel datatype"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Gestructureerd datatype",
+   "soort": "modelelement",
+   "bestand": "modelelementen/gestructureerd-datatype.md",
+   "paragrafen": [
+    "2.3.5.3",
+    "3.1.2",
+    "4.3.4.2"
+   ],
+   "synoniemen": [
+    "complex datatype",
+    "Gestructuurd datatype"
+   ],
+   "engels": [
+    "ComplexType"
+   ],
+   "let_op": "Heette in MIM 1.1 'Complex datatype' (§6.3). Stereotype en LD-klasse worden in de bron ook 'Gestructuurd' gespeld (I4)."
+  },
+  {
+   "term": "Data-element",
+   "soort": "modelelement",
+   "bestand": "modelelementen/data-element.md",
+   "paragrafen": [
+    "2.3.5.4",
+    "3.2.4.3",
+    "4.3.4.3"
+   ],
+   "synoniemen": [
+    "data element"
+   ],
+   "engels": [
+    "DataElement"
+   ]
+  },
+  {
+   "term": "Package",
+   "soort": "modelelement",
+   "bestand": "modelelementen/package.md",
+   "paragrafen": [
+    "2.3.6",
+    "4.2.3.5"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Informatiemodel",
+   "soort": "modelelement",
+   "bestand": "modelelementen/informatiemodel.md",
+   "paragrafen": [
+    "2.3.6.1",
+    "3.2.5.3",
+    "4.3.5.1"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Domein",
+   "soort": "modelelement",
+   "bestand": "modelelementen/domein.md",
+   "paragrafen": [
+    "2.3.6.2",
+    "3.2.5.1",
+    "4.3.5.2"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Extern",
+   "soort": "modelelement",
+   "bestand": "modelelementen/extern.md",
+   "paragrafen": [
+    "2.3.6.3",
+    "3.2.5.2",
+    "4.3.5.3"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "External"
+   ]
+  },
+  {
+   "term": "View",
+   "soort": "modelelement",
+   "bestand": "modelelementen/view.md",
+   "paragrafen": [
+    "2.3.6.4",
+    "3.2.5.4",
+    "4.3.5.4"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "View"
+   ]
+  },
+  {
+   "term": "Constraint",
+   "soort": "modelelement",
+   "bestand": "modelelementen/constraint.md",
+   "paragrafen": [
+    "2.3.7.1",
+    "3.1.3.1",
+    "4.3.6.3"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Keuze",
+   "soort": "modelelement",
+   "bestand": "modelelementen/keuze.md",
+   "paragrafen": [
+    "2.3.7.2",
+    "3.1.3.2",
+    "4.2.3.2"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Union"
+   ],
+   "let_op": "De keuzemogelijkheden heten sinds MIM 1.1 geen 'keuze-elementen' meer (§3.2.4.4)."
+  },
+  {
+   "term": "Relatierol bron",
+   "soort": "modelelement",
+   "bestand": "modelelementen/relatierol.md",
+   "paragrafen": [
+    "2.3.3.5",
+    "4.2.3.3"
+   ],
+   "synoniemen": [
+    "bronrol",
+    "source"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Relatierol doel",
+   "soort": "modelelement",
+   "bestand": "modelelementen/relatierol.md",
+   "paragrafen": [
+    "2.3.3.5",
+    "4.2.3.3"
+   ],
+   "synoniemen": [
+    "doelrol",
+    "target",
+    "relatiedoel"
+   ],
+   "engels": [],
+   "let_op": "'Relatiedoel' wordt in de Keuze-teksten gebruikt voor het doel van een relatie (§2.3.7.2)."
+  },
+  {
+   "term": "Identificatie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.2.2"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Basis-URI",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.2.1"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Naam",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.1"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Alias",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.2"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Begrip",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.3"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Begripsterm",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": [],
+   "let_op": "Staat alleen in de LD-tabellen (§4.3) en de transformatie (§6.4.9.5), niet in §2.4."
+  },
+  {
+   "term": "Herkomst",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.4"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Source"
+   ]
+  },
+  {
+   "term": "Definitie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.5"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Herkomst definitie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.6"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Origin of definition"
+   ]
+  },
+  {
+   "term": "Toelichting",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.7"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Description"
+   ]
+  },
+  {
+   "term": "Datum opname",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.8"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Date recorded"
+   ]
+  },
+  {
+   "term": "Identificerend",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.9"
+   ],
+   "synoniemen": [
+    "isId",
+    "«id»",
+    "«isId»"
+   ],
+   "engels": []
+  },
+  {
+   "term": "heeft tijdlijn geldigheid",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.10"
+   ],
+   "synoniemen": [
+    "materiële historie",
+    "tijdlijn geldigheid",
+    "geldigheid"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Indicatie materiële historie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.11"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Indication material history"
+   ],
+   "let_op": "Gelijkwaardig aan 'heeft tijdlijn geldigheid'; vervalt in MIM 2.x (noot bij §2.4.3.11)."
+  },
+  {
+   "term": "heeft tijdlijn registratie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.12"
+   ],
+   "synoniemen": [
+    "formele historie",
+    "tijdlijn registratie",
+    "registratietijdlijn"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Indicatie formele historie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.13"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Indication formal history"
+   ],
+   "let_op": "Gelijkwaardig aan 'heeft tijdlijn registratie'; vervalt in MIM 2.x (noot bij §2.4.3.13)."
+  },
+  {
+   "term": "Kardinaliteit",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.14"
+   ],
+   "synoniemen": [
+    "multipliciteit",
+    "multiplicity"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Kardinaliteit relatie bron",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.15"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Authentiek",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.16"
+   ],
+   "synoniemen": [
+    "Indicatie authentiek"
+   ],
+   "engels": [
+    "Indication authentic"
+   ],
+   "let_op": "Waardebereik: zie data/waardebereik.json; onduidelijkheid I2."
+  },
+  {
+   "term": "Indicatie afleidbaar",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.17"
+   ],
+   "synoniemen": [
+    "afleidbaar",
+    "afgeleid gegeven",
+    "isDerived"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Indicatie classificerend",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.18"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Mogelijk geen waarde",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.19"
+   ],
+   "synoniemen": [
+    "onbekende waarde"
+   ],
+   "engels": [
+    "Voidable"
+   ]
+  },
+  {
+   "term": "Bron",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.20"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Doel",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.21"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Unidirectioneel",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.22"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Aggregatietype",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.23"
+   ],
+   "synoniemen": [],
+   "engels": [],
+   "let_op": "Hoort bij relaties, niet bij een attribuutsoort; onduidelijkheid I3."
+  },
+  {
+   "term": "Locatie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.24"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Location"
+   ]
+  },
+  {
+   "term": "Doelformaat",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.25"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Waarde-item",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.26"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Profielspecificatie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.27"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Type (heeft datatype)",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.28",
+    "2.4.4.5"
+   ],
+   "synoniemen": [
+    "Type",
+    "heeft datatype",
+    "datatype van een attribuutsoort"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Lengte",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.29"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Length"
+   ]
+  },
+  {
+   "term": "Patroon",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.30"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Pattern"
+   ]
+  },
+  {
+   "term": "Formeel patroon",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.31"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Formal pattern"
+   ]
+  },
+  {
+   "term": "Code",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.32"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Indicatie abstract object",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.33"
+   ],
+   "synoniemen": [
+    "abstract",
+    "indAbstract",
+    "isAbstract"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Populatie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.34"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Population"
+   ]
+  },
+  {
+   "term": "Kwaliteit",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.35"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "Quality"
+   ]
+  },
+  {
+   "term": "Eenheid",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.36"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Minimumwaarde inclusief",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.37"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Minimumwaarde exclusief",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.38"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Maximumwaarde inclusief",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.39"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Maximumwaarde exclusief",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.40"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Mixin",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.3.41"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Informatiedomein",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.1"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Informatiemodeltype",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.2"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Relatiemodelleringstype",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.3"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "MIM-versie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.4"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "MIM-extensie",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.5"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "MIM-taal",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.6"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Tekstopmaak",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.1.7"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft attribuut",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.1"
+   ],
+   "synoniemen": [
+    "attribuut"
+   ],
+   "engels": []
+  },
+  {
+   "term": "heeft gegevensgroep",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.2"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft gegevensgroeptype",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.3"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "verwijst naar supertype",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.4"
+   ],
+   "synoniemen": [
+    "supertype"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Subtype",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft relatiesoort",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.6"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft externe koppeling",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.7"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft data-element",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.8"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "bevat modelelement",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.9"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "bevat enumeratiewaarde",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.10"
+   ],
+   "synoniemen": [
+    "waarde",
+    "heeft enumeratiewaarde"
+   ],
+   "engels": []
+  },
+  {
+   "term": "bevat referentie-element",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.11"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft datatypekeuze",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.12"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft attribuutkeuze",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.13"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft keuzeattribuut",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.14"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft relatiedoelkeuze",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.15"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft relatiesoortkeuze",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.16"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft constraint",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.4.17"
+   ],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "verwijst naar relatiedoel",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "heeft keuzerelatiedoel",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Relatierol",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Unieke aanduiding",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [
+    "unieke identificatie"
+   ],
+   "engels": [],
+   "let_op": "Staat in de UML-tabel van Objecttype (§3.2.1.1) en in §6.4.9.24, niet in §2.4."
+  },
+  {
+   "term": "Specificatie tekst",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Specificatie formeel",
+   "soort": "metagegeven",
+   "bestand": "metagegevens.md",
+   "paragrafen": [],
+   "synoniemen": [],
+   "engels": []
+  },
+  {
+   "term": "Object",
+   "soort": "begrip",
+   "bestand": "onderscheidingen/object-objecttype-gegeven.md",
+   "paragrafen": [
+    "2.3.1.1"
+   ],
+   "synoniemen": [
+    "exemplaar",
+    "instantie"
+   ],
+   "engels": [],
+   "let_op": "Geen modelelement (noot bij §2.3.1.1)."
+  },
+  {
+   "term": "Gegeven",
+   "soort": "begrip",
+   "bestand": "onderscheidingen/object-objecttype-gegeven.md",
+   "paragrafen": [
+    "2.3.1.2"
+   ],
+   "synoniemen": [],
+   "engels": [],
+   "let_op": "Geen modelelement (noot bij §2.3.1.2)."
+  },
+  {
+   "term": "Informatiemodel (begrip)",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.5"
+   ],
+   "synoniemen": [
+    "IM"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Metamodel",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.7"
+   ],
+   "synoniemen": [
+    "modelleertaal",
+    "metataal"
+   ],
+   "engels": []
+  },
+  {
+   "term": "MIM metaclass",
+   "soort": "begrip",
+   "bestand": "modelelementen/modelelement.md",
+   "paragrafen": [
+    "2.2",
+    "2.1"
+   ],
+   "synoniemen": [
+    "metaclass",
+    "metaklasse",
+    "MIM-metaclass"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Beschouwingsniveau",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.6"
+   ],
+   "synoniemen": [
+    "niveau 1",
+    "niveau 2",
+    "niveau 3",
+    "niveau 4"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Model van begrippen",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.6.1"
+   ],
+   "synoniemen": [
+    "begrippenmodel",
+    "begrippenkader",
+    "niveau 1"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Conceptueel informatiemodel",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.6.2"
+   ],
+   "synoniemen": [
+    "conceptueel",
+    "niveau 2",
+    "CIM"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Logisch informatiemodel",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.6.3"
+   ],
+   "synoniemen": [
+    "logisch",
+    "gegevensmodel",
+    "niveau 3",
+    "LIM"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Fysiek of technisch datamodel",
+   "soort": "begrip",
+   "bestand": "onderwerpen/beschouwingsniveaus.md",
+   "paragrafen": [
+    "1.6.4"
+   ],
+   "synoniemen": [
+    "technisch model",
+    "fysiek model",
+    "niveau 4"
+   ],
+   "engels": [],
+   "let_op": "Buiten de scope van MIM."
+  },
+  {
+   "term": "Begrip",
+   "soort": "begrip",
+   "bestand": "onderwerpen/begrippen-en-definities.md",
+   "paragrafen": [
+    "1.6.1",
+    "5.16"
+   ],
+   "synoniemen": [
+    "concept"
+   ],
+   "engels": [
+    "concept"
+   ]
+  },
+  {
+   "term": "Extensie",
+   "soort": "begrip",
+   "bestand": "onderwerpen/extensies.md",
+   "paragrafen": [
+    "1.10"
+   ],
+   "synoniemen": [
+    "MIM-extensie",
+    "eigen extensie",
+    "uitbreiding"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Alternatief (relatiemodellering)",
+   "soort": "begrip",
+   "bestand": "onderwerpen/relatiemodellering.md",
+   "paragrafen": [
+    "1.11",
+    "3.2.2"
+   ],
+   "synoniemen": [
+    "relatiesoort leidend",
+    "relatierol leidend",
+    "alternatief 1",
+    "alternatief 2"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Historie",
+   "soort": "begrip",
+   "bestand": "onderwerpen/historie.md",
+   "paragrafen": [
+    "5.8"
+   ],
+   "synoniemen": [
+    "tijdlijnen",
+    "materiële historie",
+    "formele historie"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Waardelijst",
+   "soort": "begrip",
+   "bestand": "onderwerpen/waardelijsten.md",
+   "paragrafen": [
+    "2.3.4",
+    "5.4"
+   ],
+   "synoniemen": [
+    "domeinwaarden",
+    "codetabel",
+    "lijst"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Mogelijk geen waarde (onderwerp)",
+   "soort": "begrip",
+   "bestand": "onderwerpen/mogelijk-geen-waarde.md",
+   "paragrafen": [
+    "2.4.3.19",
+    "5.11"
+   ],
+   "synoniemen": [
+    "onbekend",
+    "onbekende waarde"
+   ],
+   "engels": [
+    "Voidable"
+   ]
+  },
+  {
+   "term": "Abstract objecttype",
+   "soort": "begrip",
+   "bestand": "onderwerpen/abstracte-objecttypen.md",
+   "paragrafen": [
+    "5.5",
+    "2.4.3.33"
+   ],
+   "synoniemen": [
+    "abstract",
+    "concreet objecttype",
+    "specialisatie"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Naamgevingsconventie",
+   "soort": "begrip",
+   "bestand": "onderwerpen/naamgeving.md",
+   "paragrafen": [
+    "5.15",
+    "6.2"
+   ],
+   "synoniemen": [
+    "naamgeving",
+    "CamelCase",
+    "UpperCamelCase",
+    "lowerCamelCase"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Primitieve datatypen (lijst)",
+   "soort": "begrip",
+   "bestand": "onderwerpen/datatypen.md",
+   "paragrafen": [
+    "5.1.1"
+   ],
+   "synoniemen": [
+    "CharacterString",
+    "Integer",
+    "Real",
+    "Decimal",
+    "Boolean",
+    "Date",
+    "DateTime",
+    "Year",
+    "Day",
+    "Month",
+    "URI"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Landelijk datatype",
+   "soort": "begrip",
+   "bestand": "onderwerpen/datatypen.md",
+   "paragrafen": [
+    "5.1.3"
+   ],
+   "synoniemen": [
+    "Postcode",
+    "DMO",
+    "DTMO",
+    "Datum mogelijk onvolledig"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Zelfgedefinieerd datatype",
+   "soort": "begrip",
+   "bestand": "onderwerpen/datatypen.md",
+   "paragrafen": [
+    "5.1.2"
+   ],
+   "synoniemen": [
+    "eigen datatype",
+    "AN",
+    "NietNegatieveInteger"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Keuze-element",
+   "soort": "oud",
+   "bestand": "onderwerpen/keuze.md",
+   "paragrafen": [
+    "3.2.4.4",
+    "5.3"
+   ],
+   "synoniemen": [
+    "keuze element"
+   ],
+   "engels": [
+    "UnionElement"
+   ],
+   "let_op": "Vervallen sinds MIM 1.1 (§3.2.4.4), maar §5.3 gebruikt de term nog; zie bekende-onduidelijkheden.md."
+  },
+  {
+   "term": "Complex datatype",
+   "soort": "oud",
+   "bestand": "modelelementen/gestructureerd-datatype.md",
+   "paragrafen": [
+    "6.3"
+   ],
+   "synoniemen": [],
+   "engels": [
+    "ComplexType"
+   ],
+   "let_op": "MIM 1.1-naam; in MIM 1.2 heet dit Gestructureerd datatype."
+  },
+  {
+   "term": "Uniform toepassen",
+   "soort": "begrip",
+   "bestand": "SKILL.md",
+   "paragrafen": [
+    "2.1"
+   ],
+   "synoniemen": [
+    "uitbreiden mag, afwijken niet"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Stelselcatalogus",
+   "soort": "begrip",
+   "bestand": "onderwerpen/begrippen-en-definities.md",
+   "paragrafen": [
+    "5.14"
+   ],
+   "synoniemen": [
+    "SCAT",
+    "stelselafspraken"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Multiple inheritance",
+   "soort": "begrip",
+   "bestand": "modelelementen/generalisatie.md",
+   "paragrafen": [
+    "2.3.3.1",
+    "2.4.3.41"
+   ],
+   "synoniemen": [
+    "meervoudige overerving"
+   ],
+   "engels": [
+    "multiple inheritance"
+   ]
+  },
+  {
+   "term": "Normatief",
+   "soort": "begrip",
+   "bestand": "SKILL.md",
+   "paragrafen": [
+    "7"
+   ],
+   "synoniemen": [
+    "niet-normatief",
+    "conformiteit"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Tagged value",
+   "soort": "term-uml",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8",
+    "2.4.3"
+   ],
+   "synoniemen": [
+    "tagged values"
+   ],
+   "engels": [
+    "tagged value"
+   ]
+  },
+  {
+   "term": "Stereotype",
+   "soort": "term-uml",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8",
+    "3.1"
+   ],
+   "synoniemen": [
+    "UML-stereotype"
+   ],
+   "engels": [
+    "stereotype"
+   ]
+  },
+  {
+   "term": "UML-profiel",
+   "soort": "term-uml",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8",
+    "3.3.1"
+   ],
+   "synoniemen": [
+    "MIM-profiel",
+    "MIM-toolbox",
+    "profiel"
+   ],
+   "engels": [
+    "UML profile"
+   ]
+  },
+  {
+   "term": "Vier lagen metamodel architectuur",
+   "soort": "term-uml",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8"
+   ],
+   "synoniemen": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "MOF"
+   ],
+   "engels": []
+  },
+  {
+   "term": "MIM-vocabulaire",
+   "soort": "term-ld",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "4.1",
+    "4.2"
+   ],
+   "synoniemen": [
+    "mim.ttl",
+    "vocabulaire"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Shapes",
+   "soort": "term-ld",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "4.2"
+   ],
+   "synoniemen": [
+    "mim-shapes.ttl",
+    "shapesgraph",
+    "SHACL-shapes"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Transformatie naar RDFS/OWL/SHACL",
+   "soort": "term-ld",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "6.4"
+   ],
+   "synoniemen": [
+    "promoveren",
+    "mim:equivalent",
+    "ontologie"
+   ],
+   "engels": []
+  },
+  {
+   "term": "MIM",
+   "soort": "afkorting",
+   "bestand": "SKILL.md",
+   "paragrafen": [
+    "1"
+   ],
+   "synoniemen": [
+    "Metamodel Informatie Modellering"
+   ],
+   "engels": []
+  },
+  {
+   "term": "IM",
+   "soort": "afkorting",
+   "bestand": "modelelementen/informatiemodel.md",
+   "paragrafen": [
+    "2.3.6.1"
+   ],
+   "synoniemen": [
+    "informatiemodel (gangbaar voorvoegsel, bv. IMKAD)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "UML",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8"
+   ],
+   "synoniemen": [
+    "Unified Modeling Language"
+   ],
+   "engels": []
+  },
+  {
+   "term": "LD",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "1.9"
+   ],
+   "synoniemen": [
+    "Linked Data"
+   ],
+   "engels": []
+  },
+  {
+   "term": "RDF",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "1.9"
+   ],
+   "synoniemen": [
+    "Resource Description Framework"
+   ],
+   "engels": []
+  },
+  {
+   "term": "RDFS",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "6.4"
+   ],
+   "synoniemen": [
+    "RDF Schema"
+   ],
+   "engels": []
+  },
+  {
+   "term": "OWL",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "6.4"
+   ],
+   "synoniemen": [
+    "Web Ontology Language"
+   ],
+   "engels": []
+  },
+  {
+   "term": "SHACL",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "1.9.1",
+    "4.2"
+   ],
+   "synoniemen": [
+    "Shapes Constraint Language"
+   ],
+   "engels": []
+  },
+  {
+   "term": "SKOS",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/linked-data.md",
+   "paragrafen": [
+    "1.9"
+   ],
+   "synoniemen": [
+    "Simple Knowledge Organization System"
+   ],
+   "engels": []
+  },
+  {
+   "term": "OCL",
+   "soort": "afkorting",
+   "bestand": "modelelementen/constraint.md",
+   "paragrafen": [
+    "5.7"
+   ],
+   "synoniemen": [
+    "Object Constraint Language"
+   ],
+   "engels": []
+  },
+  {
+   "term": "EA",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "2.1",
+    "3.3.1"
+   ],
+   "synoniemen": [
+    "Sparx Enterprise Architect"
+   ],
+   "engels": []
+  },
+  {
+   "term": "XMI",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [],
+   "synoniemen": [
+    "XML Metadata Interchange (exportformaat van UML-tools)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "OMG",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8"
+   ],
+   "synoniemen": [
+    "Object Management Group"
+   ],
+   "engels": []
+  },
+  {
+   "term": "MOF",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "1.8"
+   ],
+   "synoniemen": [
+    "Meta Object Facility"
+   ],
+   "engels": []
+  },
+  {
+   "term": "GAB",
+   "soort": "afkorting",
+   "bestand": "onderwerpen/datatypen.md",
+   "paragrafen": [
+    "1.13",
+    "5.1.1"
+   ],
+   "synoniemen": [
+    "Gegevensbeschrijving (normreferentie, zie §1.13)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "NORA",
+   "soort": "afkorting",
+   "bestand": "onderwerpen/begrippen-en-definities.md",
+   "paragrafen": [
+    "1.13"
+   ],
+   "synoniemen": [
+    "Nederlandse Overheid Referentie Architectuur (Handreiking gegevensbeschrijving)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "SCAT",
+   "soort": "afkorting",
+   "bestand": "onderwerpen/begrippen-en-definities.md",
+   "paragrafen": [
+    "1.13",
+    "5.14"
+   ],
+   "synoniemen": [
+    "Stelselcatalogus"
+   ],
+   "engels": []
+  },
+  {
+   "term": "URI",
+   "soort": "afkorting",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.2"
+   ],
+   "synoniemen": [
+    "Uniform Resource Identifier"
+   ],
+   "engels": []
+  },
+  {
+   "term": "URN",
+   "soort": "afkorting",
+   "bestand": "metagegevens.md",
+   "paragrafen": [
+    "2.4.2.1"
+   ],
+   "synoniemen": [
+    "Uniform Resource Name"
+   ],
+   "engels": []
+  },
+  {
+   "term": "NEN3610",
+   "soort": "afkorting",
+   "bestand": "onderwerpen/extensies.md",
+   "paragrafen": [
+    "1.13"
+   ],
+   "synoniemen": [
+    "Basismodel Geo-informatie (normreferentie; extensies buiten scope van versie 1)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "BRK",
+   "soort": "afkorting",
+   "bestand": "woordenlijst.md",
+   "paragrafen": [],
+   "synoniemen": [
+    "Basisregistratie Kadaster (voorbeeld in MIM)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "BAG",
+   "soort": "afkorting",
+   "bestand": "woordenlijst.md",
+   "paragrafen": [],
+   "synoniemen": [
+    "Basisregistratie Adressen en Gebouwen (voorbeeld in MIM)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "BRP",
+   "soort": "afkorting",
+   "bestand": "woordenlijst.md",
+   "paragrafen": [],
+   "synoniemen": [
+    "Basisregistratie Personen (voorbeeld in MIM)"
+   ],
+   "engels": []
+  },
+  {
+   "term": "Imvertor",
+   "soort": "afkorting",
+   "bestand": "uitdrukkingen/uml.md",
+   "paragrafen": [
+    "3.3.3",
+    "4.4"
+   ],
+   "synoniemen": [
+    "open source tool om te controleren of een model aan MIM voldoet"
+   ],
+   "engels": []
+  }
+ ]
+}

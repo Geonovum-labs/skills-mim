@@ -1,0 +1,409 @@
+element;variant;metagegeven;paragraaf_algemeen;kardinaliteit_uml;paragraaf_uml;kardinaliteit_ld;paragraaf_ld;ld_eigenschap;verplicht;verschil
+objecttype;;Identificatie;2.4.2.2;1;3.2.1.1;1;4.3.1.1;mim:identificatie;verplicht;
+objecttype;;Naam;2.4.3.1;1;3.2.1.1;1;4.3.1.1;mim:naam;verplicht;
+objecttype;;Alias;2.4.3.2;0..1;3.2.1.1;0..1;4.3.1.1;mim:alias;optioneel;
+objecttype;;Herkomst;2.4.3.4;1;3.2.1.1;1;4.3.1.1;mim:herkomst;verplicht;
+objecttype;;Begrip;2.4.3.3;0..*;3.2.1.1;0..*;4.3.1.1;mim:begrip;optioneel;
+objecttype;;Definitie;2.4.3.5;1;3.2.1.1;1;4.3.1.1;mim:definitie;verplicht;
+objecttype;;Herkomst definitie;2.4.3.6;1;3.2.1.1;1;4.3.1.1;mim:herkomstDefinitie;verplicht;
+objecttype;;Toelichting;2.4.3.7;0..1;3.2.1.1;0..1;4.3.1.1;mim:toelichting;optioneel;
+objecttype;;Datum opname;2.4.3.8;1;3.2.1.1;1;4.3.1.1;mim:datumOpname;verplicht;
+objecttype;;Unieke aanduiding;;1;3.2.1.1;;;;verplicht;staat in UML-tabel §3.2.1.1, niet in de LD-tabel
+objecttype;;Populatie;2.4.3.34;0..1;3.2.1.1;0..1;4.3.1.1;mim:populatie;optioneel;
+objecttype;;Kwaliteit;2.4.3.35;0..1;3.2.1.1;0..1;4.3.1.1;mim:kwaliteit;optioneel;
+objecttype;;Indicatie abstract object;2.4.3.33;1;3.2.1.1;1;4.3.1.1;mim:indicatieAbstractObject;verplicht;
+objecttype;;heeft attribuut;2.4.4.1;0..*;3.2.1.1;0..*;4.3.1.1;mim:attribuut;optioneel;
+objecttype;;heeft gegevensgroep;2.4.4.2;0..*;3.2.1.1;0..*;4.3.1.1;mim:gegevensgroep;optioneel;
+objecttype;;heeft relatiesoort;2.4.4.6;0..*;3.2.1.1;;;;optioneel;staat in UML-tabel §3.2.1.1, niet in de LD-tabel
+objecttype;;heeft externe koppeling;2.4.4.7;0..*;3.2.1.1;;;;optioneel;staat in UML-tabel §3.2.1.1, niet in de LD-tabel
+objecttype;;verwijst naar supertype;2.4.4.4;0..*;3.2.1.1;;;;optioneel;staat in UML-tabel §3.2.1.1, niet in de LD-tabel
+objecttype;;heeft constraint;2.4.4.17;0..*;3.2.1.1;0..*;4.3.1.1;mim:constraint;optioneel;
+attribuutsoort;;Identificatie;2.4.2.2;1;3.2.1.2;1;4.3.1.2;mim:identificatie;verplicht;
+attribuutsoort;;Naam;2.4.3.1;1;3.2.1.2;1;4.3.1.2;mim:naam;verplicht;
+attribuutsoort;;Alias;2.4.3.2;0..1;3.2.1.2;0..1;4.3.1.2;mim:alias;optioneel;
+attribuutsoort;;Herkomst;2.4.3.4;1;3.2.1.2;1;4.3.1.2;mim:herkomst;verplicht;
+attribuutsoort;;Begrip;2.4.3.3;0..*;3.2.1.2;0..*;4.3.1.2;mim:begrip;optioneel;
+attribuutsoort;;Definitie;2.4.3.5;1;3.2.1.2;1;4.3.1.2;mim:definitie;verplicht;
+attribuutsoort;;Herkomst definitie;2.4.3.6;1;3.2.1.2;1;4.3.1.2;mim:herkomstDefinitie;verplicht;
+attribuutsoort;;Toelichting;2.4.3.7;0..1;3.2.1.2;0..1;4.3.1.2;mim:toelichting;optioneel;
+attribuutsoort;;Datum opname;2.4.3.8;1;3.2.1.2;1;4.3.1.2;mim:datumOpname;verplicht;
+attribuutsoort;;Lengte;2.4.3.29;0..1;3.2.1.2;0..1;4.3.1.2;mim:lengte;optioneel;
+attribuutsoort;;Patroon;2.4.3.30;0..1;3.2.1.2;0..1;4.3.1.2;mim:patroon;optioneel;
+attribuutsoort;;Formeel patroon;2.4.3.31;0..1;3.2.1.2;0..1;4.3.1.2;mim:formeelPatroon;optioneel;
+attribuutsoort;;heeft tijdlijn geldigheid;2.4.3.10;1;3.2.1.2;1;4.3.1.2;mim:heeftTijdlijnGeldigheid;verplicht;
+attribuutsoort;;Indicatie materiële historie;2.4.3.11;1;3.2.1.2;1;4.3.1.2;mim:indicatieMaterieleHistorie;verplicht;
+attribuutsoort;;heeft tijdlijn registratie;2.4.3.12;1;3.2.1.2;1;4.3.1.2;mim:heeftTijdlijnRegistratie;verplicht;
+attribuutsoort;;Indicatie formele historie;2.4.3.13;1;3.2.1.2;1;4.3.1.2;mim:indicatieFormeleHistorie;verplicht;
+attribuutsoort;;Kardinaliteit;2.4.3.14;1;3.2.1.2;1;4.3.1.2;mim:kardinaliteit;verplicht;
+attribuutsoort;;Authentiek;2.4.3.16;1;3.2.1.2;1;4.3.1.2;mim:authentiek;verplicht;
+attribuutsoort;;Indicatie afleidbaar;2.4.3.17;1;3.2.1.2;1;4.3.1.2;mim:indicatieAfleidbaar;verplicht;
+attribuutsoort;;Indicatie classificerend;2.4.3.18;1;3.2.1.2;1;4.3.1.2;mim:indicatieAfleidbaar;verplicht;
+attribuutsoort;;Mogelijk geen waarde;2.4.3.19;1;3.2.1.2;1;4.3.1.2;mim:mogelijkGeenWaarde;verplicht;
+attribuutsoort;;Identificerend;2.4.3.9;0..1;3.2.1.2;0..1;4.3.1.2;mim:identificerend;optioneel;
+attribuutsoort;;Minimumwaarde inclusief;2.4.3.37;0..1;3.2.1.2;0..1;4.3.1.2;mim:minimumwaardeInclusief;optioneel;
+attribuutsoort;;Minimumwaarde exclusief;2.4.3.38;0..1;3.2.1.2;0..1;4.3.1.2;mim:minimumwaardeExclusief;optioneel;
+attribuutsoort;;Maximumwaarde inclusief;2.4.3.39;0..1;3.2.1.2;0..1;4.3.1.2;mim:maximumwaardeInclusief;optioneel;
+attribuutsoort;;Maximumwaarde exclusief;2.4.3.40;0..1;3.2.1.2;0..1;4.3.1.2;mim:maximumwaardeExclusief;optioneel;
+attribuutsoort;;Eenheid;2.4.3.36;0..1;3.2.1.2;0..1;4.3.1.2;mim:eenheid;optioneel;
+attribuutsoort;;Type (heeft datatype);2.4.3.28 / 2.4.4.5;1;3.2.1.2;1;4.3.1.2;mim:type;verplicht;
+attribuutsoort;;heeft constraint;2.4.4.17;0..*;3.2.1.2;0..*;4.3.1.2;mim:constraint;optioneel;
+gegevensgroep;;Identificatie;2.4.2.2;1;3.2.1.3;1;4.3.1.3;mim:identificatie;verplicht;
+gegevensgroep;;Naam;2.4.3.1;1;3.2.1.3;1;4.3.1.3;mim:naam;verplicht;
+gegevensgroep;;Alias;2.4.3.2;0..1;3.2.1.3;0..1;4.3.1.3;mim:alias;optioneel;
+gegevensgroep;;Herkomst;2.4.3.4;0..1;3.2.1.3;1;4.3.1.3;mim:herkomst;afwijkend tussen UML en LD;kardinaliteit UML 0..1 (§3.2.1.3) ≠ LD 1 (§4.3.1.3)
+gegevensgroep;;Begrip;2.4.3.3;0..*;3.2.1.3;0..*;4.3.1.3;mim:begrip;optioneel;
+gegevensgroep;;Definitie;2.4.3.5;1;3.2.1.3;1;4.3.1.3;mim:definitie;verplicht;
+gegevensgroep;;Herkomst definitie;2.4.3.6;1;3.2.1.3;1;4.3.1.3;mim:herkomstDefinitie;verplicht;
+gegevensgroep;;Toelichting;2.4.3.7;0..1;3.2.1.3;0..1;4.3.1.3;mim:toelichting;optioneel;
+gegevensgroep;;Datum opname;2.4.3.8;1;3.2.1.3;1;4.3.1.3;mim:datumOpname;verplicht;
+gegevensgroep;;Kardinaliteit;2.4.3.14;1;3.2.1.3;1;4.3.1.3;mim:kardinaliteit;verplicht;
+gegevensgroep;;Authentiek;2.4.3.16;1;3.2.1.3;1;4.3.1.3;mim:authentiek;verplicht;
+gegevensgroep;;heeft gegevensgroeptype;2.4.4.3;1;3.2.1.3;1;4.3.1.3;mim:gegevensgroeptype;verplicht;
+gegevensgroep;;heeft constraint;2.4.4.17;0..*;3.2.1.3;0..*;4.3.1.3;mim:constraint;optioneel;
+gegevensgroeptype;;Identificatie;2.4.2.2;1;3.2.1.4;1;4.3.1.4;mim:identificatie;verplicht;
+gegevensgroeptype;;Naam;2.4.3.1;1;3.2.1.4;1;4.3.1.4;mim:naam;verplicht;
+gegevensgroeptype;;Alias;2.4.3.2;0..1;3.2.1.4;0..1;4.3.1.4;mim:alias;optioneel;
+gegevensgroeptype;;Herkomst;2.4.3.4;1;3.2.1.4;;;;verplicht;staat in UML-tabel §3.2.1.4, niet in de LD-tabel
+gegevensgroeptype;;Begrip;2.4.3.3;0..*;3.2.1.4;0..*;4.3.1.4;mim:begrip;optioneel;
+gegevensgroeptype;;Definitie;2.4.3.5;1;3.2.1.4;0..1;4.3.1.4;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.1.4) ≠ LD 0..1 (§4.3.1.4)
+gegevensgroeptype;;Herkomst definitie;2.4.3.6;1;3.2.1.4;0..1;4.3.1.4;mim:herkomstDefinitie;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.1.4) ≠ LD 0..1 (§4.3.1.4)
+gegevensgroeptype;;Toelichting;2.4.3.7;0..1;3.2.1.4;0..1;4.3.1.4;mim:toelichting;optioneel;
+gegevensgroeptype;;Datum opname;2.4.3.8;1;3.2.1.4;1;4.3.1.4;mim:datumOpname;verplicht;
+gegevensgroeptype;;Kardinaliteit;2.4.3.14;1;3.2.1.4;;;;verplicht;staat in UML-tabel §3.2.1.4, niet in de LD-tabel
+gegevensgroeptype;;Authentiek;2.4.3.16;1;3.2.1.4;;;;verplicht;staat in UML-tabel §3.2.1.4, niet in de LD-tabel
+gegevensgroeptype;;heeft attribuut;2.4.4.1;0..*;3.2.1.4;0..*;4.3.1.4;mim:attribuut;optioneel;
+gegevensgroeptype;;heeft gegevensgroep;2.4.4.2;0..*;3.2.1.4;0..*;4.3.1.4;mim:gegevensgroep;optioneel;
+gegevensgroeptype;;heeft relatiesoort;2.4.4.6;0..*;3.2.1.4;;;;optioneel;staat in UML-tabel §3.2.1.4, niet in de LD-tabel
+gegevensgroeptype;;heeft externe koppeling;2.4.4.7;0..*;3.2.1.4;;;;optioneel;staat in UML-tabel §3.2.1.4, niet in de LD-tabel
+gegevensgroeptype;;verwijst naar supertype;2.4.4.4;0..*;3.2.1.4;;;;optioneel;staat in UML-tabel §3.2.1.4, niet in de LD-tabel
+gegevensgroeptype;;heeft constraint;2.4.4.17;0..*;3.2.1.4;0..*;4.3.1.4;mim:constraint;optioneel;
+relatiesoort;alt 1: relatiesoort leidend;Identificatie;2.4.2.2;1;3.2.2.1;1;4.3.2.1;mim:identificatie;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Naam;2.4.3.1;1;3.2.2.1;1;4.3.2.1;mim:naam;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Alias;2.4.3.2;0..1;3.2.2.1;0..1;4.3.2.1;mim:alias;optioneel;
+relatiesoort;alt 1: relatiesoort leidend;Herkomst;2.4.3.4;1;3.2.2.1;1;4.3.2.1;mim:herkomst;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Begrip;2.4.3.3;0..*;3.2.2.1;0..*;4.3.2.1;mim:begrip;optioneel;
+relatiesoort;alt 1: relatiesoort leidend;Definitie;2.4.3.5;1;3.2.2.1;1;4.3.2.1;mim:definitie;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Herkomst definitie;2.4.3.6;1;3.2.2.1;1;4.3.2.1;mim:herkomstDefinitie;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Toelichting;2.4.3.7;0..1;3.2.2.1;0..1;4.3.2.1;mim:toelichting;optioneel;
+relatiesoort;alt 1: relatiesoort leidend;Datum opname;2.4.3.8;1;3.2.2.1;1;4.3.2.1;mim:datumOpname;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Identificerend;2.4.3.9;0..1;3.2.2.1;0..1;4.3.2.1;mim:identificerend;optioneel;
+relatiesoort;alt 1: relatiesoort leidend;Unidirectioneel;2.4.3.22;1;3.2.2.1;1;4.3.2.1;mim:unidirectioneel;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Bron;2.4.3.20;1;3.2.2.1;1;4.3.2.1;mim:bron;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Doel;2.4.3.21;1;3.2.2.1;1;4.3.2.1;mim:doel;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Aggregatietype;2.4.3.23;1;3.2.2.1;1;4.3.2.1;mim:aggregatietype;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Kardinaliteit;2.4.3.14;1;3.2.2.1;1;4.3.2.1;mim:kardinaliteit;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Kardinaliteit relatie bron;2.4.3.15;1;3.2.2.1;0..1;4.3.2.1;mim:kardinaliteitRelatieBron;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.1) ≠ LD 0..1 (§4.3.2.1)
+relatiesoort;alt 1: relatiesoort leidend;heeft tijdlijn geldigheid;2.4.3.10;1;3.2.2.1;1;4.3.2.1;mim:heeftTijdlijnGeldigheid;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Indicatie materiële historie;2.4.3.11;1;3.2.2.1;1;4.3.2.1;mim:indicatieMaterieleHistorie;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;heeft tijdlijn registratie;2.4.3.12;1;3.2.2.1;1;4.3.2.1;mim:heeftTijdlijnRegistratie;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Indicatie formele historie;2.4.3.13;1;3.2.2.1;1;4.3.2.1;mim:indicatieFormeleHistorie;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Authentiek;2.4.3.16;1;3.2.2.1;1;4.3.2.1;mim:authentiek;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Indicatie afleidbaar;2.4.3.17;1;3.2.2.1;1;4.3.2.1;mim:indicatieAfleidbaar;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;Mogelijk geen waarde;2.4.3.19;1;3.2.2.1;1;4.3.2.1;mim:mogelijkGeenWaarde;verplicht;
+relatiesoort;alt 1: relatiesoort leidend;verwijst naar relatiedoel;;0..*;3.2.2.1;;;;optioneel;staat in UML-tabel §3.2.2.1, niet in de LD-tabel
+relatiesoort;alt 1: relatiesoort leidend;heeft constraint;2.4.4.17;0..*;3.2.2.1;0..*;4.3.2.1;mim:constraint;optioneel;
+relatiesoort;alt 2: relatierol leidend;Identificatie;2.4.2.2;1;3.2.2.2;1;4.3.2.2;mim:identificatie;verplicht;
+relatiesoort;alt 2: relatierol leidend;Naam;2.4.3.1;1;3.2.2.2;0..1;4.3.2.2;mim:naam;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.2) ≠ LD 0..1 (§4.3.2.2)
+relatiesoort;alt 2: relatierol leidend;Alias;2.4.3.2;0..1;3.2.2.2;0..1;4.3.2.2;mim:alias;optioneel;
+relatiesoort;alt 2: relatierol leidend;Herkomst;2.4.3.4;1;3.2.2.2;;;;verplicht;staat in UML-tabel §3.2.2.2, niet in de LD-tabel
+relatiesoort;alt 2: relatierol leidend;Begrip;2.4.3.3;0..*;3.2.2.2;0..*;4.3.2.2;mim:begrip;optioneel;
+relatiesoort;alt 2: relatierol leidend;Definitie;2.4.3.5;1;3.2.2.2;0..1;4.3.2.2;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.2) ≠ LD 0..1 (§4.3.2.2)
+relatiesoort;alt 2: relatierol leidend;Herkomst definitie;2.4.3.6;1;3.2.2.2;;;;verplicht;staat in UML-tabel §3.2.2.2, niet in de LD-tabel
+relatiesoort;alt 2: relatierol leidend;Toelichting;2.4.3.7;0..1;3.2.2.2;;;;optioneel;staat in UML-tabel §3.2.2.2, niet in de LD-tabel
+relatiesoort;alt 2: relatierol leidend;Datum opname;2.4.3.8;1;3.2.2.2;;;;verplicht;staat in UML-tabel §3.2.2.2, niet in de LD-tabel
+relatiesoort;alt 2: relatierol leidend;verwijst naar relatiedoel;;0..*;3.2.2.2;;;;optioneel;staat in UML-tabel §3.2.2.2, niet in de LD-tabel
+relatiesoort;alt 2: relatierol leidend;heeft constraint;2.4.4.17;0..*;3.2.2.2;0..*;4.3.2.2;mim:constraint;optioneel;
+relatierol;alt 1: relatiesoort leidend;Identificatie;2.4.2.2;1;3.2.2.3;1;4.3.2.3;mim:identificatie;verplicht;
+relatierol;alt 1: relatiesoort leidend;Naam;2.4.3.1;1;3.2.2.3;0..1;4.3.2.3;mim:naam;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.3) ≠ LD 0..1 (§4.3.2.3)
+relatierol;alt 1: relatiesoort leidend;Alias;2.4.3.2;0..1;3.2.2.3;0..1;4.3.2.3;mim:alias;optioneel;
+relatierol;alt 1: relatiesoort leidend;Herkomst;2.4.3.4;1;3.2.2.3;;;;verplicht;staat in UML-tabel §3.2.2.3, niet in de LD-tabel
+relatierol;alt 1: relatiesoort leidend;Begrip;2.4.3.3;0..*;3.2.2.3;0..*;4.3.2.3;mim:begrip;optioneel;
+relatierol;alt 1: relatiesoort leidend;Definitie;2.4.3.5;1;3.2.2.3;0..1;4.3.2.3;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.3) ≠ LD 0..1 (§4.3.2.3)
+relatierol;alt 1: relatiesoort leidend;Herkomst definitie;2.4.3.6;1;3.2.2.3;;;;verplicht;staat in UML-tabel §3.2.2.3, niet in de LD-tabel
+relatierol;alt 1: relatiesoort leidend;Toelichting;2.4.3.7;0..1;3.2.2.3;;;;optioneel;staat in UML-tabel §3.2.2.3, niet in de LD-tabel
+relatierol;alt 1: relatiesoort leidend;Datum opname;2.4.3.8;1;3.2.2.3;;;;verplicht;staat in UML-tabel §3.2.2.3, niet in de LD-tabel
+relatierol;alt 1: relatiesoort leidend;heeft constraint;2.4.4.17;0..*;3.2.2.3;0..*;4.3.2.3;mim:constraint;optioneel;
+relatierol;alt 2: relatierol leidend;Identificatie;2.4.2.2;1;3.2.2.4;1;4.3.2.4;mim:identificatie;verplicht;
+relatierol;alt 2: relatierol leidend;Naam;2.4.3.1;1;3.2.2.4;1;4.3.2.4;mim:naam;verplicht;
+relatierol;alt 2: relatierol leidend;Alias;2.4.3.2;0..1;3.2.2.4;0..1;4.3.2.4;mim:alias;optioneel;
+relatierol;alt 2: relatierol leidend;Herkomst;2.4.3.4;1;3.2.2.4;1;4.3.2.4;mim:herkomst;verplicht;
+relatierol;alt 2: relatierol leidend;Begrip;2.4.3.3;0..*;3.2.2.4;0..*;4.3.2.4;mim:begrip;optioneel;
+relatierol;alt 2: relatierol leidend;Definitie;2.4.3.5;1;3.2.2.4;1;4.3.2.4;mim:definitie;verplicht;
+relatierol;alt 2: relatierol leidend;Herkomst definitie;2.4.3.6;1;3.2.2.4;1;4.3.2.4;mim:herkomstDefinitie;verplicht;
+relatierol;alt 2: relatierol leidend;Toelichting;2.4.3.7;0..1;3.2.2.4;0..1;4.3.2.4;mim:toelichting;optioneel;
+relatierol;alt 2: relatierol leidend;Datum opname;2.4.3.8;1;3.2.2.4;1;4.3.2.4;mim:datumOpname;verplicht;
+relatierol;alt 2: relatierol leidend;Identificerend;2.4.3.9;0..1;3.2.2.4;0..1;4.3.2.4;mim:identificerend;optioneel;
+relatierol;alt 2: relatierol leidend;Kardinaliteit;2.4.3.14;1;3.2.2.4;1;4.3.2.4;mim:kardinaliteit;verplicht;
+relatierol;alt 2: relatierol leidend;heeft tijdlijn geldigheid;2.4.3.10;1;3.2.2.4;1;4.3.2.4;mim:heeftTijdlijnGeldigheid;verplicht;
+relatierol;alt 2: relatierol leidend;Indicatie materiële historie;2.4.3.11;1;3.2.2.4;1;4.3.2.4;mim:indicatieMaterieleHistorie;verplicht;
+relatierol;alt 2: relatierol leidend;heeft tijdlijn registratie;2.4.3.12;1;3.2.2.4;1;4.3.2.4;mim:heeftTijdlijnRegistratie;verplicht;
+relatierol;alt 2: relatierol leidend;Indicatie formele historie;2.4.3.13;1;3.2.2.4;1;4.3.2.4;mim:indicatieFormeleHistorie;verplicht;
+relatierol;alt 2: relatierol leidend;Authentiek;2.4.3.16;1;3.2.2.4;1;4.3.2.4;mim:authentiek;verplicht;
+relatierol;alt 2: relatierol leidend;Mogelijk geen waarde;2.4.3.19;1;3.2.2.4;1;4.3.2.4;mim:mogelijkGeenWaarde;verplicht;
+relatierol;alt 2: relatierol leidend;heeft constraint;2.4.4.17;0..*;3.2.2.4;0..*;4.3.2.4;mim:constraint;optioneel;
+generalisatie;tussen objecttypen;Identificatie;2.4.2.2;1;3.2.2.5;1;4.3.2.5;mim:identificatie;verplicht;
+generalisatie;tussen objecttypen;Subtype;;1;3.2.2.5;1;4.3.2.5;mim:definitie;verplicht;
+generalisatie;tussen objecttypen;verwijst naar supertype;2.4.4.4;1;3.2.2.5;1;4.3.2.5;mim:definitie;verplicht;
+generalisatie;tussen objecttypen;Datum opname;2.4.3.8;1;3.2.2.5;1;4.3.2.5;mim:datumOpname;verplicht;
+generalisatie;tussen objecttypen;heeft constraint;2.4.4.17;0..*;3.2.2.5;;;;optioneel;staat in UML-tabel §3.2.2.5, niet in de LD-tabel
+generalisatie;tussen objecttypen;Mixin;2.4.3.41;1;3.2.2.5;1;4.3.2.5;mim:mixin;verplicht;
+generalisatie;tussen datatypen;Identificatie;2.4.2.2;1;3.2.2.6;1;4.3.2.6;mim:identificatie;verplicht;
+generalisatie;tussen datatypen;Subtype;;1;3.2.2.6;1;4.3.2.6;mim:definitie;verplicht;
+generalisatie;tussen datatypen;verwijst naar supertype;2.4.4.4;1;3.2.2.6;1;4.3.2.6;mim:definitie;verplicht;
+generalisatie;tussen datatypen;Datum opname;2.4.3.8;1;3.2.2.6;;;;verplicht;staat in UML-tabel §3.2.2.6, niet in de LD-tabel
+generalisatie;tussen datatypen;heeft constraint;2.4.4.17;0..*;3.2.2.6;;;;optioneel;staat in UML-tabel §3.2.2.6, niet in de LD-tabel
+relatieklasse;;Identificatie;2.4.2.2;1;3.2.2.7;1;4.3.2.7;mim:identificatie;verplicht;
+relatieklasse;;Naam;2.4.3.1;1;3.2.2.7;0..1;4.3.2.7;mim:naam;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.7) ≠ LD 0..1 (§4.3.2.7)
+relatieklasse;;Alias;2.4.3.2;0..1;3.2.2.7;0..1;4.3.2.7;mim:alias;optioneel;
+relatieklasse;;Herkomst;2.4.3.4;1;3.2.2.7;1;4.3.2.7;mim:herkomst;verplicht;
+relatieklasse;;Begrip;2.4.3.3;0..*;3.2.2.7;0..*;4.3.2.7;mim:begrip;optioneel;
+relatieklasse;;Definitie;2.4.3.5;1;3.2.2.7;0..1;4.3.2.7;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 1 (§3.2.2.7) ≠ LD 0..1 (§4.3.2.7)
+relatieklasse;;Toelichting;2.4.3.7;0..1;3.2.2.7;0..1;4.3.2.7;mim:toelichting;optioneel;
+relatieklasse;;Datum opname;2.4.3.8;1;3.2.2.7;1;4.3.2.7;mim:datumOpname;verplicht;
+relatieklasse;;Herkomst definitie;2.4.3.6;1;3.2.2.7;1;4.3.2.7;mim:herkomstDefinitie;verplicht;
+relatieklasse;;Unidirectioneel;2.4.3.22;1;3.2.2.7;1;4.3.2.7;mim:unidirectioneel;verplicht;
+relatieklasse;;Bron;2.4.3.20;1;3.2.2.7;;;;verplicht;staat in UML-tabel §3.2.2.7, niet in de LD-tabel
+relatieklasse;;Doel;2.4.3.21;1;3.2.2.7;;;;verplicht;staat in UML-tabel §3.2.2.7, niet in de LD-tabel
+relatieklasse;;Aggregatietype;2.4.3.23;1;3.2.2.7;1;4.3.2.7;mim:aggregatietype;verplicht;
+relatieklasse;;Kardinaliteit;2.4.3.14;1;3.2.2.7;1;4.3.2.7;mim:kardinaliteit;verplicht;
+relatieklasse;;Kardinaliteit relatie bron;2.4.3.15;1;3.2.2.7;;;;verplicht;staat in UML-tabel §3.2.2.7, niet in de LD-tabel
+relatieklasse;;Indicatie materiële historie;2.4.3.11;1;3.2.2.7;1;4.3.2.7;mim:indicatieMaterieleHistorie;verplicht;
+relatieklasse;;Indicatie formele historie;2.4.3.13;1;3.2.2.7;1;4.3.2.7;mim:indicatieFormeleHistorie;verplicht;
+relatieklasse;;Authentiek;2.4.3.16;1;3.2.2.7;1;4.3.2.7;mim:authentiek;verplicht;
+relatieklasse;;Indicatie afleidbaar;2.4.3.17;1;3.2.2.7;1;4.3.2.7;mim:indicatieAfleidbaar;verplicht;
+relatieklasse;;Mogelijk geen waarde;2.4.3.19;1;3.2.2.7;1;4.3.2.7;mim:mogelijkGeenWaarde;verplicht;
+relatieklasse;;heeft attribuut;2.4.4.1;0..*;3.2.2.7;;;;optioneel;staat in UML-tabel §3.2.2.7, niet in de LD-tabel
+relatieklasse;;verwijst naar relatiedoel;;0..*;3.2.2.7;;;;optioneel;staat in UML-tabel §3.2.2.7, niet in de LD-tabel
+relatieklasse;;heeft gegevensgroep;2.4.4.2;0..*;3.2.2.7;;;;optioneel;staat in UML-tabel §3.2.2.7, niet in de LD-tabel
+relatieklasse;;heeft constraint;2.4.4.17;0..*;3.2.2.7;0..*;4.3.2.7;mim:constraint;optioneel;
+externe-koppeling;;Identificatie;2.4.2.2;1;3.2.2.8;1;4.3.2.8;mim:identificatie;verplicht;
+externe-koppeling;;Naam;2.4.3.1;1;3.2.2.8;1;4.3.2.8;mim:naam;verplicht;
+externe-koppeling;;Alias;2.4.3.2;0..1;3.2.2.8;0..1;4.3.2.8;mim:alias;optioneel;
+externe-koppeling;;Herkomst;2.4.3.4;1;3.2.2.8;1;4.3.2.8;mim:herkomst;verplicht;
+externe-koppeling;;Begrip;2.4.3.3;0..*;3.2.2.8;0..*;4.3.2.8;mim:begrip;optioneel;
+externe-koppeling;;Definitie;2.4.3.5;1;3.2.2.8;1;4.3.2.8;mim:definitie;verplicht;
+externe-koppeling;;Herkomst definitie;2.4.3.6;1;3.2.2.8;1;4.3.2.8;mim:herkomstDefinitie;verplicht;
+externe-koppeling;;Toelichting;2.4.3.7;0..1;3.2.2.8;0..1;4.3.2.8;mim:toelichting;optioneel;
+externe-koppeling;;Datum opname;2.4.3.8;1;3.2.2.8;1;4.3.2.8;mim:datumOpname;verplicht;
+externe-koppeling;;Unidirectioneel;2.4.3.22;1;3.2.2.8;1;4.3.2.8;mim:unidirectioneel;verplicht;
+externe-koppeling;;Bron;2.4.3.20;1;3.2.2.8;1;4.3.2.8;mim:bron;verplicht;
+externe-koppeling;;Doel;2.4.3.21;1;3.2.2.8;1;4.3.2.8;mim:doel;verplicht;
+externe-koppeling;;Aggregatietype;2.4.3.23;1;3.2.2.8;1;4.3.2.8;mim:aggregatietype;verplicht;
+externe-koppeling;;Kardinaliteit;2.4.3.14;1;3.2.2.8;1;4.3.2.8;mim:kardinaliteit;verplicht;
+externe-koppeling;;Kardinaliteit relatie bron;2.4.3.15;1;3.2.2.8;;;;verplicht;staat in UML-tabel §3.2.2.8, niet in de LD-tabel
+externe-koppeling;;Indicatie materiële historie;2.4.3.11;1;3.2.2.8;1;4.3.2.8;mim:indicatieMaterieleHistorie;verplicht;
+externe-koppeling;;Indicatie formele historie;2.4.3.13;1;3.2.2.8;1;4.3.2.8;mim:indicatieFormeleHistorie;verplicht;
+externe-koppeling;;Authentiek;2.4.3.16;1;3.2.2.8;1;4.3.2.8;mim:authentiek;verplicht;
+externe-koppeling;;Indicatie afleidbaar;2.4.3.17;1;3.2.2.8;1;4.3.2.8;mim:indicatieAfleidbaar;verplicht;
+externe-koppeling;;Mogelijk geen waarde;2.4.3.19;1;3.2.2.8;1;4.3.2.8;mim:mogelijkGeenWaarde;verplicht;
+externe-koppeling;;verwijst naar relatiedoel;;0..*;3.2.2.8;;;;optioneel;staat in UML-tabel §3.2.2.8, niet in de LD-tabel
+externe-koppeling;;heeft constraint;2.4.4.17;0..*;3.2.2.8;0..*;4.3.2.8;mim:constraint;optioneel;
+codelijst;;Identificatie;2.4.2.2;1;3.2.3.1;1;4.3.3.3;mim:identificatie;verplicht;
+codelijst;;Naam;2.4.3.1;1;3.2.3.1;1;4.3.3.3;mim:naam;verplicht;
+codelijst;;Alias;2.4.3.2;0..1;3.2.3.1;0..1;4.3.3.3;mim:alias;optioneel;
+codelijst;;Herkomst;2.4.3.4;1;3.2.3.1;1;4.3.3.3;mim:herkomst;verplicht;
+codelijst;;Begrip;2.4.3.3;0..*;3.2.3.1;0..*;4.3.3.3;mim:begrip;optioneel;
+codelijst;;Definitie;2.4.3.5;1;3.2.3.1;1;4.3.3.3;mim:definitie;verplicht;
+codelijst;;Herkomst definitie;2.4.3.6;1;3.2.3.1;;;;verplicht;staat in UML-tabel §3.2.3.1, niet in de LD-tabel
+codelijst;;Toelichting;2.4.3.7;0..1;3.2.3.1;0..1;4.3.3.3;mim:toelichting;optioneel;
+codelijst;;Datum opname;2.4.3.8;1;3.2.3.1;1;4.3.3.3;mim:datumOpname;verplicht;
+codelijst;;Locatie;2.4.3.24;1..1;3.2.3.1;1;4.3.3.3;mim:locatie;verplicht;
+codelijst;;Doelformaat;2.4.3.25;1..1;3.2.3.1;;;;verplicht;staat in UML-tabel §3.2.3.1, niet in de LD-tabel
+codelijst;;Waarde-item;2.4.3.26;0..1;3.2.3.1;;;;optioneel;staat in UML-tabel §3.2.3.1, niet in de LD-tabel
+codelijst;;Profielspecificatie;2.4.3.27;0..1;3.2.3.1;;;;optioneel;staat in UML-tabel §3.2.3.1, niet in de LD-tabel
+codelijst;;heeft constraint;2.4.4.17;0..*;3.2.3.1;0..*;4.3.3.3;mim:constraint;optioneel;
+enumeratie;;Identificatie;2.4.2.2;1;3.2.3.2;1;4.3.6.1;mim:identificatie;verplicht;
+enumeratie;;Naam;2.4.3.1;1;3.2.3.2;1;4.3.6.1;mim:naam;verplicht;
+enumeratie;;Alias;2.4.3.2;0..1;3.2.3.2;0..1;4.3.6.1;mim:alias;optioneel;
+enumeratie;;Herkomst;2.4.3.4;1;3.2.3.2;;;;verplicht;staat in UML-tabel §3.2.3.2, niet in de LD-tabel
+enumeratie;;Begrip;2.4.3.3;0..*;3.2.3.2;0..*;4.3.6.1;mim:begrip;optioneel;
+enumeratie;;Definitie;2.4.3.5;1;3.2.3.2;1;4.3.6.1;mim:definitie;verplicht;
+enumeratie;;Herkomst definitie;2.4.3.6;1;3.2.3.2;;;;verplicht;staat in UML-tabel §3.2.3.2, niet in de LD-tabel
+enumeratie;;Toelichting;2.4.3.7;0..1;3.2.3.2;0..1;4.3.6.1;mim:toelichting;optioneel;
+enumeratie;;Datum opname;2.4.3.8;1;3.2.3.2;1;4.3.6.1;mim:datumOpname;verplicht;
+enumeratie;;bevat enumeratiewaarde;2.4.4.10;1..*;3.2.3.2;1..*;4.3.6.1;mim:waarde;verplicht;
+enumeratie;;heeft constraint;2.4.4.17;0..*;3.2.3.2;0..*;4.3.6.1;mim:constraint;optioneel;
+enumeratiewaarde;;Identificatie;2.4.2.2;1;3.2.3.3;1;4.3.6.2;mim:identificatie;verplicht;
+enumeratiewaarde;;Naam;2.4.3.1;1;3.2.3.3;1;4.3.6.2;mim:naam;verplicht;
+enumeratiewaarde;;Code;2.4.3.32;0..1;3.2.3.3;0..1;4.3.6.2;mim:code;optioneel;
+enumeratiewaarde;;Herkomst;2.4.3.4;0..1;3.2.3.3;;;;optioneel;staat in UML-tabel §3.2.3.3, niet in de LD-tabel
+enumeratiewaarde;;Begrip;2.4.3.3;0..*;3.2.3.3;0..*;4.3.6.2;mim:begrip;optioneel;
+enumeratiewaarde;;Definitie;2.4.3.5;0..1;3.2.3.3;0..1;4.3.6.2;mim:definitie;optioneel;
+enumeratiewaarde;;Herkomst definitie;2.4.3.6;0..1;3.2.3.3;;;;optioneel;staat in UML-tabel §3.2.3.3, niet in de LD-tabel
+enumeratiewaarde;;Toelichting;2.4.3.7;0..1;3.2.3.3;0..1;4.3.6.2;mim:toelichting;optioneel;
+enumeratiewaarde;;Datum opname;2.4.3.8;1;3.2.3.3;1;4.3.6.2;mim:datumOpname;verplicht;
+enumeratiewaarde;;heeft constraint;2.4.4.17;0..*;3.2.3.3;0..*;4.3.6.2;mim:constraint;optioneel;
+referentielijst;;Identificatie;2.4.2.2;1;3.2.3.4;1;4.3.3.1;mim:identificatie;verplicht;
+referentielijst;;Naam;2.4.3.1;1;3.2.3.4;1;4.3.3.1;mim:naam;verplicht;
+referentielijst;;Alias;2.4.3.2;0..1;3.2.3.4;0..1;4.3.3.1;mim:alias;optioneel;
+referentielijst;;Herkomst;2.4.3.4;1;3.2.3.4;1;4.3.3.1;mim:herkomst;verplicht;
+referentielijst;;Begrip;2.4.3.3;0..*;3.2.3.4;0..*;4.3.3.1;mim:begrip;optioneel;
+referentielijst;;Definitie;2.4.3.5;1;3.2.3.4;1;4.3.3.1;mim:definitie;verplicht;
+referentielijst;;Herkomst definitie;2.4.3.6;1;3.2.3.4;1;4.3.3.1;mim:herkomstDefinitie;verplicht;
+referentielijst;;Toelichting;2.4.3.7;0..1;3.2.3.4;0..1;4.3.3.1;mim:toelichting;optioneel;
+referentielijst;;Datum opname;2.4.3.8;1;3.2.3.4;1;4.3.3.1;mim:datumOpname;verplicht;
+referentielijst;;Locatie;2.4.3.24;1;3.2.3.4;1;4.3.3.1;mim:locatie;verplicht;
+referentielijst;;bevat referentie-element;2.4.4.11;1..*;3.2.3.4;1..*;4.3.3.1;mim:referentieElement;verplicht;
+referentielijst;;verwijst naar supertype;2.4.4.4;0..*;3.2.3.4;;;;optioneel;staat in UML-tabel §3.2.3.4, niet in de LD-tabel
+referentielijst;;heeft constraint;2.4.4.17;0..*;3.2.3.4;0..*;4.3.3.1;mim:constraint;optioneel;
+referentie-element;;Identificatie;2.4.2.2;1;3.2.3.5;1;4.3.3.2;mim:identificatie;verplicht;
+referentie-element;;Naam;2.4.3.1;1;3.2.3.5;1;4.3.3.2;mim:naam;verplicht;
+referentie-element;;Alias;2.4.3.2;0..1;3.2.3.5;0..1;4.3.3.2;mim:alias;optioneel;
+referentie-element;;Herkomst;2.4.3.4;1;3.2.3.5;;;;verplicht;staat in UML-tabel §3.2.3.5, niet in de LD-tabel
+referentie-element;;Begrip;2.4.3.3;0..*;3.2.3.5;0..*;4.3.3.2;mim:begrip;optioneel;
+referentie-element;;Definitie;2.4.3.5;1;3.2.3.5;1;4.3.3.2;mim:definitie;verplicht;
+referentie-element;;Herkomst definitie;2.4.3.6;1;3.2.3.5;;;;verplicht;staat in UML-tabel §3.2.3.5, niet in de LD-tabel
+referentie-element;;Toelichting;2.4.3.7;0..1;3.2.3.5;0..1;4.3.3.2;mim:toelichting;optioneel;
+referentie-element;;Datum opname;2.4.3.8;1;3.2.3.5;1;4.3.3.2;mim:datumOpname;verplicht;
+referentie-element;;Lengte;2.4.3.29;0..1;3.2.3.5;0..1;4.3.3.2;mim:lengte;optioneel;
+referentie-element;;Patroon;2.4.3.30;0..1;3.2.3.5;0..1;4.3.3.2;mim:patroon;optioneel;
+referentie-element;;Formeel patroon;2.4.3.31;0..1;3.2.3.5;0..1;4.3.3.2;mim:formeelPatroon;optioneel;
+referentie-element;;Kardinaliteit;2.4.3.14;1;3.2.3.5;1;4.3.3.2;mim:kardinaliteit;verplicht;
+referentie-element;;Identificerend;2.4.3.9;0..1;3.2.3.5;0..1;4.3.3.2;mim:identificerend;optioneel;
+referentie-element;;Minimumwaarde inclusief;2.4.3.37;0..1;3.2.3.5;0..1;4.3.3.2;mim:minimumwaardeInclusief;optioneel;
+referentie-element;;Minimumwaarde exclusief;2.4.3.38;0..1;3.2.3.5;0..1;4.3.3.2;mim:minimumwaardeExclusief;optioneel;
+referentie-element;;Maximumwaarde inclusief;2.4.3.39;0..1;3.2.3.5;0..1;4.3.3.2;mim:maximumwaardeInclusief;optioneel;
+referentie-element;;Maximumwaarde exclusief;2.4.3.40;0..1;3.2.3.5;0..1;4.3.3.2;mim:maximumwaardeExclusief;optioneel;
+referentie-element;;Eenheid;2.4.3.36;0..1;3.2.3.5;0..1;4.3.3.2;mim:eenheid;optioneel;
+referentie-element;;Type (heeft datatype);2.4.3.28 / 2.4.4.5;1;3.2.3.5;1;4.3.3.2;mim:type;verplicht;
+referentie-element;;heeft constraint;2.4.4.17;0..*;3.2.3.5;0..*;4.3.3.2;mim:constraint;optioneel;
+primitief-datatype;;Identificatie;2.4.2.2;1;3.2.4.1;1;4.3.4.1;mim:identificatie;verplicht;
+primitief-datatype;;Naam;2.4.3.1;1;3.2.4.1;1;4.3.4.1;mim:naam;verplicht;
+primitief-datatype;;Alias;2.4.3.2;0..1;3.2.4.1;0..1;4.3.4.1;mim:alias;optioneel;
+primitief-datatype;;Herkomst;2.4.3.4;0..1;3.2.4.1;1;4.3.4.1;mim:herkomst;afwijkend tussen UML en LD;kardinaliteit UML 0..1 (§3.2.4.1) ≠ LD 1 (§4.3.4.1)
+primitief-datatype;;Begrip;2.4.3.3;0..*;3.2.4.1;0..*;4.3.4.1;mim:begrip;optioneel;
+primitief-datatype;;Definitie;2.4.3.5;0..1;3.2.4.1;1;4.3.4.1;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 0..1 (§3.2.4.1) ≠ LD 1 (§4.3.4.1)
+primitief-datatype;;Herkomst definitie;2.4.3.6;0..1;3.2.4.1;;;;optioneel;staat in UML-tabel §3.2.4.1, niet in de LD-tabel
+primitief-datatype;;Toelichting;2.4.3.7;0..1;3.2.4.1;0..1;4.3.4.1;mim:toelichting;optioneel;
+primitief-datatype;;Datum opname;2.4.3.8;1;3.2.4.1;1;4.3.4.1;mim:datumOpname;verplicht;
+primitief-datatype;;Lengte;2.4.3.29;0..1;3.2.4.1;0..1;4.3.4.1;mim:lengte;optioneel;
+primitief-datatype;;Patroon;2.4.3.30;0..1;3.2.4.1;0..1;4.3.4.1;mim:patroon;optioneel;
+primitief-datatype;;Formeel patroon;2.4.3.31;0..1;3.2.4.1;0..1;4.3.4.1;mim:formeelPatroon;optioneel;
+primitief-datatype;;heeft constraint;2.4.4.17;0..*;3.2.4.1;0..*;4.3.4.1;mim:constraint;optioneel;
+gestructureerd-datatype;;Identificatie;2.4.2.2;1;3.2.4.2;1;4.3.4.2;mim:identificatie;verplicht;
+gestructureerd-datatype;;Naam;2.4.3.1;1;3.2.4.2;1;4.3.4.2;mim:naam;verplicht;
+gestructureerd-datatype;;Alias;2.4.3.2;0..1;3.2.4.2;0..1;4.3.4.2;mim:alias;optioneel;
+gestructureerd-datatype;;Herkomst;2.4.3.4;0..1;3.2.4.2;1;4.3.4.2;mim:herkomst;afwijkend tussen UML en LD;kardinaliteit UML 0..1 (§3.2.4.2) ≠ LD 1 (§4.3.4.2)
+gestructureerd-datatype;;Begrip;2.4.3.3;0..*;3.2.4.2;0..*;4.3.4.2;mim:begrip;optioneel;
+gestructureerd-datatype;;Definitie;2.4.3.5;0..1;3.2.4.2;1;4.3.4.2;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 0..1 (§3.2.4.2) ≠ LD 1 (§4.3.4.2)
+gestructureerd-datatype;;Herkomst definitie;2.4.3.6;0..1;3.2.4.2;;;;optioneel;staat in UML-tabel §3.2.4.2, niet in de LD-tabel
+gestructureerd-datatype;;Toelichting;2.4.3.7;0..1;3.2.4.2;0..1;4.3.4.2;mim:toelichting;optioneel;
+gestructureerd-datatype;;Datum opname;2.4.3.8;1;3.2.4.2;1;4.3.4.2;mim:datumOpname;verplicht;
+gestructureerd-datatype;;Patroon;2.4.3.30;0..1;3.2.4.2;0..1;4.3.4.2;mim:patroon;optioneel;
+gestructureerd-datatype;;Formeel patroon;2.4.3.31;0..1;3.2.4.2;0..1;4.3.4.2;mim:formeelPatroon;optioneel;
+gestructureerd-datatype;;heeft data-element;2.4.4.8;0..*;3.2.4.2;0..*;4.3.4.2;mim:dataElement;optioneel;
+gestructureerd-datatype;;heeft constraint;2.4.4.17;0..*;3.2.4.2;0..*;4.3.4.2;mim:constraint;optioneel;
+data-element;;Identificatie;2.4.2.2;1;3.2.4.3;1;4.3.4.3;mim:identificatie;verplicht;
+data-element;;Naam;2.4.3.1;1;3.2.4.3;1;4.3.4.3;mim:naam;verplicht;
+data-element;;Alias;2.4.3.2;0..1;3.2.4.3;0..1;4.3.4.3;mim:alias;optioneel;
+data-element;;Herkomst;2.4.3.4;0..1;3.2.4.3;;;;optioneel;staat in UML-tabel §3.2.4.3, niet in de LD-tabel
+data-element;;Begrip;2.4.3.3;0..*;3.2.4.3;0..*;4.3.4.3;mim:begrip;optioneel;
+data-element;;Definitie;2.4.3.5;0..1;3.2.4.3;1;4.3.4.3;mim:definitie;afwijkend tussen UML en LD;kardinaliteit UML 0..1 (§3.2.4.3) ≠ LD 1 (§4.3.4.3)
+data-element;;Herkomst definitie;2.4.3.6;0..1;3.2.4.3;;;;optioneel;staat in UML-tabel §3.2.4.3, niet in de LD-tabel
+data-element;;Toelichting;2.4.3.7;0..1;3.2.4.3;0..1;4.3.4.3;mim:toelichting;optioneel;
+data-element;;Datum opname;2.4.3.8;1;3.2.4.3;1;4.3.4.3;mim:datumOpname;verplicht;
+data-element;;Lengte;2.4.3.29;0..1;3.2.4.3;0..1;4.3.4.3;mim:lengte;optioneel;
+data-element;;Patroon;2.4.3.30;0..1;3.2.4.3;0..1;4.3.4.3;mim:patroon;optioneel;
+data-element;;Formeel patroon;2.4.3.31;0..1;3.2.4.3;0..1;4.3.4.3;mim:formeelPatroon;optioneel;
+data-element;;Kardinaliteit;2.4.3.14;1;3.2.4.3;1;4.3.4.3;mim:kardinaliteit;verplicht;
+data-element;;Minimumwaarde inclusief;2.4.3.37;0..1;3.2.4.3;0..1;4.3.4.3;mim:minimumwaardeInclusief;optioneel;
+data-element;;Minimumwaarde exclusief;2.4.3.38;0..1;3.2.4.3;0..1;4.3.4.3;mim:minimumwaardeExclusief;optioneel;
+data-element;;Maximumwaarde inclusief;2.4.3.39;0..1;3.2.4.3;0..1;4.3.4.3;mim:maximumwaardeInclusief;optioneel;
+data-element;;Maximumwaarde exclusief;2.4.3.40;0..1;3.2.4.3;0..1;4.3.4.3;mim:maximumwaardeExclusief;optioneel;
+data-element;;Type (heeft datatype);2.4.3.28 / 2.4.4.5;1;3.2.4.3;1;4.3.4.3;mim:type;verplicht;
+data-element;;heeft constraint;2.4.4.17;0..*;3.2.4.3;0..*;4.3.4.3;mim:constraint;optioneel;
+keuze;;Identificatie;2.4.2.2;1;3.2.4.4;;;;verplicht;
+keuze;;Naam;2.4.3.1;1;3.2.4.4;;;;verplicht;
+keuze;;Alias;2.4.3.2;0..1;3.2.4.4;;;;optioneel;
+keuze;;Herkomst;2.4.3.4;0..1;3.2.4.4;;;;optioneel;
+keuze;;Begrip;2.4.3.3;0..*;3.2.4.4;;;;optioneel;
+keuze;;Definitie;2.4.3.5;0..1;3.2.4.4;;;;optioneel;
+keuze;;Herkomst definitie;2.4.3.6;0..1;3.2.4.4;;;;optioneel;
+keuze;;Toelichting;2.4.3.7;0..1;3.2.4.4;;;;optioneel;
+keuze;;Datum opname;2.4.3.8;1;3.2.4.4;;;;verplicht;
+keuze;;heeft datatypekeuze;2.4.4.12;0..*;3.2.4.4;;;;optioneel;
+keuze;;heeft keuzeattribuut;2.4.4.14;0..*;3.2.4.4;;;;optioneel;
+keuze;;heeft keuzerelatiedoel;;0..*;3.2.4.4;;;;optioneel;
+keuze;;heeft constraint;2.4.4.17;0..*;3.2.4.4;;;;optioneel;
+domein;;Identificatie;2.4.2.2;1;3.2.5.1;1;4.3.5.2;mim:identificatie;verplicht;
+domein;;Naam;2.4.3.1;1;3.2.5.1;1;4.3.5.2;mim:naam;verplicht;
+domein;;Alias;2.4.3.2;0..1;3.2.5.1;0..1;4.3.5.2;mim:alias;optioneel;
+domein;;Herkomst;2.4.3.4;1;3.2.5.1;;;;verplicht;staat in UML-tabel §3.2.5.1, niet in de LD-tabel
+domein;;Definitie;2.4.3.5;1;3.2.5.1;;;;verplicht;staat in UML-tabel §3.2.5.1, niet in de LD-tabel
+domein;;Herkomst definitie;2.4.3.6;1;3.2.5.1;;;;verplicht;staat in UML-tabel §3.2.5.1, niet in de LD-tabel
+domein;;Toelichting;2.4.3.7;0..1;3.2.5.1;;;;optioneel;staat in UML-tabel §3.2.5.1, niet in de LD-tabel
+domein;;Datum opname;2.4.3.8;1;3.2.5.1;1;4.3.5.2;mim:datumOpname;verplicht;
+domein;;heeft constraint;2.4.4.17;0..*;3.2.5.1;0..*;4.3.5.2;mim:constraint;optioneel;
+domein;;Basis-URI;2.4.2.1;0..1;3.2.5.1;0..1;4.3.5.2;mim:basisUri;optioneel;
+domein;;bevat modelelement;2.4.4.9;0..*;3.2.5.1;;;;optioneel;staat in UML-tabel §3.2.5.1, niet in de LD-tabel
+extern;;Identificatie;2.4.2.2;1;3.2.5.2;1;4.3.5.3;mim:identificatie;verplicht;
+extern;;Naam;2.4.3.1;1;3.2.5.2;1;4.3.5.3;mim:naam;verplicht;
+extern;;Alias;2.4.3.2;0..1;3.2.5.2;0..1;4.3.5.3;mim:alias;optioneel;
+extern;;Herkomst;2.4.3.4;1;3.2.5.2;1;4.3.5.3;mim:herkomst;verplicht;
+extern;;Definitie;2.4.3.5;1;3.2.5.2;1;4.3.5.3;mim:definitie;verplicht;
+extern;;Herkomst definitie;2.4.3.6;1;3.2.5.2;;;;verplicht;staat in UML-tabel §3.2.5.2, niet in de LD-tabel
+extern;;Toelichting;2.4.3.7;0..1;3.2.5.2;0..1;4.3.5.3;mim:toelichting;optioneel;
+extern;;Datum opname;2.4.3.8;1;3.2.5.2;1;4.3.5.3;mim:datumOpname;verplicht;
+extern;;Locatie;2.4.3.24;1;3.2.5.2;1;4.3.5.3;mim:locatie;verplicht;
+extern;;Basis-URI;2.4.2.1;0..1;3.2.5.2;0..1;4.3.5.3;mim:basisUri;optioneel;
+extern;;heeft constraint;2.4.4.17;0..*;3.2.5.2;0..*;4.3.5.3;mim:constraint;optioneel;
+extern;;bevat modelelement;2.4.4.9;0..*;3.2.5.2;;;;optioneel;staat in UML-tabel §3.2.5.2, niet in de LD-tabel
+informatiemodel;;Identificatie;2.4.2.2;1;3.2.5.3;1;4.3.5.1;mim:identificatie;verplicht;
+informatiemodel;;Naam;2.4.3.1;1;3.2.5.3;1;4.3.5.1;mim:naam;verplicht;
+informatiemodel;;Alias;2.4.3.2;0..1;3.2.5.3;0..1;4.3.5.1;mim:alias;optioneel;
+informatiemodel;;Herkomst;2.4.3.4;1;3.2.5.3;1;4.3.5.1;mim:herkomst;verplicht;
+informatiemodel;;Definitie;2.4.3.5;1;3.2.5.3;1;4.3.5.1;mim:definitie;verplicht;
+informatiemodel;;Herkomst definitie;2.4.3.6;1;3.2.5.3;;;;verplicht;staat in UML-tabel §3.2.5.3, niet in de LD-tabel
+informatiemodel;;Toelichting;2.4.3.7;0..1;3.2.5.3;;;;optioneel;staat in UML-tabel §3.2.5.3, niet in de LD-tabel
+informatiemodel;;Datum opname;2.4.3.8;1;3.2.5.3;1;4.3.5.1;mim:datumOpname;verplicht;
+informatiemodel;;Informatiemodeltype;2.4.1.2;1;3.2.5.3;1..1;4.3.5.1;mim:informatiemodeltype;verplicht;
+informatiemodel;;Informatiedomein;2.4.1.1;1;3.2.5.3;1..1;4.3.5.1;mim:informatiedomein;verplicht;
+informatiemodel;;MIM-versie;2.4.1.4;1;3.2.5.3;1;4.3.5.1;mim:mimversie;verplicht;
+informatiemodel;;MIM-extensie;2.4.1.5;0..1;3.2.5.3;0..1;4.3.5.1;mim:mimextensie;optioneel;
+informatiemodel;;MIM-taal;2.4.1.6;0..1;3.2.5.3;0..1;4.3.5.1;mim:mimtaal;optioneel;
+informatiemodel;;Relatiemodelleringstype;2.4.1.3;1;3.2.5.3;1..1;4.3.5.1;mim:relatiemodelleringstype;verplicht;
+informatiemodel;;Tekstopmaak;2.4.1.7;0..1;3.2.5.3;0..1;4.3.5.1;mim:tekstopmaak;optioneel;
+informatiemodel;;heeft constraint;2.4.4.17;0..*;3.2.5.3;0..*;4.3.5.1;mim:constraint;optioneel;
+informatiemodel;;Basis-URI;2.4.2.1;0..1;3.2.5.3;0..1;4.3.5.1;mim:basisUri;optioneel;
+informatiemodel;;bevat modelelement;2.4.4.9;0..*;3.2.5.3;;;;optioneel;staat in UML-tabel §3.2.5.3, niet in de LD-tabel
+view;;Identificatie;2.4.2.2;1;3.2.5.4;1;4.3.5.4;mim:identificatie;verplicht;
+view;;Naam;2.4.3.1;1;3.2.5.4;1;4.3.5.4;mim:naam;verplicht;
+view;;Alias;2.4.3.2;0..1;3.2.5.4;0..1;4.3.5.4;mim:alias;optioneel;
+view;;Herkomst;2.4.3.4;1;3.2.5.4;1;4.3.5.4;mim:herkomst;verplicht;
+view;;Definitie;2.4.3.5;1;3.2.5.4;1;4.3.5.4;mim:definitie;verplicht;
+view;;Herkomst definitie;2.4.3.6;1;3.2.5.4;;;;verplicht;staat in UML-tabel §3.2.5.4, niet in de LD-tabel
+view;;Toelichting;2.4.3.7;0..1;3.2.5.4;0..1;4.3.5.4;mim:toelichting;optioneel;
+view;;Datum opname;2.4.3.8;1;3.2.5.4;1;4.3.5.4;mim:datumOpname;verplicht;
+view;;Locatie;2.4.3.24;1;3.2.5.4;1;4.3.5.4;mim:locatie;verplicht;
+view;;Basis-URI;2.4.2.1;0..1;3.2.5.4;0..1;4.3.5.4;mim:basisUri;optioneel;
+view;;heeft constraint;2.4.4.17;0..*;3.2.5.4;0..*;4.3.5.4;mim:constraint;optioneel;
+view;;bevat modelelement;2.4.4.9;0..*;3.2.5.4;;;;optioneel;staat in UML-tabel §3.2.5.4, niet in de LD-tabel
+constraint;;Naam;2.4.3.1;1;3.2.6.1;1;4.3.6.3;mim:naam;verplicht;
+constraint;;Specificatie tekst;;0..1;3.2.6.1;0..1;4.3.6.3;mim:specificatieTekst;optioneel;
+constraint;;Specificatie formeel;;0..1;3.2.6.1;0..1;4.3.6.3;mim:specificatieFormeel;optioneel;
+constraint;;Datum opname;2.4.3.8;1;3.2.6.1;;;;verplicht;staat in UML-tabel §3.2.6.1, niet in de LD-tabel
+constraint;;van toepassing op (constraint);;0..1;3.2.6.1;;;;optioneel;staat in UML-tabel §3.2.6.1, niet in de LD-tabel
+objecttype;;Begripsterm;;;;0..*;4.3.1.1;mim:begripsterm;optioneel;staat in LD-tabel §4.3.1.1, niet in de UML-tabel
+attribuutsoort;;Begripsterm;;;;0..*;4.3.1.2;mim:begripsterm;optioneel;staat in LD-tabel §4.3.1.2, niet in de UML-tabel
+gegevensgroep;;Begripsterm;;;;0..*;4.3.1.3;mim:begripsterm;optioneel;staat in LD-tabel §4.3.1.3, niet in de UML-tabel
+gegevensgroeptype;;Begripsterm;;;;0..*;4.3.1.4;mim:begripsterm;optioneel;staat in LD-tabel §4.3.1.4, niet in de UML-tabel
+relatiesoort;alt 1: relatiesoort leidend;Begripsterm;;;;0..*;4.3.2.1;mim:begripsterm;optioneel;staat in LD-tabel §4.3.2.1, niet in de UML-tabel
+relatiesoort;alt 2: relatierol leidend;Begripsterm;;;;0..*;4.3.2.2;mim:begripsterm;optioneel;staat in LD-tabel §4.3.2.2, niet in de UML-tabel
+relatiesoort;alt 2: relatierol leidend;Relatierol;;;;1..2;4.3.2.2;mim:relatierol;verplicht;staat in LD-tabel §4.3.2.2, niet in de UML-tabel
+relatierol;alt 1: relatiesoort leidend;Begripsterm;;;;0..*;4.3.2.3;mim:begripsterm;optioneel;staat in LD-tabel §4.3.2.3, niet in de UML-tabel
+relatierol;alt 2: relatierol leidend;Begripsterm;;;;0..*;4.3.2.4;mim:begripsterm;optioneel;staat in LD-tabel §4.3.2.4, niet in de UML-tabel
+relatieklasse;;Begripsterm;;;;0..*;4.3.2.7;mim:begripsterm;optioneel;staat in LD-tabel §4.3.2.7, niet in de UML-tabel
+relatieklasse;;heeft tijdlijn geldigheid;2.4.3.10;;;1;4.3.2.7;mim:heeftTijdlijnGeldigheid;verplicht;staat in LD-tabel §4.3.2.7, niet in de UML-tabel
+relatieklasse;;heeft tijdlijn registratie;2.4.3.12;;;1;4.3.2.7;mim:heeftTijdlijnRegistratie;verplicht;staat in LD-tabel §4.3.2.7, niet in de UML-tabel
+externe-koppeling;;Begripsterm;;;;0..*;4.3.2.8;mim:begripsterm;optioneel;staat in LD-tabel §4.3.2.8, niet in de UML-tabel
+externe-koppeling;;heeft tijdlijn geldigheid;2.4.3.10;;;1;4.3.2.8;mim:heeftTijdlijnGeldigheid;verplicht;staat in LD-tabel §4.3.2.8, niet in de UML-tabel
+externe-koppeling;;heeft tijdlijn registratie;2.4.3.12;;;1;4.3.2.8;mim:heeftTijdlijnRegistratie;verplicht;staat in LD-tabel §4.3.2.8, niet in de UML-tabel
+referentielijst;;Begripsterm;;;;0..*;4.3.3.1;mim:begripsterm;optioneel;staat in LD-tabel §4.3.3.1, niet in de UML-tabel
+referentie-element;;Begripsterm;;;;0..*;4.3.3.2;mim:begripsterm;optioneel;staat in LD-tabel §4.3.3.2, niet in de UML-tabel
+codelijst;;Begripsterm;;;;0..*;4.3.3.3;mim:begripsterm;optioneel;staat in LD-tabel §4.3.3.3, niet in de UML-tabel
+primitief-datatype;;Begripsterm;;;;0..*;4.3.4.1;mim:begripsterm;optioneel;staat in LD-tabel §4.3.4.1, niet in de UML-tabel
+primitief-datatype;;Type (heeft datatype);2.4.3.28 / 2.4.4.5;;;1;4.3.4.1;mim:type;verplicht;staat in LD-tabel §4.3.4.1, niet in de UML-tabel
+gestructureerd-datatype;;Begripsterm;;;;0..*;4.3.4.2;mim:begripsterm;optioneel;staat in LD-tabel §4.3.4.2, niet in de UML-tabel
+data-element;;Begripsterm;;;;0..*;4.3.4.3;mim:begripsterm;optioneel;staat in LD-tabel §4.3.4.3, niet in de UML-tabel
+enumeratie;;Begripsterm;;;;0..*;4.3.6.1;mim:begripsterm;optioneel;staat in LD-tabel §4.3.6.1, niet in de UML-tabel
+enumeratiewaarde;;Begripsterm;;;;0..*;4.3.6.2;mim:begripsterm;optioneel;staat in LD-tabel §4.3.6.2, niet in de UML-tabel

@@ -1,0 +1,63 @@
+{
+  "about": "Sjabloon: vastgestelde veldkoppeling. Met de hand gecontroleerde tabel die elk veld van één dataproduct koppelt aan het modelelement dat het weergeeft. Eén rij per veld; een veld dat er niet in staat, telt als unmapped. Uitleg van de velden: ../modellen-lezen/veldkoppeling.md.",
+  "product": "example-product",
+  "model": "example-model-1.0",
+  "lastVerified": "YYYY-MM-DD",
+  "checkedAgainst": [
+    "URL van de modelbron",
+    "id van een voorbeeldrecord"
+  ],
+  "reviewedBy": null,
+  "fields": [
+    {
+      "field": "identificatie",
+      "mappingType": "direct",
+      "element": "Voorbeeldobject.identificatie",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "identifying"
+      ]
+    },
+    {
+      "field": "geometry",
+      "mappingType": "renamed",
+      "element": "Voorbeeldobject.geometrie",
+      "modelName": "geometrie",
+      "confidence": "exact",
+      "reasons": [
+        "geometry-vs-geometrie"
+      ]
+    },
+    {
+      "field": "status",
+      "mappingType": "direct",
+      "element": "Voorbeeldobject.status",
+      "waardelijst": "StatusVoorbeeld",
+      "confidence": "exact",
+      "reasons": [
+        "name",
+        "enumeratie-naam-is-value"
+      ]
+    },
+    {
+      "field": "aantal_onderdelen",
+      "mappingType": "derived",
+      "element": null,
+      "confidence": "none",
+      "reasons": [
+        "product-computed-count"
+      ],
+      "notes": "Geen modelelement. Berekend door het product."
+    },
+    {
+      "field": "links",
+      "mappingType": "technical",
+      "element": null,
+      "confidence": "none",
+      "reasons": [
+        "paging"
+      ]
+    }
+  ]
+}

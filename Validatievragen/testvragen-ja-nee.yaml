@@ -1,0 +1,190 @@
+# Testvragen ja/nee voor de vergelijking van mim-kennis, geonovum-mim-interpret en mim-combi
+#
+# Opgesteld: 25 november 2026. Bron: MIM 1.2, vastgestelde versie 13 juni 2024.
+# Status: concept. De verwachte antwoorden zijn door Claude tegen de MIM-tekst gecontroleerd
+# (elk citaat staat letterlijk in de genoemde paragraaf), maar nog niet door een MIM-modelleur.
+#
+# Gebruik
+# - Stel elke vraag in een nieuw gesprek, met de instructie hieronder ervoor.
+# - Deterministische beoordeling: het eerste woord van het antwoord moet gelijk zijn aan 'verwacht'.
+# - Vragen met 'onduidelijkheid' hebben een extra controle: het antwoord moet de tegenstrijdigheid
+#   in MIM melden (beide vindplaatsen). Een goed ja/nee zonder die melding telt als half goed.
+# - 'citaat' is voor de beoordelaar, niet voor het model.
+#
+# Verdeling: 7 keer ja, 8 keer nee. 13 gewone vragen, 2 over een bekende onduidelijkheid (I2, I3).
+
+instructie: >-
+  Beantwoord de volgende vraag over MIM 1.2 (Metamodel Informatie Modellering van Geonovum).
+  Begin je antwoord met alleen het woord Ja of Nee. Geef daarna in maximaal vijf zinnen je
+  onderbouwing, met de paragraaf uit MIM 1.2 waarop je je baseert.
+
+vragen:
+
+  - id: JN-01
+    aspect: beschouwingsniveaus
+    vraag: >-
+      Valt beschouwingsniveau 4, het fysieke of technische datamodel (bijvoorbeeld een XML- of
+      JSON-schema), binnen de scope van MIM 1.2?
+    verwacht: nee
+    bron: ["1.6"]
+    citaat: "In MIM wordt dit beschouwingsniveau 4 genoemd. Dit niveau heeft voor MIM niet de focus en valt buiten de scope."
+    toelichting: MIM is bedoeld voor niveau 2 (conceptueel) en 3 (logisch).
+
+  - id: JN-02
+    aspect: mogelijk geen waarde, kardinaliteit
+    vraag: >-
+      Mag een attribuutsoort met kardinaliteit 1 (verplicht) tegelijk het metagegeven
+      Mogelijk geen waarde = Ja hebben?
+    verwacht: ja
+    bron: ["5.11"]
+    citaat: "Het attribuut heeft in de werkelijkheid altijd een waarde, maar die waarde is mogelijk onbekend, bijvoorbeeld de geboortedatum. Waarde is verplicht, mogelijk geen waarde: Ja;"
+    toelichting: Verplicht zegt of er in de werkelijkheid altijd een waarde is; mogelijk geen waarde zegt of die onbekend mag zijn.
+
+  - id: JN-03
+    aspect: data lezen met een model (leeg veld)
+    vraag: >-
+      In een dataset is bij een persoon het veld overlijdensdatum leeg. In het informatiemodel is
+      die attribuutsoort optioneel (kardinaliteit 0..1) en staat Mogelijk geen waarde op Ja.
+      Mag je uit het lege veld concluderen dat de persoon nog leeft?
+    verwacht: nee
+    bron: ["5.11"]
+    citaat: "Het attribuut heeft in de werkelijkheid soms een waarde, maar die waarde en zelfs het bestaan ervan hoeven niet bekend te zijn, zoals de overlijdensdatum van een persoon."
+    toelichting: Bij optioneel + mogelijk geen waarde Ja is leeg zowel 'onbekend' als 'bestaat niet'; je kunt niets concluderen.
+
+  - id: JN-04
+    aspect: primitieve datatypen
+    vraag: >-
+      Raadt MIM 1.2 het primitieve datatype Boolean aan wanneer je in een model de waarden Ja en
+      Nee wilt gebruiken?
+    verwacht: nee
+    bron: ["5.1.1"]
+    citaat: "Wanneer u de Ja of Nee wilt gebruiken, gebruik dan bv. een Enumeratie"
+    toelichting: Boolean kent true, false, 1 en 0. Voor Ja/Nee verwijst MIM naar een enumeratie.
+
+  - id: JN-05
+    aspect: waardelijsten
+    vraag: >-
+      Als je de structuur van een externe waardelijst in het informatiemodel wilt beschrijven,
+      moet je dan een referentielijst gebruiken in plaats van een codelijst?
+    verwacht: ja
+    bron: ["2.3.4.5"]
+    citaat: "Als het wel van belang is om de structuur van een Codelijst in het model te definieren, dan moet een `«Referentielijst»` worden gebruikt."
+    toelichting: De structuur van een codelijst staat niet in het model; die van een referentielijst wel.
+
+  - id: JN-06
+    aspect: generalisatie
+    vraag: >-
+      Kan een objecttype in MIM 1.2 via generalisatie meer dan één supertype hebben?
+    verwacht: ja
+    bron: ["2.3.3.1"]
+    citaat: "Een subtype kan meerdere objecttypen als generalisatie hebben."
+    toelichting: Meervoudige overerving is toegestaan; het metagegeven Mixin helpt bij implementaties die dat niet ondersteunen.
+
+  - id: JN-07
+    aspect: keuze
+    vraag: >-
+      Wordt bij een keuze tussen twee attribuutsoorten (use case 2, bijvoorbeeld betalingskenmerk
+      of omschrijving) de keuze gebonden aan het objecttype, en niet aan een attribuutsoort?
+    verwacht: ja
+    bron: ["2.3.7.2"]
+    citaat: "De binding van de `Keuze` `BetalingskenmerkOfOmschrijving` is daarom aan het objecttype en niet aan een attribuutsoort."
+    toelichting: De naam van de keuze is zelf geen attribuutsoort en komt in de data niet voor.
+
+  - id: JN-08
+    aspect: historie
+    vraag: >-
+      Betekent 'heeft tijdlijn geldigheid = Ja' in een conceptueel informatiemodel dat de
+      administratie voor dat gegeven een tijdlijn geldigheid bijhoudt?
+    verwacht: nee
+    bron: ["5.8.2"]
+    citaat: "Merk op: de _heeft tijdlijn geldigheid_ geeft op conceptueel niveau niet aan dat er voor het gegeven een tijdlijn geldigheid wordt bijgehouden in de administratie."
+    toelichting: Het zegt alleen dat de eigenschap kan veranderen en er op de tijdlijn verschillende waarden kunnen bestaan.
+
+  - id: JN-09
+    aspect: Linked Data
+    vraag: >-
+      Wordt een objecttype uit een MIM-model, uitgedrukt in de MIM-vocabulaire (Linked Data),
+      daarmee direct een rdfs:Class waarvan je zelf instanties kunt maken?
+    verwacht: nee
+    bron: ["4.1"]
+    citaat: "`vb:Schip` is in dit voorbeeld een voorkomen van de klasse `mim:Objecttype`. dit voorkomen kent zelf geen voorkomens. Hiervoor is een vertaling nodig naar een `rdfs:Class`"
+    toelichting: In de MIM-vocabulaire is het objecttype een instantie van mim:Objecttype; een ontologie vraagt een aparte transformatie.
+
+  - id: JN-10
+    aspect: UML
+    vraag: >-
+      Neemt MIM de semantiek van UML over voor modelelementen die in UML (bijvoorbeeld in
+      Enterprise Architect) worden uitgedrukt?
+    verwacht: nee
+    bron: ["1.8"]
+    citaat: "Nadrukkelijk moet daarbij worden vermeld dat het MIM metamodel **geen** semantiek overneemt van UML."
+    toelichting: UML is alleen een uitdrukkingsvorm van MIM.
+
+  - id: JN-11
+    aspect: extensies
+    vraag: >-
+      Mag een organisatie in een eigen extensie op MIM een bestaand MIM-modelelement een andere
+      betekenis of een alternatieve constructie voor hetzelfde doel geven?
+    verwacht: nee
+    bron: ["2.1"]
+    citaat: "Uniforme toepassing van het metamodel in informatiemodellen. Anders gezegd, uitbreiden mag, afwijken niet. Maak voor hetzelfde doel geen alternatieve constructies."
+    toelichting: Uitbreiden mag, afwijken niet.
+
+  - id: JN-12
+    aspect: metagegevens
+    vraag: >-
+      Kan het metagegeven Indicatie afleidbaar ook bij een relatiesoort worden ingevuld?
+    verwacht: ja
+    bron: ["2.4.3.17"]
+    citaat: "de modelelementen waarvoor een waarde ingevuld kan worden, te weten de modelelementen Attribuutsoort en Relatiesoort."
+    toelichting: Toepassing van Indicatie afleidbaar is attribuutsoort en relatiesoort.
+
+  - id: JN-13
+    aspect: gegevensgroeptype
+    vraag: >-
+      Is het onderbrengen van attribuutsoorten in een gegevensgroeptype volgens MIM 1.2 een
+      modelleerkeuze, die je ook achterwege kunt laten?
+    verwacht: ja
+    bron: ["2.3.2.4"]
+    citaat: "Het onderbrengen van attribuutsoorten in een groep c.q. in het modelelement gegevensgroeptype, is een modelleerkeuze, het is niet perse noodzakelijk."
+    toelichting: De attribuutsoorten blijven ook in een gegevensgroeptype kenmerken van het objecttype.
+
+  # ---------------------------------------------------------------- bekende onduidelijkheden
+
+  - id: JN-14
+    aspect: authentiek (onduidelijkheid I2)
+    onduidelijkheid: I2
+    vraag: >-
+      Is 'Gemeentelijk kerngegeven' een toegestane waarde voor het metagegeven Authentiek in
+      MIM 1.2?
+    verwacht: nee
+    bron: ["2.4.5.1", "2.4.3.16"]
+    citaat: "Bijvoorbeeld:`\"Authentiek\"`,`\"Basisgegeven\"`,`\"Landelijk kerngegeven\"`,`\"Gemeentelijk kerngegeven\"`,`\"Overig\"`."
+    citaat_bron: "2.4.3.16"
+    toelichting: >-
+      Voorlopige lezing (bekende-onduidelijkheden.md): het waardebereik in de tabel van §2.4.5.1 is
+      Authentiek, Basisgegeven, Wettelijk gegeven, Landelijk kerngegeven, Overig. De toelichting in
+      §2.4.3.16 noemt als voorbeeld wel Gemeentelijk kerngegeven en geen Wettelijk gegeven.
+    moet_melden: >-
+      Dat §2.4.3.16 en de tabel in §2.4.5.1 elkaar tegenspreken, met beide vindplaatsen.
+    valkuil: Een skill die alleen §2.4.3.16 leest, antwoordt Ja.
+
+  - id: JN-15
+    aspect: aggregatie (onduidelijkheid I3)
+    onduidelijkheid: I3
+    vraag: >-
+      Is het metagegeven Aggregatietype (compositie of gedeeld) in MIM 1.2 bedoeld voor relaties,
+      zoals een relatiesoort, en niet voor een attribuutsoort?
+    verwacht: ja
+    bron: ["2.4.3.23", "3.2.2.1", "4.3.2.1"]
+    citaat: "Dit wordt gemodelleerd met een `Attribuutsoort` waarbij dit metagegeven is ingevuld met een type aggregatie."
+    citaat_bron: "2.4.3.23"
+    toelichting: >-
+      Voorlopige lezing (bekende-onduidelijkheden.md): Aggregatietype is een metagegeven van een
+      relatie. De toepassing in §2.4.3.23 is Relatiesoort en Externe koppeling, en de UML- en
+      LD-tabellen (§3.2.2.1, §4.3.2.1) zetten het bij de relatiesoort. De toelichting in dezelfde
+      paragraaf zegt dat het met een attribuutsoort wordt gemodelleerd.
+    moet_melden: >-
+      Dat de toelichting in §2.4.3.23 'Attribuutsoort' noemt, terwijl de toepassing en de tabellen
+      het bij relaties plaatsen.
+    valkuil: Een skill die de toelichting letterlijk volgt, antwoordt Nee.

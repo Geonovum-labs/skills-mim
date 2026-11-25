@@ -1,0 +1,157 @@
+{
+  "about": "Voorbeeld BAG. Modelcatalogus bij het uitgewerkte BAG-voorbeeld, in het formaat van ../../sjablonen/modelcatalogus.sjabloon.json. De vermelding pdok-bag-pand is de uitgewerkte route; de andere vermeldingen tonen modellen met gelijknamige elementen die niet als model van BAG-data gekoppeld mogen worden, ook al beschrijven ze verwante objecten in de werkelijkheid. Bestandspaden zijn relatief aan dit bestand.",
+  "version": "0.1.0",
+  "lastVerified": "2026-10-30",
+  "products": [
+    {
+      "id": "pdok-bag-pand",
+      "name": "PDOK BAG OGC API v2, collectie pand",
+      "match": {
+        "hosts": [
+          "api.pdok.nl"
+        ],
+        "pathContains": [
+          "/kadaster/bag/"
+        ],
+        "collections": [
+          "pand"
+        ]
+      },
+      "model": {
+        "id": "imbag-2018",
+        "name": "IMBAG Catalogus 2018",
+        "informatiemodeltype": "Conceptueel",
+        "mimVersion": "1.0-terms",
+        "fidelity": "catalog-prose"
+      },
+      "sources": [
+        "https://imbag.github.io/catalogus/",
+        "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/pand"
+      ],
+      "homonymReject": [
+        "imgeo-pand",
+        "nen3610-gebouw",
+        "imx-geo-gebouw",
+        "imx-geo-bouwwerk"
+      ],
+      "verifiedMapping": "veldkoppeling-pdok-bag-pand.json",
+      "elementSummaries": "imbag-elementsamenvattingen.json"
+    },
+    {
+      "id": "pdok-bag-verblijfsobject",
+      "name": "PDOK BAG OGC API v2, collectie verblijfsobject",
+      "match": {
+        "hosts": [
+          "api.pdok.nl"
+        ],
+        "pathContains": [
+          "/kadaster/bag/"
+        ],
+        "collections": [
+          "verblijfsobject"
+        ]
+      },
+      "model": {
+        "id": "imbag-2018",
+        "name": "IMBAG Catalogus 2018",
+        "informatiemodeltype": "Conceptueel",
+        "mimVersion": "1.0-terms",
+        "fidelity": "catalog-prose"
+      },
+      "sources": [
+        "https://imbag.github.io/catalogus/"
+      ],
+      "homonymReject": [
+        "imgeo-pand"
+      ],
+      "verifiedMapping": null,
+      "elementSummaries": "imbag-elementsamenvattingen.json",
+      "note": "Versie 1 heeft alleen de velden die op pand zijn overgenomen; een volledige veldkoppeling voor verblijfsobject ontbreekt nog."
+    },
+    {
+      "id": "nen3610-2022-rdf",
+      "name": "NEN 3610-2022-ontologie",
+      "match": {
+        "hosts": [
+          "modellen.geostandaarden.nl"
+        ],
+        "pathContains": [
+          "/def/nen3610"
+        ]
+      },
+      "model": {
+        "id": "nen3610-2022",
+        "name": "NEN 3610-2022",
+        "informatiemodeltype": "Logisch",
+        "mimVersion": "1.2-related",
+        "fidelity": "rdf"
+      },
+      "sources": [
+        "https://modellen.geostandaarden.nl/def/nen3610",
+        "https://modellen.geostandaarden.nl/def/nen3610-2022/"
+      ],
+      "homonymReject": [
+        "imbag-2018"
+      ],
+      "verifiedMapping": null
+    },
+    {
+      "id": "imx-geo",
+      "name": "IMX-Geo-ontologie (registratie-overstijgende laag)",
+      "match": {
+        "hosts": [
+          "modellen.geostandaarden.nl"
+        ],
+        "pathContains": [
+          "/def/imx-geo"
+        ]
+      },
+      "model": {
+        "id": "imx-geo",
+        "name": "IMX-Geo",
+        "informatiemodeltype": "overlay",
+        "mimVersion": "ld-export",
+        "fidelity": "rdf"
+      },
+      "sources": [
+        "https://modellen.geostandaarden.nl/def/imx-geo/"
+      ],
+      "homonymReject": [
+        "imbag-2018",
+        "imgeo-pand"
+      ],
+      "note": "Registratie-overstijgende laag. Adres, Gebouw en Bouwwerk zijn geen objecttypen van IMBAG.",
+      "verifiedMapping": null
+    },
+    {
+      "id": "imgeo-22",
+      "name": "IMGeo / BGT 2.2",
+      "match": {
+        "pathContains": [
+          "/informatiemodel/imgeo/",
+          "/bgt/"
+        ]
+      },
+      "model": {
+        "id": "imgeo-2.2",
+        "name": "IMGeo 2.2",
+        "informatiemodeltype": "Conceptueel+Logisch",
+        "mimVersion": "1.x",
+        "fidelity": "ea-xmi"
+      },
+      "sources": [
+        "https://register.geostandaarden.nl/informatiemodel/imgeo/2.2/"
+      ],
+      "homonymReject": [
+        "imbag-2018"
+      ],
+      "note": "Opgenomen om homoniemen te blokkeren. Geen vastgestelde veldkoppeling en geen XMI-lezer in versie 1.",
+      "verifiedMapping": null
+    }
+  ],
+  "deadUrls": [
+    "http://modellen.mim-standaard.nl/def/mim",
+    "https://bag.basisregistraties.overheid.nl/def/bag",
+    "https://brk.basisregistraties.overheid.nl/def/brk"
+  ]
+}

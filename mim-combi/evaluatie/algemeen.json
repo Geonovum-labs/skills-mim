@@ -1,0 +1,32 @@
+{
+  "about": "Algemene evaluatievragen voor de route datavragen van mim-combi. Ze toetsen het lezen van MIM-metagegevens en de zonder-model-route en hangen niet af van een specifiek model. Formaat: ../sjablonen/evaluatie.sjabloon.json. Beoordelingsregels: LEESMIJ.md. Overgenomen uit skills-mim.",
+  "skill": "mim-combi",
+  "version": "0.1.0",
+  "cases": [
+    {
+      "id": "E-CAL-01",
+      "prompt": "overlijdensdatum is leeg (optioneel, mogelijk geen waarde = Ja). Leeft deze persoon nog?",
+      "must": [
+        "niet concluderen",
+        "onbekend"
+      ],
+      "must_not": [
+        "leeft nog",
+        "still alive"
+      ],
+      "conclusion": "Niet te concluderen. Combinatie optioneel + mogelijk geen waarde Ja."
+    },
+    {
+      "id": "E-CAL-02",
+      "prompt": "Interpreteer dataset X. Er is geen bekend informatiemodel.",
+      "must": [
+        "geen model",
+        "afgeleid"
+      ],
+      "must_not": [
+        "objecttype XYz"
+      ],
+      "conclusion": "Zonder-model-route. Label het antwoord als afgeleid. Verzin geen elementnamen."
+    }
+  ]
+}

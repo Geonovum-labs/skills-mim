@@ -1,0 +1,2618 @@
+{
+ "about": "Index van alle genummerde paragrafen van MIM 1.2 (vastgestelde versie 13 juni 2024): nummer, titel, bestand en URL. De letterlijke tekst staat in het bestand onder de kop \"§<nr>\". Met Python: scripts/mim.py paragraaf <nr>.",
+ "bron": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
+ "licentie": "CC BY 4.0",
+ "paragrafen": [
+  {
+   "nr": "1",
+   "titel": "Inleiding",
+   "anker": "inleiding",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#inleiding"
+  },
+  {
+   "nr": "1.1",
+   "titel": "Toepassingsgebied",
+   "anker": "toepassingsgebied",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#toepassingsgebied"
+  },
+  {
+   "nr": "1.2",
+   "titel": "Doelgroep",
+   "anker": "doelgroep",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#doelgroep"
+  },
+  {
+   "nr": "1.3",
+   "titel": "Leeswijzer",
+   "anker": "leeswijzer",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#leeswijzer"
+  },
+  {
+   "nr": "1.4",
+   "titel": "Gebruikswijzer",
+   "anker": "gebruikswijzer",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gebruikswijzer"
+  },
+  {
+   "nr": "1.5",
+   "titel": "Wat is een informatiemodel",
+   "anker": "wat-is-een-informatiemodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#wat-is-een-informatiemodel"
+  },
+  {
+   "nr": "1.5.1",
+   "titel": "Modelbeschrijving",
+   "anker": "modelbeschrijving",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#modelbeschrijving"
+  },
+  {
+   "nr": "1.5.2",
+   "titel": "Belangrijke aandachtspunten",
+   "anker": "belangrijke-aandachtspunten",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#belangrijke-aandachtspunten"
+  },
+  {
+   "nr": "1.6",
+   "titel": "Typering van modellen gekoppeld aan beschouwingsniveaus",
+   "anker": "typering-van-modellen-gekoppeld-aan-beschouwingsniveaus",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#typering-van-modellen-gekoppeld-aan-beschouwingsniveaus"
+  },
+  {
+   "nr": "1.6.1",
+   "titel": "Beschouwingsniveau 1 - Model van begrippen",
+   "anker": "beschouwingsniveau-1-model-van-begrippen",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#beschouwingsniveau-1-model-van-begrippen"
+  },
+  {
+   "nr": "1.6.2",
+   "titel": "Beschouwingsniveau 2 - Conceptueel informatiemodel",
+   "anker": "beschouwingsniveau-2-conceptueel-informatiemodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#beschouwingsniveau-2-conceptueel-informatiemodel"
+  },
+  {
+   "nr": "1.6.3",
+   "titel": "Beschouwingsniveau 3 - Logisch informatie- of gegevensmodel",
+   "anker": "beschouwingsniveau-3-logisch-informatie-of-gegevensmodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#beschouwingsniveau-3-logisch-informatie-of-gegevensmodel"
+  },
+  {
+   "nr": "1.6.4",
+   "titel": "Beschouwingsniveau 4 - Fysiek of technisch gegevens- of datamodel",
+   "anker": "beschouwingsniveau-4-fysiek-of-technisch-gegevens-of-datamodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#beschouwingsniveau-4-fysiek-of-technisch-gegevens-of-datamodel"
+  },
+  {
+   "nr": "1.6.5",
+   "titel": "Aanvullende opmerkingen bij de onderkende beschouwingsniveaus en gebruik van verschillende typen modellen.",
+   "anker": "aanvullende-opmerkingen-bij-de-onderkende-beschouwingsniveaus-en-gebruik-van-verschillende-typen-modellen",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#aanvullende-opmerkingen-bij-de-onderkende-beschouwingsniveaus-en-gebruik-van-verschillende-typen-modellen"
+  },
+  {
+   "nr": "1.7",
+   "titel": "Wat is het metamodel voor informatiemodellering",
+   "anker": "wat-is-het-metamodel-voor-informatiemodellering",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#wat-is-het-metamodel-voor-informatiemodellering"
+  },
+  {
+   "nr": "1.8",
+   "titel": "Uitdrukken in UML",
+   "anker": "uitdrukken-in-uml",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#uitdrukken-in-uml"
+  },
+  {
+   "nr": "1.9",
+   "titel": "Uitdrukken in Linked Data",
+   "anker": "uitdrukken-in-linked-data",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#uitdrukken-in-linked-data"
+  },
+  {
+   "nr": "1.9.1",
+   "titel": "Een ontologie voor het metamodel",
+   "anker": "een-ontologie-voor-het-metamodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#een-ontologie-voor-het-metamodel"
+  },
+  {
+   "nr": "1.9.2",
+   "titel": "Een informatiemodel",
+   "anker": "een-informatiemodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#een-informatiemodel"
+  },
+  {
+   "nr": "1.9.3",
+   "titel": "Een ontologie voor een informatiemodel",
+   "anker": "een-ontologie-voor-een-informatiemodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#een-ontologie-voor-een-informatiemodel"
+  },
+  {
+   "nr": "1.10",
+   "titel": "Een eigen extensie op het metamodel",
+   "anker": "een-eigen-extensie-op-het-metamodel",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#een-eigen-extensie-op-het-metamodel"
+  },
+  {
+   "nr": "1.11",
+   "titel": "Alternatieven",
+   "anker": "alternatieven",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#alternatieven"
+  },
+  {
+   "nr": "1.12",
+   "titel": "Beheer",
+   "anker": "beheer",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#beheer"
+  },
+  {
+   "nr": "1.13",
+   "titel": "Normreferenties",
+   "anker": "normreferenties",
+   "bestand": "bron/h1-inleiding.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#normreferenties"
+  },
+  {
+   "nr": "2",
+   "titel": "Metamodel Algemeen",
+   "anker": "metamodel-algemeen",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metamodel-algemeen"
+  },
+  {
+   "nr": "2.1",
+   "titel": "Uitgangspunten voor het metamodel",
+   "anker": "uitgangspunten-voor-het-metamodel",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#uitgangspunten-voor-het-metamodel"
+  },
+  {
+   "nr": "2.2",
+   "titel": "Structuur metamodel",
+   "anker": "structuur-metamodel",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#structuur-metamodel"
+  },
+  {
+   "nr": "2.2.1",
+   "titel": "Modelelement",
+   "anker": "modelelement",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#modelelement"
+  },
+  {
+   "nr": "2.2.2",
+   "titel": "Kern",
+   "anker": "kern",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#kern"
+  },
+  {
+   "nr": "2.2.3",
+   "titel": "Datatypen",
+   "anker": "datatypen",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen"
+  },
+  {
+   "nr": "2.2.4",
+   "titel": "Overige modelelementen",
+   "anker": "overige-modelelementen",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overige-modelelementen"
+  },
+  {
+   "nr": "2.2.4.1",
+   "titel": "Constraint en Keuze",
+   "anker": "constraint-en-keuze",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint-en-keuze"
+  },
+  {
+   "nr": "2.2.4.2",
+   "titel": "Relatiesoort en relatierol",
+   "anker": "relatiesoort-en-relatierol",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatiesoort-en-relatierol"
+  },
+  {
+   "nr": "2.2.4.3",
+   "titel": "Externe koppeling",
+   "anker": "externe-koppeling",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#externe-koppeling"
+  },
+  {
+   "nr": "2.2.4.4",
+   "titel": "Groepering",
+   "anker": "groepering",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#groepering"
+  },
+  {
+   "nr": "2.3",
+   "titel": "Modelelementen",
+   "anker": "modelelementen",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#modelelementen"
+  },
+  {
+   "nr": "2.3.1",
+   "titel": "Objecten en gegevens",
+   "anker": "objecten-en-gegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#objecten-en-gegevens"
+  },
+  {
+   "nr": "2.3.1.1",
+   "titel": "Object",
+   "anker": "object",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#object"
+  },
+  {
+   "nr": "2.3.1.2",
+   "titel": "Gegeven",
+   "anker": "gegeven",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegeven"
+  },
+  {
+   "nr": "2.3.2",
+   "titel": "Objecttypen en attribuutsoorten",
+   "anker": "objecttypen-en-attribuutsoorten",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#objecttypen-en-attribuutsoorten"
+  },
+  {
+   "nr": "2.3.2.1",
+   "titel": "Objecttype",
+   "anker": "objecttype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#objecttype"
+  },
+  {
+   "nr": "2.3.2.2",
+   "titel": "Attribuutsoort",
+   "anker": "attribuutsoort",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#attribuutsoort"
+  },
+  {
+   "nr": "2.3.2.3",
+   "titel": "Gegevensgroep",
+   "anker": "gegevensgroep",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegevensgroep"
+  },
+  {
+   "nr": "2.3.2.4",
+   "titel": "Gegevensgroeptype",
+   "anker": "gegevensgroeptype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegevensgroeptype"
+  },
+  {
+   "nr": "2.3.3",
+   "titel": "Relaties",
+   "anker": "relaties",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relaties"
+  },
+  {
+   "nr": "2.3.3.1",
+   "titel": "Generalisatie",
+   "anker": "generalisatie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#generalisatie"
+  },
+  {
+   "nr": "2.3.3.2",
+   "titel": "Relatiesoort",
+   "anker": "relatiesoort",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatiesoort"
+  },
+  {
+   "nr": "2.3.3.3",
+   "titel": "Relatieklasse",
+   "anker": "relatieklasse",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatieklasse"
+  },
+  {
+   "nr": "2.3.3.4",
+   "titel": "Externe Koppeling",
+   "anker": "externe-koppeling-0",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#externe-koppeling-0"
+  },
+  {
+   "nr": "2.3.3.5",
+   "titel": "Relatierol",
+   "anker": "relatierol",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatierol"
+  },
+  {
+   "nr": "2.3.4",
+   "titel": "Waardelijsten",
+   "anker": "waardelijsten",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#waardelijsten"
+  },
+  {
+   "nr": "2.3.4.1",
+   "titel": "Referentielijst",
+   "anker": "referentielijst",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#referentielijst"
+  },
+  {
+   "nr": "2.3.4.2",
+   "titel": "Referentie-element",
+   "anker": "referentie-element",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#referentie-element"
+  },
+  {
+   "nr": "2.3.4.3",
+   "titel": "Enumeratie",
+   "anker": "enumeratie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#enumeratie"
+  },
+  {
+   "nr": "2.3.4.4",
+   "titel": "Enumeratiewaarde",
+   "anker": "enumeratiewaarde",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#enumeratiewaarde"
+  },
+  {
+   "nr": "2.3.4.5",
+   "titel": "Codelijst",
+   "anker": "codelijst",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#codelijst"
+  },
+  {
+   "nr": "2.3.5",
+   "titel": "Datatypen",
+   "anker": "datatypen-0",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen-0"
+  },
+  {
+   "nr": "2.3.5.1",
+   "titel": "Datatype",
+   "anker": "datatype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatype"
+  },
+  {
+   "nr": "2.3.5.2",
+   "titel": "Primitief datatype",
+   "anker": "primitief-datatype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#primitief-datatype"
+  },
+  {
+   "nr": "2.3.5.3",
+   "titel": "Gestructureerd datatype",
+   "anker": "gestructureerd-datatype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gestructureerd-datatype"
+  },
+  {
+   "nr": "2.3.5.4",
+   "titel": "Data-element",
+   "anker": "data-element",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#data-element"
+  },
+  {
+   "nr": "2.3.6",
+   "titel": "Packages",
+   "anker": "packages",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#packages"
+  },
+  {
+   "nr": "2.3.6.1",
+   "titel": "Informatiemodel",
+   "anker": "informatiemodel-0",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#informatiemodel-0"
+  },
+  {
+   "nr": "2.3.6.2",
+   "titel": "Domein",
+   "anker": "domein",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#domein"
+  },
+  {
+   "nr": "2.3.6.3",
+   "titel": "Extern",
+   "anker": "extern",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#extern"
+  },
+  {
+   "nr": "2.3.6.4",
+   "titel": "View",
+   "anker": "view",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#view"
+  },
+  {
+   "nr": "2.3.7",
+   "titel": "Constraint en Keuze",
+   "anker": "constraint-en-keuze-0",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint-en-keuze-0"
+  },
+  {
+   "nr": "2.3.7.1",
+   "titel": "Constraint",
+   "anker": "constraint",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint"
+  },
+  {
+   "nr": "2.3.7.2",
+   "titel": "Keuze",
+   "anker": "keuze",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#keuze"
+  },
+  {
+   "nr": "2.4",
+   "titel": "Specificatie metagegevens",
+   "anker": "specificatie-metagegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#specificatie-metagegevens"
+  },
+  {
+   "nr": "2.4.1",
+   "titel": "Informatiemodel - metagegevens",
+   "anker": "informatiemodel-metagegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#informatiemodel-metagegevens"
+  },
+  {
+   "nr": "2.4.1.1",
+   "titel": "Metagegeven: Informatiedomein",
+   "anker": "metagegeven-informatiedomein",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-informatiedomein"
+  },
+  {
+   "nr": "2.4.1.2",
+   "titel": "Metagegeven: Informatiemodeltype",
+   "anker": "metagegeven-informatiemodeltype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-informatiemodeltype"
+  },
+  {
+   "nr": "2.4.1.3",
+   "titel": "Metagegeven: Relatiemodelleringstype",
+   "anker": "metagegeven-relatiemodelleringstype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-relatiemodelleringstype"
+  },
+  {
+   "nr": "2.4.1.4",
+   "titel": "Metagegeven: MIM-versie",
+   "anker": "metagegeven-mim-versie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-mim-versie"
+  },
+  {
+   "nr": "2.4.1.5",
+   "titel": "Metagegeven: MIM-extensie",
+   "anker": "metagegeven-mim-extensie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-mim-extensie"
+  },
+  {
+   "nr": "2.4.1.6",
+   "titel": "Metagegeven: MIM-taal",
+   "anker": "metagegeven-mim-taal",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-mim-taal"
+  },
+  {
+   "nr": "2.4.1.7",
+   "titel": "Metagegeven: Tekstopmaak",
+   "anker": "metagegeven-tekstopmaak",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-tekstopmaak"
+  },
+  {
+   "nr": "2.4.2",
+   "titel": "Identificatie - metagegevens",
+   "anker": "identificatie-metagegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#identificatie-metagegevens"
+  },
+  {
+   "nr": "2.4.2.1",
+   "titel": "Metagegeven: Basis-URI",
+   "anker": "metagegeven-basis-uri",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-basis-uri"
+  },
+  {
+   "nr": "2.4.2.2",
+   "titel": "Metagegeven: Identificatie",
+   "anker": "metagegeven-identificatie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-identificatie"
+  },
+  {
+   "nr": "2.4.3",
+   "titel": "Modelelementen - metagegevens",
+   "anker": "modelelementen-metagegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#modelelementen-metagegevens"
+  },
+  {
+   "nr": "2.4.3.1",
+   "titel": "Metagegeven: Naam",
+   "anker": "metagegeven-naam",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-naam"
+  },
+  {
+   "nr": "2.4.3.2",
+   "titel": "Metagegeven: Alias",
+   "anker": "metagegeven-alias",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-alias"
+  },
+  {
+   "nr": "2.4.3.3",
+   "titel": "Metagegeven: Begrip",
+   "anker": "metagegeven-begrip",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-begrip"
+  },
+  {
+   "nr": "2.4.3.4",
+   "titel": "Metagegeven: Herkomst",
+   "anker": "metagegeven-herkomst",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-herkomst"
+  },
+  {
+   "nr": "2.4.3.5",
+   "titel": "Metagegeven: Definitie",
+   "anker": "metagegeven-definitie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-definitie"
+  },
+  {
+   "nr": "2.4.3.6",
+   "titel": "Metagegeven: Herkomst definitie",
+   "anker": "metagegeven-herkomst-definitie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-herkomst-definitie"
+  },
+  {
+   "nr": "2.4.3.7",
+   "titel": "Metagegeven: Toelichting",
+   "anker": "metagegeven-toelichting",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-toelichting"
+  },
+  {
+   "nr": "2.4.3.8",
+   "titel": "Metagegeven: Datum opname",
+   "anker": "metagegeven-datum-opname",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-datum-opname"
+  },
+  {
+   "nr": "2.4.3.9",
+   "titel": "Metagegeven: Identificerend",
+   "anker": "metagegeven-identificerend",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-identificerend"
+  },
+  {
+   "nr": "2.4.3.10",
+   "titel": "Metagegeven: heeft tijdlijn geldigheid",
+   "anker": "metagegeven-heeft-tijdlijn-geldigheid",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-tijdlijn-geldigheid"
+  },
+  {
+   "nr": "2.4.3.11",
+   "titel": "Metagegeven: Indicatie materiële historie",
+   "anker": "metagegeven-indicatie-materiele-historie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-indicatie-materiele-historie"
+  },
+  {
+   "nr": "2.4.3.12",
+   "titel": "Metagegeven: heeft tijdlijn registratie",
+   "anker": "metagegeven-heeft-tijdlijn-registratie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-tijdlijn-registratie"
+  },
+  {
+   "nr": "2.4.3.13",
+   "titel": "Metagegeven: Indicatie formele historie",
+   "anker": "metagegeven-indicatie-formele-historie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-indicatie-formele-historie"
+  },
+  {
+   "nr": "2.4.3.14",
+   "titel": "Metagegeven: Kardinaliteit",
+   "anker": "metagegeven-kardinaliteit",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-kardinaliteit"
+  },
+  {
+   "nr": "2.4.3.15",
+   "titel": "Metagegeven: Kardinaliteit relatie bron",
+   "anker": "metagegeven-kardinaliteit-relatie-bron",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-kardinaliteit-relatie-bron"
+  },
+  {
+   "nr": "2.4.3.16",
+   "titel": "Metagegeven: Authentiek",
+   "anker": "metagegeven-authentiek",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-authentiek"
+  },
+  {
+   "nr": "2.4.3.17",
+   "titel": "Metagegeven: Indicatie afleidbaar",
+   "anker": "metagegeven-indicatie-afleidbaar",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-indicatie-afleidbaar"
+  },
+  {
+   "nr": "2.4.3.18",
+   "titel": "Metagegeven: Indicatie classificerend",
+   "anker": "metagegeven-indicatie-classificerend",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-indicatie-classificerend"
+  },
+  {
+   "nr": "2.4.3.19",
+   "titel": "Metagegeven: Mogelijk geen waarde",
+   "anker": "metagegeven-mogelijk-geen-waarde",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-mogelijk-geen-waarde"
+  },
+  {
+   "nr": "2.4.3.20",
+   "titel": "Metagegeven: Bron",
+   "anker": "metagegeven-bron",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-bron"
+  },
+  {
+   "nr": "2.4.3.21",
+   "titel": "Metagegeven: Doel",
+   "anker": "metagegeven-doel",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-doel"
+  },
+  {
+   "nr": "2.4.3.22",
+   "titel": "Metagegeven: Unidirectioneel",
+   "anker": "metagegeven-unidirectioneel",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-unidirectioneel"
+  },
+  {
+   "nr": "2.4.3.23",
+   "titel": "Metagegeven: Aggregatietype",
+   "anker": "metagegeven-aggregatietype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-aggregatietype"
+  },
+  {
+   "nr": "2.4.3.24",
+   "titel": "Metagegeven: Locatie",
+   "anker": "metagegeven-locatie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-locatie"
+  },
+  {
+   "nr": "2.4.3.25",
+   "titel": "Metagegeven: Doelformaat",
+   "anker": "metagegeven-doelformaat",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-doelformaat"
+  },
+  {
+   "nr": "2.4.3.26",
+   "titel": "Metagegeven: Waarde-item",
+   "anker": "metagegeven-waarde-item",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-waarde-item"
+  },
+  {
+   "nr": "2.4.3.27",
+   "titel": "Metagegeven: Profielspecificatie",
+   "anker": "metagegeven-profielspecificatie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-profielspecificatie"
+  },
+  {
+   "nr": "2.4.3.28",
+   "titel": "Metagegeven: Type",
+   "anker": "metagegeven-type",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-type"
+  },
+  {
+   "nr": "2.4.3.29",
+   "titel": "Metagegeven: Lengte",
+   "anker": "metagegeven-lengte",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-lengte"
+  },
+  {
+   "nr": "2.4.3.30",
+   "titel": "Metagegeven: Patroon",
+   "anker": "metagegeven-patroon",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-patroon"
+  },
+  {
+   "nr": "2.4.3.31",
+   "titel": "Metagegeven: Formeel patroon",
+   "anker": "metagegeven-formeel-patroon",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-formeel-patroon"
+  },
+  {
+   "nr": "2.4.3.32",
+   "titel": "Metagegeven: Code",
+   "anker": "metagegeven-code",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-code"
+  },
+  {
+   "nr": "2.4.3.33",
+   "titel": "Metagegeven: Indicatie abstract object",
+   "anker": "metagegeven-indicatie-abstract-object",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-indicatie-abstract-object"
+  },
+  {
+   "nr": "2.4.3.34",
+   "titel": "Metagegeven: Populatie",
+   "anker": "metagegeven-populatie",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-populatie"
+  },
+  {
+   "nr": "2.4.3.35",
+   "titel": "Metagegeven: Kwaliteit",
+   "anker": "metagegeven-kwaliteit",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-kwaliteit"
+  },
+  {
+   "nr": "2.4.3.36",
+   "titel": "Metagegeven: Eenheid",
+   "anker": "metagegeven-eenheid",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-eenheid"
+  },
+  {
+   "nr": "2.4.3.37",
+   "titel": "Metagegeven: Minimumwaarde inclusief",
+   "anker": "metagegeven-minimumwaarde-inclusief",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-minimumwaarde-inclusief"
+  },
+  {
+   "nr": "2.4.3.38",
+   "titel": "Metagegeven: Minimumwaarde exclusief",
+   "anker": "metagegeven-minimumwaarde-exclusief",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-minimumwaarde-exclusief"
+  },
+  {
+   "nr": "2.4.3.39",
+   "titel": "Metagegeven: Maximumwaarde inclusief",
+   "anker": "metagegeven-maximumwaarde-inclusief",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-maximumwaarde-inclusief"
+  },
+  {
+   "nr": "2.4.3.40",
+   "titel": "Metagegeven: Maximumwaarde exclusief",
+   "anker": "metagegeven-maximumwaarde-exclusief",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-maximumwaarde-exclusief"
+  },
+  {
+   "nr": "2.4.3.41",
+   "titel": "Metagegeven: Mixin",
+   "anker": "metagegeven-mixin",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-mixin"
+  },
+  {
+   "nr": "2.4.4",
+   "titel": "Modelelementbindingen - metagegevens",
+   "anker": "modelelementbindingen-metagegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#modelelementbindingen-metagegevens"
+  },
+  {
+   "nr": "2.4.4.1",
+   "titel": "Metagegeven: heeft attribuut",
+   "anker": "metagegeven-heeft-attribuut",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-attribuut"
+  },
+  {
+   "nr": "2.4.4.2",
+   "titel": "Metagegeven: heeft gegevensgroep",
+   "anker": "metagegeven-heeft-gegevensgroep",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-gegevensgroep"
+  },
+  {
+   "nr": "2.4.4.3",
+   "titel": "Metagegeven: heeft gegevensgroeptype",
+   "anker": "metagegeven-heeft-gegevensgroeptype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-gegevensgroeptype"
+  },
+  {
+   "nr": "2.4.4.4",
+   "titel": "Metagegeven: verwijst naar supertype",
+   "anker": "metagegeven-verwijst-naar-supertype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-verwijst-naar-supertype"
+  },
+  {
+   "nr": "2.4.4.5",
+   "titel": "Metagegeven: heeft datatype",
+   "anker": "metagegeven-heeft-datatype",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-datatype"
+  },
+  {
+   "nr": "2.4.4.6",
+   "titel": "Metagegeven: heeft relatiesoort",
+   "anker": "metagegeven-heeft-relatiesoort",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-relatiesoort"
+  },
+  {
+   "nr": "2.4.4.7",
+   "titel": "Metagegeven: heeft externe koppeling",
+   "anker": "metagegeven-heeft-externe-koppeling",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-externe-koppeling"
+  },
+  {
+   "nr": "2.4.4.8",
+   "titel": "Metagegeven: heeft data-element",
+   "anker": "metagegeven-heeft-data-element",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-data-element"
+  },
+  {
+   "nr": "2.4.4.9",
+   "titel": "Metagegeven: bevat modelelement",
+   "anker": "metagegeven-bevat-modelelement",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-bevat-modelelement"
+  },
+  {
+   "nr": "2.4.4.10",
+   "titel": "Metagegeven: bevat enumeratiewaarde",
+   "anker": "metagegeven-bevat-enumeratiewaarde",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-bevat-enumeratiewaarde"
+  },
+  {
+   "nr": "2.4.4.11",
+   "titel": "Metagegeven: bevat referentie-element",
+   "anker": "metagegeven-bevat-referentie-element",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-bevat-referentie-element"
+  },
+  {
+   "nr": "2.4.4.12",
+   "titel": "Metagegeven: heeft datatypekeuze",
+   "anker": "metagegeven-heeft-datatypekeuze",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-datatypekeuze"
+  },
+  {
+   "nr": "2.4.4.13",
+   "titel": "Metagegeven: heeft attribuutkeuze",
+   "anker": "metagegeven-heeft-attribuutkeuze",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-attribuutkeuze"
+  },
+  {
+   "nr": "2.4.4.14",
+   "titel": "Metagegeven: heeft keuzeattribuut",
+   "anker": "metagegeven-heeft-keuzeattribuut",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-keuzeattribuut"
+  },
+  {
+   "nr": "2.4.4.15",
+   "titel": "Metagegeven: heeft relatiedoelkeuze",
+   "anker": "metagegeven-heeft-relatiedoelkeuze",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-relatiedoelkeuze"
+  },
+  {
+   "nr": "2.4.4.16",
+   "titel": "Metagegeven: heeft relatiesoortkeuze",
+   "anker": "metagegeven-heeft-relatiesoortkeuze",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-relatiesoortkeuze"
+  },
+  {
+   "nr": "2.4.4.17",
+   "titel": "Metagegeven: heeft constraint",
+   "anker": "metagegeven-heeft-constraint",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metagegeven-heeft-constraint"
+  },
+  {
+   "nr": "2.4.5",
+   "titel": "Toegestane waarden metagegevens",
+   "anker": "toegestane-waarden-metagegevens",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#toegestane-waarden-metagegevens"
+  },
+  {
+   "nr": "2.4.5.1",
+   "titel": "Waardebereik",
+   "anker": "waardebereik",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#waardebereik"
+  },
+  {
+   "nr": "2.4.5.2",
+   "titel": "Defaultwaarden",
+   "anker": "defaultwaarden",
+   "bestand": "bron/h2-metamodel-algemeen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#defaultwaarden"
+  },
+  {
+   "nr": "3",
+   "titel": "Metamodel in UML",
+   "anker": "metamodel-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metamodel-in-uml"
+  },
+  {
+   "nr": "3.1",
+   "titel": "Structuur metamodel in UML",
+   "anker": "structuur-metamodel-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#structuur-metamodel-in-uml"
+  },
+  {
+   "nr": "3.1.1",
+   "titel": "Kern",
+   "anker": "kern-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#kern-0"
+  },
+  {
+   "nr": "3.1.2",
+   "titel": "Datatypen",
+   "anker": "datatypen-1",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen-1"
+  },
+  {
+   "nr": "3.1.3",
+   "titel": "Overige",
+   "anker": "overige",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overige"
+  },
+  {
+   "nr": "3.1.3.1",
+   "titel": "Constraint",
+   "anker": "constraint-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint-0"
+  },
+  {
+   "nr": "3.1.3.2",
+   "titel": "Keuze",
+   "anker": "keuze-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#keuze-0"
+  },
+  {
+   "nr": "3.1.3.3",
+   "titel": "Relatierol",
+   "anker": "relatierol-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatierol-0"
+  },
+  {
+   "nr": "3.1.3.4",
+   "titel": "Externe koppeling",
+   "anker": "externe-koppeling-1",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#externe-koppeling-1"
+  },
+  {
+   "nr": "3.1.3.5",
+   "titel": "Packages",
+   "anker": "packages-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#packages-0"
+  },
+  {
+   "nr": "3.2",
+   "titel": "Specificatie metagegevens in UML",
+   "anker": "specificatie-metagegevens-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#specificatie-metagegevens-in-uml"
+  },
+  {
+   "nr": "3.2.1",
+   "titel": "Objecten en attributen in UML",
+   "anker": "objecten-en-attributen-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#objecten-en-attributen-in-uml"
+  },
+  {
+   "nr": "3.2.1.1",
+   "titel": "«Objecttype»",
+   "anker": "objecttype-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#objecttype-0"
+  },
+  {
+   "nr": "3.2.1.2",
+   "titel": "«Attribuutsoort»",
+   "anker": "attribuutsoort-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#attribuutsoort-0"
+  },
+  {
+   "nr": "3.2.1.3",
+   "titel": "«Gegevensgroep»",
+   "anker": "gegevensgroep-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegevensgroep-0"
+  },
+  {
+   "nr": "3.2.1.4",
+   "titel": "«Gegevensgroeptype»",
+   "anker": "gegevensgroeptype-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegevensgroeptype-0"
+  },
+  {
+   "nr": "3.2.2",
+   "titel": "Relaties in UML",
+   "anker": "relaties-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relaties-in-uml"
+  },
+  {
+   "nr": "3.2.2.1",
+   "titel": "«Relatiesoort» (alt 1: soort leidend)",
+   "anker": "relatiesoort-alt-1-soort-leidend",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatiesoort-alt-1-soort-leidend"
+  },
+  {
+   "nr": "3.2.2.2",
+   "titel": "«Relatiesoort» (alt 2: rol leidend)",
+   "anker": "relatiesoort-alt-2-rol-leidend",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatiesoort-alt-2-rol-leidend"
+  },
+  {
+   "nr": "3.2.2.3",
+   "titel": "«Relatierol» (alt 1: soort leidend)",
+   "anker": "relatierol-alt-1-soort-leidend",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatierol-alt-1-soort-leidend"
+  },
+  {
+   "nr": "3.2.2.4",
+   "titel": "«Relatierol» (alt 2: rol leidend)",
+   "anker": "relatierol-alt-2-rol-leidend",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatierol-alt-2-rol-leidend"
+  },
+  {
+   "nr": "3.2.2.5",
+   "titel": "«Generalisatie» tussen objecttypes",
+   "anker": "generalisatie-tussen-objecttypes",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#generalisatie-tussen-objecttypes"
+  },
+  {
+   "nr": "3.2.2.6",
+   "titel": "«Generalisatie» tussen datatypen",
+   "anker": "generalisatie-tussen-datatypen",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#generalisatie-tussen-datatypen"
+  },
+  {
+   "nr": "3.2.2.7",
+   "titel": "«Relatieklasse»",
+   "anker": "relatieklasse-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatieklasse-0"
+  },
+  {
+   "nr": "3.2.2.8",
+   "titel": "«Externe koppeling»",
+   "anker": "externe-koppeling-2",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#externe-koppeling-2"
+  },
+  {
+   "nr": "3.2.3",
+   "titel": "Waardelijsten in UML",
+   "anker": "waardelijsten-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#waardelijsten-in-uml"
+  },
+  {
+   "nr": "3.2.3.1",
+   "titel": "«Codelijst»",
+   "anker": "codelijst-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#codelijst-0"
+  },
+  {
+   "nr": "3.2.3.2",
+   "titel": "«Enumeratie»",
+   "anker": "enumeratie-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#enumeratie-0"
+  },
+  {
+   "nr": "3.2.3.3",
+   "titel": "«Enumeratiewaarde»",
+   "anker": "enumeratiewaarde-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#enumeratiewaarde-0"
+  },
+  {
+   "nr": "3.2.3.4",
+   "titel": "«Referentielijst»",
+   "anker": "referentielijst-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#referentielijst-0"
+  },
+  {
+   "nr": "3.2.3.5",
+   "titel": "«Referentie-element»",
+   "anker": "referentie-element-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#referentie-element-0"
+  },
+  {
+   "nr": "3.2.4",
+   "titel": "Datatypen in UML",
+   "anker": "datatypen-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen-in-uml"
+  },
+  {
+   "nr": "3.2.4.1",
+   "titel": "«Primitief datatype»",
+   "anker": "primitief-datatype-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#primitief-datatype-0"
+  },
+  {
+   "nr": "3.2.4.2",
+   "titel": "«Gestructureerd datatype»",
+   "anker": "gestructureerd-datatype-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gestructureerd-datatype-0"
+  },
+  {
+   "nr": "3.2.4.3",
+   "titel": "«Data-element»",
+   "anker": "data-element-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#data-element-0"
+  },
+  {
+   "nr": "3.2.4.4",
+   "titel": "«Keuze»",
+   "anker": "keuze-1",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#keuze-1"
+  },
+  {
+   "nr": "3.2.5",
+   "titel": "Packages in UML",
+   "anker": "packages-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#packages-in-uml"
+  },
+  {
+   "nr": "3.2.5.1",
+   "titel": "«Domein»",
+   "anker": "domein-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#domein-0"
+  },
+  {
+   "nr": "3.2.5.2",
+   "titel": "«Extern»",
+   "anker": "extern-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#extern-0"
+  },
+  {
+   "nr": "3.2.5.3",
+   "titel": "«Informatiemodel»",
+   "anker": "informatiemodel-1",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#informatiemodel-1"
+  },
+  {
+   "nr": "3.2.5.4",
+   "titel": "«View»",
+   "anker": "view-0",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#view-0"
+  },
+  {
+   "nr": "3.2.6",
+   "titel": "Overige modelelementen in UML",
+   "anker": "overige-modelelementen-in-uml",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overige-modelelementen-in-uml"
+  },
+  {
+   "nr": "3.2.6.1",
+   "titel": "«Constraint»",
+   "anker": "constraint-1",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint-1"
+  },
+  {
+   "nr": "3.3",
+   "titel": "UML Tooling",
+   "anker": "uml-tooling",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#uml-tooling"
+  },
+  {
+   "nr": "3.3.1",
+   "titel": "MIM-toolbox",
+   "anker": "mim-toolbox",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-toolbox"
+  },
+  {
+   "nr": "3.3.2",
+   "titel": "Extensie op MIM-toolbox",
+   "anker": "extensie-op-mim-toolbox",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#extensie-op-mim-toolbox"
+  },
+  {
+   "nr": "3.3.3",
+   "titel": "Imvertor",
+   "anker": "imvertor",
+   "bestand": "bron/h3-metamodel-uml.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#imvertor"
+  },
+  {
+   "nr": "4",
+   "titel": "Metamodel in Linked Data (LD)",
+   "anker": "metamodel-in-linked-data-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#metamodel-in-linked-data-ld"
+  },
+  {
+   "nr": "4.1",
+   "titel": "Ontologisch metamodel in LD",
+   "anker": "ontologisch-metamodel-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#ontologisch-metamodel-in-ld"
+  },
+  {
+   "nr": "4.2",
+   "titel": "Structuur metamodel in LD",
+   "anker": "structuur-metamodel-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#structuur-metamodel-in-ld"
+  },
+  {
+   "nr": "4.2.1",
+   "titel": "Kern",
+   "anker": "kern-1",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#kern-1"
+  },
+  {
+   "nr": "4.2.2",
+   "titel": "Datatypen",
+   "anker": "datatypen-2",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen-2"
+  },
+  {
+   "nr": "4.2.3",
+   "titel": "Overige",
+   "anker": "overige-0",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overige-0"
+  },
+  {
+   "nr": "4.2.3.1",
+   "titel": "Constraint",
+   "anker": "constraint-2",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint-2"
+  },
+  {
+   "nr": "4.2.3.2",
+   "titel": "Keuze",
+   "anker": "keuze-2",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#keuze-2"
+  },
+  {
+   "nr": "4.2.3.3",
+   "titel": "Relatierol",
+   "anker": "relatierol-1",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatierol-1"
+  },
+  {
+   "nr": "4.2.3.4",
+   "titel": "Externe koppeling",
+   "anker": "externe-koppeling-3",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#externe-koppeling-3"
+  },
+  {
+   "nr": "4.2.3.5",
+   "titel": "Packages",
+   "anker": "packages-1",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#packages-1"
+  },
+  {
+   "nr": "4.3",
+   "titel": "Specificatie metagegevens in LD",
+   "anker": "specificatie-metagegevens-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#specificatie-metagegevens-in-ld"
+  },
+  {
+   "nr": "4.3.1",
+   "titel": "Objecten en attributen in LD",
+   "anker": "objecten-en-attributen-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#objecten-en-attributen-in-ld"
+  },
+  {
+   "nr": "4.3.1.1",
+   "titel": "mim:Objecttype",
+   "anker": "mim-objecttype",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-objecttype"
+  },
+  {
+   "nr": "4.3.1.2",
+   "titel": "mim:Attribuutsoort",
+   "anker": "mim-attribuutsoort",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-attribuutsoort"
+  },
+  {
+   "nr": "4.3.1.3",
+   "titel": "mim:Gegevensgroep",
+   "anker": "mim-gegevensgroep",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-gegevensgroep"
+  },
+  {
+   "nr": "4.3.1.4",
+   "titel": "mim:Gegevensgroeptype",
+   "anker": "mim-gegevensgroeptype",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-gegevensgroeptype"
+  },
+  {
+   "nr": "4.3.2",
+   "titel": "Relaties in LD",
+   "anker": "relaties-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relaties-in-ld"
+  },
+  {
+   "nr": "4.3.2.1",
+   "titel": "mim:Relatiesoort (alt 1: soort leidend)",
+   "anker": "mim-relatiesoort-alt-1-soort-leidend",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-relatiesoort-alt-1-soort-leidend"
+  },
+  {
+   "nr": "4.3.2.2",
+   "titel": "mim:Relatiesoort (alt 2: rol leidend)",
+   "anker": "mim-relatiesoort-alt-2-rol-leidend",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-relatiesoort-alt-2-rol-leidend"
+  },
+  {
+   "nr": "4.3.2.3",
+   "titel": "mim:Relatierol (alt 1: soort leidend)",
+   "anker": "mim-relatierol-alt-1-soort-leidend",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-relatierol-alt-1-soort-leidend"
+  },
+  {
+   "nr": "4.3.2.4",
+   "titel": "mim:Relatierol (alt 2: rol leidend)",
+   "anker": "mim-relatierol-alt-2-rol-leidend",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-relatierol-alt-2-rol-leidend"
+  },
+  {
+   "nr": "4.3.2.5",
+   "titel": "mim:Generalisatie bij objecttypen",
+   "anker": "mim-generalisatie-bij-objecttypen",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-generalisatie-bij-objecttypen"
+  },
+  {
+   "nr": "4.3.2.6",
+   "titel": "mim:Generalisatie bij datatypen",
+   "anker": "mim-generalisatie-bij-datatypen",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-generalisatie-bij-datatypen"
+  },
+  {
+   "nr": "4.3.2.7",
+   "titel": "mim:Relatieklasse",
+   "anker": "mim-relatieklasse",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-relatieklasse"
+  },
+  {
+   "nr": "4.3.2.8",
+   "titel": "mim:ExterneKoppeling",
+   "anker": "mim-externekoppeling",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-externekoppeling"
+  },
+  {
+   "nr": "4.3.3",
+   "titel": "Waardelijsten in LD",
+   "anker": "waardelijsten-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#waardelijsten-in-ld"
+  },
+  {
+   "nr": "4.3.3.1",
+   "titel": "mim:Referentielijst",
+   "anker": "mim-referentielijst",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-referentielijst"
+  },
+  {
+   "nr": "4.3.3.2",
+   "titel": "mim:ReferentieElement",
+   "anker": "mim-referentieelement",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-referentieelement"
+  },
+  {
+   "nr": "4.3.3.3",
+   "titel": "mim:Codelijst",
+   "anker": "mim-codelijst",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-codelijst"
+  },
+  {
+   "nr": "4.3.4",
+   "titel": "Datatypen in LD",
+   "anker": "datatypen-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen-in-ld"
+  },
+  {
+   "nr": "4.3.4.1",
+   "titel": "mim:PrimitiefDatatype",
+   "anker": "mim-primitiefdatatype",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-primitiefdatatype"
+  },
+  {
+   "nr": "4.3.4.2",
+   "titel": "mim:GestructureerdDatatype",
+   "anker": "mim-gestructureerddatatype",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-gestructureerddatatype"
+  },
+  {
+   "nr": "4.3.4.3",
+   "titel": "mim:DataElement",
+   "anker": "mim-dataelement",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-dataelement"
+  },
+  {
+   "nr": "4.3.5",
+   "titel": "Packages in LD",
+   "anker": "packages-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#packages-in-ld"
+  },
+  {
+   "nr": "4.3.5.1",
+   "titel": "mim:Informatiemodel",
+   "anker": "mim-informatiemodel",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-informatiemodel"
+  },
+  {
+   "nr": "4.3.5.2",
+   "titel": "mim:Domein",
+   "anker": "mim-domein",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-domein"
+  },
+  {
+   "nr": "4.3.5.3",
+   "titel": "mim:Extern",
+   "anker": "mim-extern",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-extern"
+  },
+  {
+   "nr": "4.3.5.4",
+   "titel": "mim:View",
+   "anker": "mim-view",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-view"
+  },
+  {
+   "nr": "4.3.6",
+   "titel": "Overige modelelementen in LD",
+   "anker": "overige-modelelementen-in-ld",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overige-modelelementen-in-ld"
+  },
+  {
+   "nr": "4.3.6.1",
+   "titel": "mim:Enumeratie",
+   "anker": "mim-enumeratie",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-enumeratie"
+  },
+  {
+   "nr": "4.3.6.2",
+   "titel": "mim:Enumeratiewaarde",
+   "anker": "mim-enumeratiewaarde",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-enumeratiewaarde"
+  },
+  {
+   "nr": "4.3.6.3",
+   "titel": "mim:Constraint",
+   "anker": "mim-constraint",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mim-constraint"
+  },
+  {
+   "nr": "4.4",
+   "titel": "Linked Data Tooling",
+   "anker": "linked-data-tooling",
+   "bestand": "bron/h4-metamodel-ld.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#linked-data-tooling"
+  },
+  {
+   "nr": "5",
+   "titel": "Afspraken & Regels",
+   "anker": "afspraken-regels",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#afspraken-regels"
+  },
+  {
+   "nr": "5.1",
+   "titel": "Datatype(n)",
+   "anker": "datatype-n",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatype-n"
+  },
+  {
+   "nr": "5.1.1",
+   "titel": "Primitief datatype",
+   "anker": "primitief-datatype-1",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#primitief-datatype-1"
+  },
+  {
+   "nr": "5.1.1.1",
+   "titel": "Getallen en negatieve getallen",
+   "anker": "getallen-en-negatieve-getallen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#getallen-en-negatieve-getallen"
+  },
+  {
+   "nr": "5.1.1.2",
+   "titel": "Waardenbereik en patroon",
+   "anker": "waardenbereik-en-patroon",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#waardenbereik-en-patroon"
+  },
+  {
+   "nr": "5.1.2",
+   "titel": "Zelfgedefinieerd datatype",
+   "anker": "zelfgedefinieerd-datatype",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#zelfgedefinieerd-datatype"
+  },
+  {
+   "nr": "5.1.3",
+   "titel": "Landelijk Datatype",
+   "anker": "landelijk-datatype",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#landelijk-datatype"
+  },
+  {
+   "nr": "5.1.4",
+   "titel": "Gestructureerd datatype",
+   "anker": "gestructureerd-datatype-1",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gestructureerd-datatype-1"
+  },
+  {
+   "nr": "5.1.4.1",
+   "titel": "Gestructureerd datatype representeren als één gegevenselement",
+   "anker": "gestructureerd-datatype-representeren-als-een-gegevenselement",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gestructureerd-datatype-representeren-als-een-gegevenselement"
+  },
+  {
+   "nr": "5.2",
+   "titel": "Gegevensgroeptype",
+   "anker": "gegevensgroeptype-1",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegevensgroeptype-1"
+  },
+  {
+   "nr": "5.2.1",
+   "titel": "Hergebruik",
+   "anker": "hergebruik",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#hergebruik"
+  },
+  {
+   "nr": "5.2.2",
+   "titel": "Gegevensgroep versus Gestructureerd datatype",
+   "anker": "gegevensgroep-versus-gestructureerd-datatype",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gegevensgroep-versus-gestructureerd-datatype"
+  },
+  {
+   "nr": "5.3",
+   "titel": "Keuze tussen datatypen (Keuze)",
+   "anker": "keuze-tussen-datatypen-keuze",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#keuze-tussen-datatypen-keuze"
+  },
+  {
+   "nr": "5.4",
+   "titel": "Domeinwaarden of lijsten",
+   "anker": "domeinwaarden-of-lijsten",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#domeinwaarden-of-lijsten"
+  },
+  {
+   "nr": "5.4.1",
+   "titel": "Enumeraties",
+   "anker": "enumeraties",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#enumeraties"
+  },
+  {
+   "nr": "5.4.2",
+   "titel": "Referentielijst",
+   "anker": "referentielijst-1",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#referentielijst-1"
+  },
+  {
+   "nr": "5.4.3",
+   "titel": "CodeList",
+   "anker": "codelist",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#codelist"
+  },
+  {
+   "nr": "5.5",
+   "titel": "Abstracte objecttypes en concrete objecten",
+   "anker": "abstracte-objecttypes-en-concrete-objecten",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#abstracte-objecttypes-en-concrete-objecten"
+  },
+  {
+   "nr": "5.5.1",
+   "titel": "Conceptueel informatiemodel",
+   "anker": "conceptueel-informatiemodel",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#conceptueel-informatiemodel"
+  },
+  {
+   "nr": "5.5.2",
+   "titel": "Logisch informatiemodel",
+   "anker": "logisch-informatiemodel",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#logisch-informatiemodel"
+  },
+  {
+   "nr": "5.5.3",
+   "titel": "Algemeen",
+   "anker": "algemeen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#algemeen"
+  },
+  {
+   "nr": "5.6",
+   "titel": "Relatieklasse (uitzonderingen)",
+   "anker": "relatieklasse-uitzonderingen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#relatieklasse-uitzonderingen"
+  },
+  {
+   "nr": "5.7",
+   "titel": "Constraint toepassen",
+   "anker": "constraint-toepassen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#constraint-toepassen"
+  },
+  {
+   "nr": "5.8",
+   "titel": "Historie",
+   "anker": "historie",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#historie"
+  },
+  {
+   "nr": "5.8.1",
+   "titel": "Algemeen",
+   "anker": "algemeen-0",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#algemeen-0"
+  },
+  {
+   "nr": "5.8.2",
+   "titel": "Historie op conceptueel niveau",
+   "anker": "historie-op-conceptueel-niveau",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#historie-op-conceptueel-niveau"
+  },
+  {
+   "nr": "5.8.3",
+   "titel": "Historie op logisch niveau",
+   "anker": "historie-op-logisch-niveau",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#historie-op-logisch-niveau"
+  },
+  {
+   "nr": "5.8.4",
+   "titel": "Beheer",
+   "anker": "beheer-0",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#beheer-0"
+  },
+  {
+   "nr": "5.9",
+   "titel": "Afleidbare gegevens",
+   "anker": "afleidbare-gegevens",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#afleidbare-gegevens"
+  },
+  {
+   "nr": "5.10",
+   "titel": "Authentieke gegevens",
+   "anker": "authentieke-gegevens",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#authentieke-gegevens"
+  },
+  {
+   "nr": "5.11",
+   "titel": "Mogelijk geen waarde",
+   "anker": "mogelijk-geen-waarde",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#mogelijk-geen-waarde"
+  },
+  {
+   "nr": "5.12",
+   "titel": "Externe schema’s (her) gebruiken",
+   "anker": "externe-schema-s-her-gebruiken",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#externe-schema-s-her-gebruiken"
+  },
+  {
+   "nr": "5.13",
+   "titel": "Koppelen met een ander informatiemodel (externe koppeling)",
+   "anker": "koppelen-met-een-ander-informatiemodel-externe-koppeling",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#koppelen-met-een-ander-informatiemodel-externe-koppeling"
+  },
+  {
+   "nr": "5.14",
+   "titel": "Stelselcatalogus en stelselafspraken voor basisregistraties",
+   "anker": "stelselcatalogus-en-stelselafspraken-voor-basisregistraties",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#stelselcatalogus-en-stelselafspraken-voor-basisregistraties"
+  },
+  {
+   "nr": "5.14.1",
+   "titel": "Afspraken Waardenbereik",
+   "anker": "afspraken-waardenbereik",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#afspraken-waardenbereik"
+  },
+  {
+   "nr": "5.15",
+   "titel": "Afspraken rondom naamgeving en definities",
+   "anker": "afspraken-rondom-naamgeving-en-definities",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#afspraken-rondom-naamgeving-en-definities"
+  },
+  {
+   "nr": "5.15.1",
+   "titel": "Uniekheid van namen van modelelementen",
+   "anker": "uniekheid-van-namen-van-modelelementen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#uniekheid-van-namen-van-modelelementen"
+  },
+  {
+   "nr": "5.15.2",
+   "titel": "Dezelfde URI, naam en/of definitie gebruiken voor meerdere modelelementen",
+   "anker": "dezelfde-uri-naam-en-of-definitie-gebruiken-voor-meerdere-modelelementen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#dezelfde-uri-naam-en-of-definitie-gebruiken-voor-meerdere-modelelementen"
+  },
+  {
+   "nr": "5.15.3",
+   "titel": "Naamgeving voor Alternatief 1: natuurlijke taal, die dichtbij de gebruiker staat",
+   "anker": "naamgeving-voor-alternatief-1-natuurlijke-taal-die-dichtbij-de-gebruiker-staat",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#naamgeving-voor-alternatief-1-natuurlijke-taal-die-dichtbij-de-gebruiker-staat"
+  },
+  {
+   "nr": "5.15.4",
+   "titel": "Naamgeving voor Alternatief 2: (ook) leesbaar door systemen",
+   "anker": "naamgeving-voor-alternatief-2-ook-leesbaar-door-systemen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#naamgeving-voor-alternatief-2-ook-leesbaar-door-systemen"
+  },
+  {
+   "nr": "5.15.5",
+   "titel": "Naamgeving voor metamodel elementen",
+   "anker": "naamgeving-voor-metamodel-elementen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#naamgeving-voor-metamodel-elementen"
+  },
+  {
+   "nr": "5.16",
+   "titel": "Verwijzing van een modelelement naar een begrip uit het begrippenkader",
+   "anker": "verwijzing-van-een-modelelement-naar-een-begrip-uit-het-begrippenkader",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#verwijzing-van-een-modelelement-naar-een-begrip-uit-het-begrippenkader"
+  },
+  {
+   "nr": "5.16.1",
+   "titel": "Term of URI",
+   "anker": "term-of-uri",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#term-of-uri"
+  },
+  {
+   "nr": "5.16.2",
+   "titel": "Verwijzen naar 0, 1 of meer begrippen",
+   "anker": "verwijzen-naar-0-1-of-meer-begrippen",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#verwijzen-naar-0-1-of-meer-begrippen"
+  },
+  {
+   "nr": "5.16.3",
+   "titel": "Definitie van een modelelement en de definitie van een begrip",
+   "anker": "definitie-van-een-modelelement-en-de-definitie-van-een-begrip",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#definitie-van-een-modelelement-en-de-definitie-van-een-begrip"
+  },
+  {
+   "nr": "5.17",
+   "titel": "Overig",
+   "anker": "overig",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overig"
+  },
+  {
+   "nr": "5.17.1",
+   "titel": "Volgorde van kenmerken",
+   "anker": "volgorde-van-kenmerken",
+   "bestand": "bron/h5-afspraken-regels.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#volgorde-van-kenmerken"
+  },
+  {
+   "nr": "6.4",
+   "titel": "Transformatie MIM - RDFS/OWL/SHACL",
+   "anker": "transformatie-mim-rdfs-owl-shacl",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-mim-rdfs-owl-shacl"
+  },
+  {
+   "nr": "6.4.1",
+   "titel": "Inleiding",
+   "anker": "inleiding-0",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#inleiding-0"
+  },
+  {
+   "nr": "6.4.2",
+   "titel": "Gebruikte functies",
+   "anker": "gebruikte-functies",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#gebruikte-functies"
+  },
+  {
+   "nr": "6.4.3",
+   "titel": "URI-munting",
+   "anker": "uri-munting",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#uri-munting"
+  },
+  {
+   "nr": "6.4.4",
+   "titel": "Overzicht",
+   "anker": "overzicht",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overzicht"
+  },
+  {
+   "nr": "6.4.4.1",
+   "titel": "Klassen",
+   "anker": "klassen",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#klassen"
+  },
+  {
+   "nr": "6.4.4.2",
+   "titel": "Eigenschappen",
+   "anker": "eigenschappen",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#eigenschappen"
+  },
+  {
+   "nr": "6.4.4.3",
+   "titel": "Instanties (datatypen)",
+   "anker": "instanties-datatypen",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#instanties-datatypen"
+  },
+  {
+   "nr": "6.4.5",
+   "titel": "Klassen",
+   "anker": "klassen-0",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#klassen-0"
+  },
+  {
+   "nr": "6.4.5.1",
+   "titel": "Transformatie: Objecttype",
+   "anker": "transformatie-objecttype",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-objecttype"
+  },
+  {
+   "nr": "6.4.5.2",
+   "titel": "Transformatie: Attribuutsoort",
+   "anker": "transformatie-attribuutsoort",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-attribuutsoort"
+  },
+  {
+   "nr": "6.4.5.3",
+   "titel": "Transformatie: Gegevensgroep",
+   "anker": "transformatie-gegevensgroep",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-gegevensgroep"
+  },
+  {
+   "nr": "6.4.5.4",
+   "titel": "Transformatie: Gegevensgroeptype",
+   "anker": "transformatie-gegevensgroeptype",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-gegevensgroeptype"
+  },
+  {
+   "nr": "6.4.5.5",
+   "titel": "Transformatie: Generalisatie",
+   "anker": "transformatie-generalisatie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-generalisatie"
+  },
+  {
+   "nr": "6.4.5.6",
+   "titel": "Transformatie: Relatiesoort",
+   "anker": "transformatie-relatiesoort",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-relatiesoort"
+  },
+  {
+   "nr": "6.4.5.7",
+   "titel": "Transformatie: Relatieklasse",
+   "anker": "transformatie-relatieklasse",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-relatieklasse"
+  },
+  {
+   "nr": "6.4.5.8",
+   "titel": "Transformatie: Externe koppeling",
+   "anker": "transformatie-externe-koppeling",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-externe-koppeling"
+  },
+  {
+   "nr": "6.4.5.9",
+   "titel": "Transformatie: Relatierol",
+   "anker": "transformatie-relatierol",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-relatierol"
+  },
+  {
+   "nr": "6.4.5.10",
+   "titel": "Transformatie: Referentielijst",
+   "anker": "transformatie-referentielijst",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-referentielijst"
+  },
+  {
+   "nr": "6.4.5.11",
+   "titel": "Transformatie: Referentie element",
+   "anker": "transformatie-referentie-element",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-referentie-element"
+  },
+  {
+   "nr": "6.4.5.12",
+   "titel": "Transformatie: Enumeratie",
+   "anker": "transformatie-enumeratie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-enumeratie"
+  },
+  {
+   "nr": "6.4.5.13",
+   "titel": "Transformatie: Enumeratiewaarde",
+   "anker": "transformatie-enumeratiewaarde",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-enumeratiewaarde"
+  },
+  {
+   "nr": "6.4.5.14",
+   "titel": "Transformatie: Codelijst",
+   "anker": "transformatie-codelijst",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-codelijst"
+  },
+  {
+   "nr": "6.4.6",
+   "titel": "Datatypen",
+   "anker": "datatypen-3",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#datatypen-3"
+  },
+  {
+   "nr": "6.4.6.1",
+   "titel": "Transformatie: Primitief datatype",
+   "anker": "transformatie-primitief-datatype",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-primitief-datatype"
+  },
+  {
+   "nr": "6.4.6.2",
+   "titel": "Transformatie: Primitief datatype - standaard datatypen",
+   "anker": "transformatie-primitief-datatype-standaard-datatypen",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-primitief-datatype-standaard-datatypen"
+  },
+  {
+   "nr": "6.4.6.3",
+   "titel": "Transformatie: Gestructureerd datatype",
+   "anker": "transformatie-gestructureerd-datatype",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-gestructureerd-datatype"
+  },
+  {
+   "nr": "6.4.6.4",
+   "titel": "Transformatie: Data element",
+   "anker": "transformatie-data-element",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-data-element"
+  },
+  {
+   "nr": "6.4.6.5",
+   "titel": "Transformatie: Keuze",
+   "anker": "transformatie-keuze",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-keuze"
+  },
+  {
+   "nr": "6.4.7",
+   "titel": "Packages",
+   "anker": "packages-2",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#packages-2"
+  },
+  {
+   "nr": "6.4.7.1",
+   "titel": "Transformatie: Domein",
+   "anker": "transformatie-domein",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-domein"
+  },
+  {
+   "nr": "6.4.7.2",
+   "titel": "Transformatie: Extern",
+   "anker": "transformatie-extern",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-extern"
+  },
+  {
+   "nr": "6.4.7.3",
+   "titel": "Transformatie: View",
+   "anker": "transformatie-view",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-view"
+  },
+  {
+   "nr": "6.4.8",
+   "titel": "Overig",
+   "anker": "overig-0",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overig-0"
+  },
+  {
+   "nr": "6.4.8.1",
+   "titel": "Transformatie: Constraint",
+   "anker": "transformatie-constraint",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-constraint"
+  },
+  {
+   "nr": "6.4.9",
+   "titel": "Properties",
+   "anker": "properties",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#properties"
+  },
+  {
+   "nr": "6.4.9.1",
+   "titel": "transformatie: tekstopmaak",
+   "anker": "transformatie-tekstopmaak",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-tekstopmaak"
+  },
+  {
+   "nr": "6.4.9.2",
+   "titel": "transformatie: naam",
+   "anker": "transformatie-naam",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-naam"
+  },
+  {
+   "nr": "6.4.9.3",
+   "titel": "transformatie: alias",
+   "anker": "transformatie-alias",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-alias"
+  },
+  {
+   "nr": "6.4.9.4",
+   "titel": "transformatie: begrip",
+   "anker": "transformatie-begrip",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-begrip"
+  },
+  {
+   "nr": "6.4.9.5",
+   "titel": "transformatie: begripsterm",
+   "anker": "transformatie-begripsterm",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-begripsterm"
+  },
+  {
+   "nr": "6.4.9.6",
+   "titel": "transformatie: definitie",
+   "anker": "transformatie-definitie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-definitie"
+  },
+  {
+   "nr": "6.4.9.7",
+   "titel": "transformatie: toelichting",
+   "anker": "transformatie-toelichting",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-toelichting"
+  },
+  {
+   "nr": "6.4.9.8",
+   "titel": "transformatie: herkomst",
+   "anker": "transformatie-herkomst",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-herkomst"
+  },
+  {
+   "nr": "6.4.9.9",
+   "titel": "transformatie: herkomst definitie",
+   "anker": "transformatie-herkomst-definitie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-herkomst-definitie"
+  },
+  {
+   "nr": "6.4.9.10",
+   "titel": "transformatie: datum opname",
+   "anker": "transformatie-datum-opname",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-datum-opname"
+  },
+  {
+   "nr": "6.4.9.11",
+   "titel": "transformatie: heeft tijdlijn geldigheid",
+   "anker": "transformatie-heeft-tijdlijn-geldigheid",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-heeft-tijdlijn-geldigheid"
+  },
+  {
+   "nr": "6.4.9.12",
+   "titel": "transformatie: indicatie materiële historie",
+   "anker": "transformatie-indicatie-materiele-historie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-indicatie-materiele-historie"
+  },
+  {
+   "nr": "6.4.9.13",
+   "titel": "transformatie: heeft tijdlijn registratie",
+   "anker": "transformatie-heeft-tijdlijn-registratie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-heeft-tijdlijn-registratie"
+  },
+  {
+   "nr": "6.4.9.14",
+   "titel": "transformatie: indicatie formele historie",
+   "anker": "transformatie-indicatie-formele-historie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-indicatie-formele-historie"
+  },
+  {
+   "nr": "6.4.9.15",
+   "titel": "transformatie: kardinaliteit",
+   "anker": "transformatie-kardinaliteit",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-kardinaliteit"
+  },
+  {
+   "nr": "6.4.9.16",
+   "titel": "transformatie: authentiek",
+   "anker": "transformatie-authentiek",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-authentiek"
+  },
+  {
+   "nr": "6.4.9.17",
+   "titel": "transformatie: indicatie afleidbaar",
+   "anker": "transformatie-indicatie-afleidbaar",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-indicatie-afleidbaar"
+  },
+  {
+   "nr": "6.4.9.18",
+   "titel": "transformatie: mogelijk geen waarde",
+   "anker": "transformatie-mogelijk-geen-waarde",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-mogelijk-geen-waarde"
+  },
+  {
+   "nr": "6.4.9.19",
+   "titel": "transformatie: locatie",
+   "anker": "transformatie-locatie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-locatie"
+  },
+  {
+   "nr": "6.4.9.20",
+   "titel": "transformatie: type",
+   "anker": "transformatie-type",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-type"
+  },
+  {
+   "nr": "6.4.9.21",
+   "titel": "transformatie: lengte",
+   "anker": "transformatie-lengte",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-lengte"
+  },
+  {
+   "nr": "6.4.9.22",
+   "titel": "transformatie: patroon",
+   "anker": "transformatie-patroon",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-patroon"
+  },
+  {
+   "nr": "6.4.9.23",
+   "titel": "transformatie: formeel patroon",
+   "anker": "transformatie-formeel-patroon",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-formeel-patroon"
+  },
+  {
+   "nr": "6.4.9.24",
+   "titel": "transformatie: unieke aanduiding",
+   "anker": "transformatie-unieke-aanduiding",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-unieke-aanduiding"
+  },
+  {
+   "nr": "6.4.9.25",
+   "titel": "transformatie: populatie",
+   "anker": "transformatie-populatie",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-populatie"
+  },
+  {
+   "nr": "6.4.9.26",
+   "titel": "transformatie: kwaliteit",
+   "anker": "transformatie-kwaliteit",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-kwaliteit"
+  },
+  {
+   "nr": "6.4.9.27",
+   "titel": "transformatie: indicatie abstract object",
+   "anker": "transformatie-indicatie-abstract-object",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-indicatie-abstract-object"
+  },
+  {
+   "nr": "6.4.9.28",
+   "titel": "transformatie: identificerend",
+   "anker": "transformatie-identificerend",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-identificerend"
+  },
+  {
+   "nr": "6.4.9.29",
+   "titel": "transformatie: gegevensgroeptype (eigenschap)",
+   "anker": "transformatie-gegevensgroeptype-eigenschap",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-gegevensgroeptype-eigenschap"
+  },
+  {
+   "nr": "6.4.9.30",
+   "titel": "transformatie: unidirectioneel",
+   "anker": "transformatie-unidirectioneel",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-unidirectioneel"
+  },
+  {
+   "nr": "6.4.9.31",
+   "titel": "transformatie: bron",
+   "anker": "transformatie-bron",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-bron"
+  },
+  {
+   "nr": "6.4.9.32",
+   "titel": "transformatie: doel",
+   "anker": "transformatie-doel",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-doel"
+  },
+  {
+   "nr": "6.4.9.33",
+   "titel": "transformatie: aggregatietype",
+   "anker": "transformatie-aggregatietype",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-aggregatietype"
+  },
+  {
+   "nr": "6.4.9.34",
+   "titel": "transformatie: code",
+   "anker": "transformatie-code",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-code"
+  },
+  {
+   "nr": "6.4.9.35",
+   "titel": "transformatie: specificatie-tekst",
+   "anker": "transformatie-specificatie-tekst",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-specificatie-tekst"
+  },
+  {
+   "nr": "6.4.9.36",
+   "titel": "transformatie: specificatie-formeel",
+   "anker": "transformatie-specificatie-formeel",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-specificatie-formeel"
+  },
+  {
+   "nr": "6.4.9.37",
+   "titel": "transformatie: attribuut",
+   "anker": "transformatie-attribuut",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-attribuut"
+  },
+  {
+   "nr": "6.4.9.38",
+   "titel": "transformatie: gegevensgroep (eigenschap)",
+   "anker": "transformatie-gegevensgroep-eigenschap",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-gegevensgroep-eigenschap"
+  },
+  {
+   "nr": "6.4.9.39",
+   "titel": "transformatie: indicatie classificerend",
+   "anker": "transformatie-indicatie-classificerend",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-indicatie-classificerend"
+  },
+  {
+   "nr": "6.4.9.40",
+   "titel": "transformatie: bevat modelelement",
+   "anker": "transformatie-bevat-modelelement",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-bevat-modelelement"
+  },
+  {
+   "nr": "6.4.9.41",
+   "titel": "transformatie: minimumwaarde inclusief",
+   "anker": "transformatie-minimumwaarde-inclusief",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-minimumwaarde-inclusief"
+  },
+  {
+   "nr": "6.4.9.42",
+   "titel": "transformatie: minimumwaarde exclusief",
+   "anker": "transformatie-minimumwaarde-exclusief",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-minimumwaarde-exclusief"
+  },
+  {
+   "nr": "6.4.9.43",
+   "titel": "transformatie: maximumwaarde inclusief",
+   "anker": "transformatie-maximumwaarde-inclusief",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-maximumwaarde-inclusief"
+  },
+  {
+   "nr": "6.4.9.44",
+   "titel": "transformatie: maximumwaarde exclusief",
+   "anker": "transformatie-maximumwaarde-exclusief",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-maximumwaarde-exclusief"
+  },
+  {
+   "nr": "6.4.9.45",
+   "titel": "transformatie: mixin",
+   "anker": "transformatie-mixin",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-mixin"
+  },
+  {
+   "nr": "6.4.9.46",
+   "titel": "transformatie: eenheid",
+   "anker": "transformatie-eenheid",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-eenheid"
+  },
+  {
+   "nr": "6.4.10",
+   "titel": "Transformatie vanuit RDFS/OWL/SHACL",
+   "anker": "transformatie-vanuit-rdfs-owl-shacl",
+   "bestand": "bron/h6-4-transformatie-rdf.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#transformatie-vanuit-rdfs-owl-shacl"
+  },
+  {
+   "nr": "6",
+   "titel": "Bijlagen",
+   "anker": "bijlagen",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#bijlagen"
+  },
+  {
+   "nr": "6.1",
+   "titel": "Diagrammen",
+   "anker": "diagrammen",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#diagrammen"
+  },
+  {
+   "nr": "6.1.1",
+   "titel": "Overzicht toegepaste UML metaclasses",
+   "anker": "overzicht-toegepaste-uml-metaclasses",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#overzicht-toegepaste-uml-metaclasses"
+  },
+  {
+   "nr": "6.1.2",
+   "titel": "Modelelementen en metagegevens als diagram",
+   "anker": "modelelementen-en-metagegevens-als-diagram",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#modelelementen-en-metagegevens-als-diagram"
+  },
+  {
+   "nr": "6.2",
+   "titel": "Template Naamgevingsconventies",
+   "anker": "template-naamgevingsconventies",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#template-naamgevingsconventies"
+  },
+  {
+   "nr": "6.3",
+   "titel": "Vertaling naar engels",
+   "anker": "vertaling-naar-engels",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#vertaling-naar-engels"
+  },
+  {
+   "nr": "6.5",
+   "titel": "Versielog",
+   "anker": "versielog",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#versielog"
+  },
+  {
+   "nr": "7",
+   "titel": "Conformiteit",
+   "anker": "conformance",
+   "bestand": "bron/h6-overige-bijlagen.md",
+   "url": "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/#conformance"
+  }
+ ]
+}
